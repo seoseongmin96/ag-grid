@@ -5,6 +5,9 @@ import "ag-grid-community/dist/styles/ag-theme-alpine.css";
 //import "./styles.css";
 import Button from "@mui/material/Button";
 
+
+// AgGrid 본진 활용 //
+
 const AgGrid = () => {
   const [gridApi, setGridApi] = useState(null);
   const [gridColumnApi, setGridColumnApi] = useState(null);
