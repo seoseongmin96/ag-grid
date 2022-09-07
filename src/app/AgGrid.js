@@ -9,6 +9,7 @@ import Button from "@mui/material/Button";
 // AgGrid 본진 활용 //
 // AgGrid 그리드 Api //
 //columnRef //
+//gridRef //
 
 
 const AgGrid = () => {
