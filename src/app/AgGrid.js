@@ -16,6 +16,7 @@ import Button from "@mui/material/Button";
 //grid event//
 // columnRef 학습 //
 // Row Object // 
+// Row Data //
 
 const AgGrid = () => {
   const [gridApi, setGridApi] = useState(null);
