@@ -91,5 +91,24 @@ pivotHeadersHeight : 피벗 모드에 있을 때 열을 포함하는 행의 높�
 pivotGroupHeaderHeight : 피벗 모드에 있을 때 헤더 열 그룹을 포함하는 행의 높이(픽셀)입니다. 지정하지 않으면 을 사용합니다. groupHeaderHeight
 
 
+< Column Moving >
+
+allowDragFromColumnsToolPanel : 열 도구 패널에서 그리드로 열을 끌어 열 재정렬 및 고정을 허용합니다.
+                                default: false
+
+suppressMovableColumns : true일때 열 이동을 억제 하려면 으로 설정합니다. 즉, 열을 고정 위치로 만듭니다.
+                         default: false
+
+suppressColumnMoveAnimation : true일때 ag-column-moving 열이 이동하는 동안 클래스가 그리드에 추가되지 않습니다. 기본 테마에서는 열을 이동할 때 애니메이션이 생성되지 않습니다.
+                              default: false
+
+suppressDragLeaveHidesColumns : true일때 그리드 밖으로 열을 끌 때(예: 그룹 영역으로) 열이 숨겨지지 않습니다.
+                                default: false
+
+suppressRowGroupHidesColumns : true일때 열을 행 그룹 패널로 끌 때 열이 숨겨지지 않습니다.
+                               default : false
+                               
+                                                                                                                                                              
+
 
 
