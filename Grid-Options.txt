@@ -59,3 +59,22 @@ processCellFromClipboard : 클립보드에서 셀을 처리할 수 있습니다.
 sendToClipboard : 그렇지 않으면 클립보드로 이동할 데이터를 가져올 수 있습니다. '클립보드에 복사' 작업을 직접 제어하려는 경우에 사용합니다.
 
 processDataFromClipboard : 작업 취소(아무 일도 일어나지 않도록) 또는 데이터를 다른 데이터로 교체하는 것을 포함하여 붙여넣기 작업을 완전히 제어할 수 있습니다.
+
+
+< Column Definitions >
+
+columnDefs : 열/열 그룹 정의의 배열입니다.
+
+defaultColDef : 기본 열 정의입니다. 실제 열 정의에 정의된 항목이 우선입니다.
+
+defaultColGroupDef : 기본 열 그룹 정의입니다. 모든 열 그룹 정의는 이러한 속성을 사용합니다. 실제 열 그룹 정의에 정의된 항목이 우선입니다.
+
+columnTypes : 열 정의가 해당 속성을 참조하여 상속할 수 있는 속성 그룹을 포함하는 사용자 지정 열 유형의 개체 맵입니다. type.
+
+maintainColumnOrder : 새 열 정의가 업데이트된 후에도 열 순서를 유지합니다.
+                      default: false
+
+suppressFiledDotNotation : 이 경우 true일때 필드 이름의 점은 깊은 참조로 처리되지 않습니다. 원하는 경우 필드 이름에 점을 사용할 수 있습니다. 
+                      default: false
+                      
+                                            
