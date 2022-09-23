@@ -155,6 +155,7 @@ undoRedoCellEditing: true일때 편집 중 Undo/Redo를 활성화 하려면 으�
 
 readOnlyEdit: true일때 그리드 업데이트 후 데이터 수정을 중지하도록 설정 하고 편집합니다. 이것이 설정되면 애플리케이션이 외부 불변 저장소에서 데이터를 업데이트한 다음 새 데이터 세트를 그리드에 전달합니다.
 
+
 < Export > 
 
 defaultCsvExportParams: CSV로 내보내는 데 사용되는 기본 구성 개체입니다.
@@ -167,13 +168,21 @@ defaultExcelExportParams: Excel로 내보내는 데 사용되는 기본 구성 �
 suppressExcelExport: 사용자가 그리드를 Excel로 내보내지 못하도록 합니다.
                      default: false
 
-excelStyles: 스타일이 있는 Excel로 내보낼 때 사용할 Excel 스타일 목록(배열) 입니다..                     
-
-
-< Export >
+excelStyles: 스타일이 있는 Excel로 내보낼 때 사용할 Excel 스타일 목록(배열) 입니다.
 
 
 < Filtering >
+
+quickFilterText: 행은 이 텍스트를 빠른 필터로 사용하여 필터링됩니다.
+
+cacheQuickFilter: true일때 빠른 필터를 사용할 때 성능을 향상시키는 데 사용되는 빠른 필터 캐시를 켜려면 으로 설정합니다.
+
+isExternalFilterPresent: Grid는 외부 필터가 있는지 확인하기 위해 이 메서드를 호출합니다.
+
+doesExternalFilterPass: true일때 외부 필터가 통과화면 반환해야 하고 그렇지 않으면 false
+
+excludeChildrenWhenTreeDataFiltering: true일때 필터 결과에서 자식 노드를 대신 제외하도록 기본 트리 데이터 필터링 동작을 재정의하려면 으로 설정합니다.
+                                      default: false
 
 
 
