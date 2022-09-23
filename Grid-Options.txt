@@ -1,0 +1,26 @@
+< Accessories >
+
+statusBar : 상태 표시줄에서 사용할 때 구성 요소를 지정합니다.
+sideBar : 사이드바 구성요소를 지정합니다.
+getContextMenyItems : 상황에 맞는 메뉴를 사용자 정의합니다.
+suppressContextMenu : true일 때 컨텍스트 메뉴를 표시하지 않는다.
+                      default : false
+preventDefaultOnContextMenu : suppressContextMenu를 사용할 때 함수를 사용하여 셀 이벤트
+                              onCellContextMenu를 처리하는 고유한 코드를 제공할 수 있다.
+                              contextmenu : 이 플래그는 브라우저가 기본 컨텍스트 메뉴를 표시하지 않도록 하는 데 유용하다.
+                              default: false
+allowContextMenuWithControlKey : Cltl 키를 누르고 있는 경우에도 상황에 맞는 메뉴가 표시되도록 합니다.
+getMainMenuItems : 기본 '열 머리글' 메뉴를 사용자 지정합니다.
+suppressMenuHide : true일 때 마우스가 열 머리글 위에 있을 때만 표시되지 않고 항상 열 메뉴 버튼을 표시하도록 설정합니다.
+                              default: false
+popupParent: 그리드 팝업(컨텍스트 메뉴, 열 메뉴 등)의 부모 팝업으로 사용할 DOM 요소입니다.
+postProcessPopup: 사용자가 팝업을 생성한 후 처리할 수 있도록 합니다. 응용 프로그램은 예를 들어 팝업의 위치를 변경하려는 경우 이를 사용할 수 있습니다.
+
+
+< Clipboard >
+
+copyHeadersToClipboard : true일 때 클립보드를 사용하여 클립보드에 복사할 때 헤더도 포함하도록 설정합니다.
+                         default : false
+copyGroupHeadersToClipboard : true일 때 클립보드를 사용하여 클립보드에 복사할 때 그룹 헤더도 포함하도록 설정합니다.
+                         default : false
+clipboardDelimiter : 클립보드에 복사할 떄 사용할 구분 기호를 지정합니다.                                                 
