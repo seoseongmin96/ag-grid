@@ -107,8 +107,25 @@ suppressDragLeaveHidesColumns : true일때 그리드 밖으로 열을 끌 때(�
 
 suppressRowGroupHidesColumns : true일때 열을 행 그룹 패널로 끌 때 열이 숨겨지지 않습니다.
                                default : false
-                               
-                                                                                                                                                              
+
+
+< Column Sizing >  
+
+colResizeDefault : 기본 크기 조정 작업으로 shift-resize를 사용하도록 설정 'shift'합니다. (크기를 조정하는 동안 사용자가 누르고 있는 것과 동일 Shift).
+                   option: 'shift'
+
+suppressAutoSize : 열에 대한 열 자동 크기 조정을 억제합니다. 즉, 열의 머리글 가장자리를 두 번 클릭해도 자동 크기가 조정되지 않습니다.
+                   default: false
+
+autoSizePadding : 자동 크기 조정 계산 후 열 너비에 추가할 픽셀 수입니다. 정렬 아이콘을 수용하거나 헤더의 다른 동적 특성을 수용하기 위해 추가 공간을 추가하려면 이것을 설정하십시오. 
+                   default : 4
+
+skipHeaderOnAutoSize : true일 때 기본적으로 호출 될 때 건너뛰려면 이 옵션을 설정합니다.
+                       default: headerName autoSize false
+                       
+                                          
+
+
 
 
 
