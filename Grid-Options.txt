@@ -122,8 +122,23 @@ autoSizePadding : 자동 크기 조정 계산 후 열 너비에 추가할 픽셀
 
 skipHeaderOnAutoSize : true일 때 기본적으로 호출 될 때 건너뛰려면 이 옵션을 설정합니다.
                        default: headerName autoSize false
-                       
-                                          
+
+
+< Components >
+
+components : 구성 요소에 대한 구성 요소 이름의 맵입니다.
+
+
+< Editing >
+
+
+
+< Export >
+
+
+< Filtering >
+
+
 
 
 
