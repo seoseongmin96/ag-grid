@@ -220,10 +220,13 @@ loadingCellRenderer : DataSource를 통해 데이터를 로드할 때 사용할 
 loadingCellRendererParams : 구성 요소에 전달할 매개변수 loadingCellRenderer 입니다.
 
 loadingCellRendererSelector : DataSource를 통해 데이터를 로드할 때 사용할 로드 셀 렌더러를 선택하는 콜백입니다.
-(LoadingCellRendererSelectorFunc)
+
 
 < Localisation >
 
+localText : 그리드 내에서 텍스트를 현지화하기 위한 키 -> 값 쌍의 맵입니다.
+
+getLocaleText : 그리드 내에서 텍스트를 현지화하기 위한 콜백입니다.
 
 < Master Detail >
 
