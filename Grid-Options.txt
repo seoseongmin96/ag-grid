@@ -321,9 +321,25 @@ noRowsOverlayComponentParams : 행 없음 오버레이 구성요소에 제공된
 suppressNoRowsOverlay : '행 없음' 오버레이를 비활성화합니다.
                         default: false
 
+
 < Pagination >
 
+Pagination : 페이지 매김 활성화 여부를 설정합니다.
+             default : false
 
+paginationPageSize : 페이지당 로드할 행 수입니다. paginationPageSize가 지정 되면 paginationAutoPageSize 이 속성은 무시됩니다.
+                     defualt: 100
+
+paginationNumberFormatter : 사용자가 페이지 매김 패널의 숫자 형식(예: '행 수'및 '페이지 번호'레이블)을 지정할 수 있습니다. 이것은 그리드 셀(즉,데이터) 내부의 숫자 형식을 지정한 다음 valueFormatter 열 정의에 사용하기 위한 페이지 매김 패널 전용입니다.
+
+paginationAutoPageSize : true일때 페이지당 로드할 행 수가 그리드에 의해 자동으로 조정되어 각 페이지에 그리드에 지정된 영역을 채우기에 충분한 행이 표시되도록 설정합니다. false이면 paginationPageSize가 사용됩니다.
+                         default: false
+
+suppressPaginationPanel:  true일때 탐색을 위한 기본 그리드 컨트롤이 숨겨집니다. 이것은 pagination=true인 경우 고유한 페이지 매김 컨트롤을 제공하려는 경우에 유용합니다. 그렇지 않으면 pagination=true 그리드가 자동으로 맨 아레에 필요한 컨트롤을 표시하여
+                          사용자가 다른 페이지를 탐색할 수 있도록 합니다.
+                          default: false
+                          
+                                                   
 < Pivot and Aggregation >
 
 
