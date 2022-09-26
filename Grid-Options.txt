@@ -215,6 +215,12 @@ tabToNextCell : Tab 셀에 포커스가 있을 때 사용자가 키를 눌렀을
 
 < Loading Cell Renderers >
 
+loadingCellRenderer : DataSource를 통해 데이터를 로드할 때 사용할 고유한 로드 셀 렌더러를 제공합니다.
+
+loadingCellRendererParams : 구성 요소에 전달할 매개변수 loadingCellRenderer 입니다.
+
+loadingCellRendererSelector : DataSource를 통해 데이터를 로드할 때 사용할 로드 셀 렌더러를 선택하는 콜백입니다.
+(LoadingCellRendererSelectorFunc)
 
 < Localisation >
 
