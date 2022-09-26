@@ -254,6 +254,52 @@ keeyDetailRowsCount : 유지할 세부 정보 행 수를 설정합니다.
 
 < Miscellaneous >
 
+api : 그리드와 상호작용하기 위한 그리드 API. 초기화 시 그리드에 위해 설정되고 파괴 시 null로 설정됩니다. 
+
+columnApi : 그리드 열과 상호 작용하기 위한 열 API 입니다. 초기화 시 그리드에 의해 설정되고 파괴 시 null로 설정됩니다.
+
+alignedGrids : 정렬된 그리드로 처리할 그리드 목록입니다. 그리드가 정렬되면 열과 수평 스크롤이 동기화된 상태로 유지합니다.
+
+context :  그리드가 사용하는 다양한 콜백에 제공되는 컨텍스트 객체를 제공합니다. 애플리케이션에서 콜백에 추가 정보를 전달하는 데 사용됩니다.
+
+tabIndex : 애플리케이션 내에서 그리드의 tabIndex 순서를 설정하려면 이 값을 변경하십시오.
+           default: 0
+
+rowBuffer : 그리드가 렌더링하는 볼 수 있는 영역 외부에 렌더링된 행 수입니다. 버퍼가 있다는 것은 사용자가 천천히 수직으로 스크롤할 때 그리드에 표시할 행이 있음을 의미합니다.
+            default: 10
+
+valueCache : true일때 값 캐시를 켜려면 설정하십시오.
+             default: false
+
+valueCacheNeverExpires : true일때 데이터 업데이트 후 만료되지 않도록 값 캐시를 구성하려면으로 설정합니다.
+                         default: false
+
+enableCellExpressions : true일 때 셀 표현실을 허용하도록 설정합니다.
+                        defualt: false
+
+getDocument : 사용된 항목을 재정의할 수 있습니다.  현재 끌어서 놓기에서 사용됩니다.(향후 다른 곳으로 확장될 수 있음). 그리드가 전역 범위에서 사용 가능한 것과 다른 것을 사용하도록 하려면 이것을 사용하십시오. 
+              이것은 구성 요소를 도킹 아웃하는 경우 발생할 수 있습니다.(Electron이 지원하는 것)
+
+suppressParentsInRowNodes : true일때 행 노드에는 부모가 설정되어 있지 않습니다. 그리드는 상위 참조를 사용하지 않지만 원하는 경우 트리 위아래롤 양방향 탐색을 제공하여 클라이언트 코드가 노드 트리를 탐색하는 데 도움이 되도록 포함됩니다.
+                            이것이 문제인 경우 (예: 트리를 JSON으로 변환해야 하는 경우 순환 종속성을 허용하지 않는 경우) 이를 로 설정하십시오.
+                            default: false
+
+suppressTouch : 터치 지원을 비활성화합니다. (단, 터치 시 마우스 이벤트를 시뮬레이션하려는 브라우저의 노력은 제거되지 않음.)
+                default: false
+
+suppressFocusAfterRefresh : true일때 새로 고침 후 그리드에 포커스를 다시 설정하지 않으려면 으로 설정합니다. 이렇게 하면 브라우저의 다른 부분에 계속 초점을 맞추려는 문제를 피할 수 있습니다.
+                            default: false
+
+suppressAsyncEvents : v10에 도입된 이벤트의 비동기 특성을 비활성화하고 이를 동기로 만듭니다. 이 속성은 AG Grid 이전 버젼(v9 이하)의 동기 이벤트에 종속된 레거시 코드를 지원하기 위한 목적으로만 존재합니다. 
+                      레거시 문제가 없는 한 이 속성을 변경하지 않는 것이 좋습니다.
+                      default : false
+
+suppressChangeDetection : 변경 감지를 비활성화합니다.
+                          default: false
+
+debug : true일때 그리드 및 관련 구성 요소의 디버그 정보를 활성화 하려면 이것을 설정하십시오. 추가 로깅이 출력되지만 문제를 조사할 때 매우 유용합니다.
+        default: false
+                                                                                                                                                                                                                           
 
 < Overlays >
 
