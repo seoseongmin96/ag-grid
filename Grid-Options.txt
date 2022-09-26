@@ -338,12 +338,64 @@ paginationAutoPageSize : true일때 페이지당 로드할 행 수가 그리드�
 suppressPaginationPanel:  true일때 탐색을 위한 기본 그리드 컨트롤이 숨겨집니다. 이것은 pagination=true인 경우 고유한 페이지 매김 컨트롤을 제공하려는 경우에 유용합니다. 그렇지 않으면 pagination=true 그리드가 자동으로 맨 아레에 필요한 컨트롤을 표시하여
                           사용자가 다른 페이지를 탐색할 수 있도록 합니다.
                           default: false
-                          
-                                                   
+
+
 < Pivot and Aggregation >
+
+pivotMode : true일때 피벗 모드를 활성화 하려면 으로 설정하십시오.
+            default: false
+
+pivotPanelShow : 상단에 '피벗 패널'(피벗하기 위해 행을 드래그하는 위치)을 표시하는 시기입니다. pivotMode가 꺼져 있으면 피벗 패널이 표시되지 않습니다.
+                 default: never
+                 options: 'never' 'always' 'onlyWhenPivoting'
+
+pivotColumnGroupTotals: 설정되고 그리드가 피벗 모드에 있으면 자동으로 계산된 합계가 지정된 위치의 피벗 열 그룹 내에서 나타납니다.
+                         options: 'before' 'after'
+
+pivotRowTotals: 설정되고 그리드가 피벗 모드에 있으면 지정된 위치의 각 값 열에 대해 자동으로 계산된 합계가 나타납니다.
+                options: 'before' 'after'
+
+pivotSuppressAutoColumn: true인 경우 피벗할 때 그룹화 열에서 그리드가 교체되지 않습니다. 서버 측 행 모델 또는 뷰포트 행 모델을 사용하여 피벗하고 그룹 열을 포함한 모든 열을 완전히 제어하려는 경우에 유용합니다.
+
+processPivotResultColDef: 두 번째 열 정의를 변경할 수 있도록 피벗과 함께 사용할 콜백입니다.
+
+processPivotResultColGroupDef: 두 번째 열 그룹 정의를 변경할 수 있도록 피벗과 함께 사용할 콜백입니다.
+
+suppressExpandablePivotGroups: 활성화하면 피벗 열 그룹이 열 그룹을 확장 및 축소할 수 없는 '고정'으로 표시됩니다.
+                               default: false
+
+functionsReadOnly: true이면 행 그룹, 피벗 및 값 집계가 GUI에서 읽기 전용이 됩니다. 그리드는 각각에 사용된 값을 표시하지만 사용자가 선택을 변경할 수는 없습니다.
+                   default: false
+
+aggFuncs: 사용자 정의 집계 함수의 '힘수'에 대한 '함수 이름'의 맵.
+
+getGroupRowAgg: 집계를 위해 현재 열 이상에 액세스해야 할 때 사용할 콜백입니다.
+
+suppressAggFuncInHeader: true인 경우 열 머리글에 aggFunc 이름이 포함되지 않습니다. (예: "sum(Bank Balance)는 'Bank Balance'.)
+                         default: false
+
+suppressAggRootLevel: true인 경우 그리드의 루트 노드에 대해 집계가 계산되지 않습니다.
+                      default: false
+
+aggregateOnlyChangedColumns: 변경 감지를 사용하는 경우 업데이트된 열만 다시 집계됩니다.
+                             default: falase
+
+suppressAggFilteredOnly: true일때 집계가 필터링의 영향을 받지 않도록 설정합니다.
+                         default: false
+
+groupAggFiltering: 집계된 그룹 값에 필터를 적용해야 하는지 여부를 결정하도록 설정합니다.
+                    default: false
+
+removePivotHeaderRowWhenSingleValueColumn: true일 때 값 열이 하나만 있는 경우 값 열 머리글을 생략하려면 으로 설정합니다.
+                                           default: false                                                                                                                         
 
 
 < Rendering >
+
+animateRows : true일 때 행 애니메이션을 활성화 하려면 으로 설정하십시오.
+              default: false
+
+enableCellChangeFlash: true일때 데이터 변경              
 
 
 
