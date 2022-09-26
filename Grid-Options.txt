@@ -185,6 +185,56 @@ excludeChildrenWhenTreeDataFiltering: true일때 필터 결과에서 자식 노�
                                       default: false
 
 
+< Integrated Charts >
+
+enableCharts : true일때 차트 사용으로 설정합니다.
+               default : false
+
+getChartToolbarItems : 차트 도구 모음 항목을 사용자 정의하는데 사용할 콜백입니다.
+
+createChartContainer : 대체 차트 컨테이너에 차트를 표시할 수 있도록 하는 콜백입니다.
+
+chartThemes : 사용할 차트 테마 목록입니다.
+              default : ['ag-default', 'ag-material', 'ag-pastel', 'ag-vivid', 'ag-solar']
+
+customChartThemes : 사용자 정의 차트 테마가 포함된 지도입니다.
+
+chartThemeOverrides : 모든 테마에 적용된 차트 테마 재정의.
+
+
+< Keyboard Navigation >
+
+
+
+< Loading Cell Renderers >
+
+
+< Localisation >
+
+
+< Master Detail >
+
+
+< Miscellaneous >
+
+
+< Overlays >
+
+
+< Pagination >
+
+
+< Pivot and Aggregation >
+
+
+< Rendering >
+
+
+
+
+
+
+
 
 
 
