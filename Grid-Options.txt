@@ -303,6 +303,23 @@ debug : true일때 그리드 및 관련 구성 요소의 디버그 정보를 활
 
 < Overlays >
 
+overlayLoadingTemplate : 오버레이 '로드'를 위한 템플릿을 제공합니다.
+
+loadingOverlayComponent : 사용자 정의 로딩 오버레이 구성요소를 제공하십시오.
+
+loadingOverlayComponentPramas : 로딩 오버레이 구성요소에 제공된 매개변수를 사용자 정의합십시오.
+
+suppressLoadingOverlay : '로딩' 오버레이를 비활성화합니다.
+                         defualt : false
+
+overlayNoRowsTemplate : '행 없음' 오버레이에 대한 템플릿을 제공합니다.
+
+noRowsOverlayComponent : 사용자 지정 행 없음 오버레이 구성 요소를 제공합니다.
+
+noRowsOverlayComponentParams : 행 없음 오버레이 구성요소에 제공된 매개변수를 사용자 정의하십시오.
+
+suppressNoRowsOverlay : '행 없음' 오버레이를 비활성화합니다.
+                        default: false
 
 < Pagination >
 
