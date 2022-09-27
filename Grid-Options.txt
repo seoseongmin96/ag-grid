@@ -544,7 +544,15 @@ getRowId : 데이터를 기반으로 특정 행 노드의 ID를 설정할 수 �
 
 < RowModel: Client-Side >
 
+rowData: 그리드에 행으로 표시할 데이터를 설정합니다.
 
+resetRowDataOnUpdate: 활성화되면 getRowId() 콜백이 구현되고 새 행 데이터가 설정되면 그리드는 이전의 모든 행을 무시하고 새 행 데이터를 새 데이터로 취급합니다. 결과적으로 모든 행 상태(예: 선택, 렌더링된 행)가 재설정됩니다.
+                      default: false
+
+asyncTransactionWaitMillis: 비동기 트랜잭션 일괄 처리를 실행하기 전에 대기할 시간(밀리 초) 입니다.
+
+suppressModelUpdateAfterUpdateTransaction : 트랜잭션 업데이트만 포함된 경우 트랜잭션 이 정렬, 필터, 그룹화 또는 피벗 상태를 변경하는 것을 방지 합니다.
+                                             default: false
 < RowModel: Infinite >
 
 
