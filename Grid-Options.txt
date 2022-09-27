@@ -615,9 +615,15 @@ isApplyServerSideTransaction : 거래 취소를 허용합니다.
 isServerSideGroup : SSRM 트리 데이터: 확장 가능한 행을 지정할 수 있습니다.
 
 getServerSideGroupKey : SSRM 트리 데이터: 그룹 키를 지정할 수 있습니다.
+           
                            
 < RowModel: Viewport >
 
+viewportDatasource : 뷰포트 행 모델을 사용하려면 그리드에 viewportDatasource
+
+viewportRowModelPageSize : 뷰포트 행 모델을 사용할 때 뷰포트의 페이지 크기를 설정합니다.
+
+viewportRowModelBufferSize : 뷰포트 행 모델을 사용할 때 뷰포트의 버퍼 크기를 설정합니다.
 
 < Scrolling >
 
