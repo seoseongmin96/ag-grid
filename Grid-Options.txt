@@ -526,7 +526,12 @@ treeData: true일때 그리드가 트리 데이터와 함께 작동하도록 하
 
 getDataPath: treeData = true인 경우 트리 데이터로 작업할 때 사용할 콜백입니다.
 
+
 < Row Pinning >
+
+pinnedTopRowData: 그리드에서 고정된 맨 위 행으로 표시할 데이터입니다.
+
+pinnedBottomRowData: 그리드에서 고정된 맨 아래 행으로 표시할 데이터입니다.
 
 
 < RowModel >
