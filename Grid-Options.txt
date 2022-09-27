@@ -447,8 +447,12 @@ suppressRowDrag : true일때 행 끌기를 억제 하려면 으로 설정하십�
 suppressMoveWhenRowDragging : true일때 와플을 드래그하는 동안 행 이동을 억제 하려면 으로 설정합니다. rowDrag 이 옵션은 행이 배치될 위치를 강조 표시하고 마우스를 위로 올려야만 행을 이동합니다.
                               default: false
 
-                              
+
 < Row Full Width >
+
+fullWidthCellRenderer : 전체 너비 행에 사용할 자체 셀 렌더러 구성 요소를 제공합니다.
+
+fullWidthCellRendererParams : 구성요소에 제공된 매개변수를 사용자 정의하십시오. fullWidthCellRenderer.
 
 
 < Row Grouping >
