@@ -555,7 +555,24 @@ suppressModelUpdateAfterUpdateTransaction : 트랜잭션 업데이트만 포함�
                                              default: false
 < RowModel: Infinite >
 
+datasource: 무한 스크롤을 위한 데이터 소스를 제공합니다.
 
+cacheOverflowSize: 세로 스크롤을 설정한 다음 그리드가 더 많은 데이터 행 보기를 요청할 수 있도록 하는 데이터세트 끝에서 사용자에게 표시할 추가 빈 행 수입니다.
+                    default: 2
+
+maxConcurrentDatasourceRequests: 동시에 서버에 도달할 요청 수입니다. 최대값에 도달하면 요청이 대기열에 추가됩니다. -1 요청에 대한 최대 제한이 없는 경우 로 설정합니다.
+                                  default: 2
+
+cahceBlockSize: 저장소의 각 블록에 대한 행 수, 즉 한 번에 서버에서 반환된 행 수입니다.
+                default: 100
+
+maxBlocksInCache: 저장소에 보관할 블록 수입니다. 기본값은 제한이 없으므로 요청된 모든 블록이 유지됩니다. 메모리 문제가 있는 경우 이 기능을 사용하고 제한에 도달하면 가장 최근에 본 블록이 제거됩니다. 그리드는
+                  또한 이 속성이 낮은 값으로 설정된 경우 현재 보이는 것을 표시하는 데 필요한 모든 블록이 있는지 확인합니다.
+
+infiniteInitialRowCount : 세로 스크롤을 설정한 다음 그리드가 더 많은 데이터 행 보기를 요청할 수 있도록 하는 데이터세트 끝에서 사용자에게 표시할 추가 빈 행 수입니다.
+                          default: 1
+                          
+                                                                                                                  
 < RowModel: Server-Side >
 
 
