@@ -83,3 +83,15 @@ getCellEditorInstances : 활성 셀 편집기 인스턴스의 목록을 반환�
 
 
 < Events >
+
+addEventListner : 지정된 eventType에 대한 이벤트 리스너를 추가합니다. addEventListner 브라우저 DOM 요소와 유사하게 작동합니다.
+
+addGlobalListener : 그리드에서 오는 모든 이벤트 유형에 대한 이벤트 레스너를 추가합니다.
+
+removeEventListener : 이벤트 리스너를 제거합니다. 
+
+removeGlobalListener : 전역 이벤트 수신기를 제거합니다.
+
+addRenderedRowListener : 가상 행에 콜백을 등록합니다. 가상 행은 화면에 시각적으로 렌더링되는 행입니다. (스크롤 위치로 인해 표시되지 않는 행은 렌더링되지 않음) 일반 이벤트와 달리 렌더링된 행 수신기를 등록 취소할 필요가 없습니다.
+                         렌더링된 행이 그리드에서 제거되면 연결된 모든 렌더링된 행 수신기도 제거됩니다. 현재 하나의 이벤트만 지원합니다. virtualRowRemoved.;
+                         cellRenderer  행이 더 이상 존재하지 않을 때 정리를 수행해야 하는 경우 이 이벤트를 수신합니다.
