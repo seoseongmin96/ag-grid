@@ -695,7 +695,38 @@ fillOperation : 단순히 값을 복사하거나 선형 진행을 사용하여 �
 suppressClearOnFillReduction : true일 때 범위 선택이 채우기 핸들로 줄어들 때 셀 값이 지워지지 않도록 하려면 이것을 설정하십시오.
                                default : false
 
-                               
+
+< Sorting >
+
+sortingOrder : 정렬이 실행되는 순서를 정의하는 배열입니다. (정렬이 활성화된 경우) 값은 'asc', 'desc' 또는 null입니다. 예: sortingOrder : ['asc', 'desc'].
+                default : [null,'asc', 'desc']
+
+accentedSort : true일때 정렬에서 악센트가 있는 문자를 고려하도록 지정하려면 으로 설정합니다. 이 기능이 켜져 있으면 정렬이 느려집니다.
+               default : false
+
+unSortIcon : true일때 '정렬 없음' 아이콘을 표시하도록 설정합니다.
+             default : false
+
+suppressMultiSort : true일때 사용자가 열 머리글을 shift- 클릭할 때 다중 정렬을 억제하려면 으로 설정합니다.
+                    default : false
+
+alwaysMultiSort : true일때 키 누름에 관계없이 사용자가 열 머리글을 클릭할 때 항상 다중 정렬로 설정합니다.
+                  default : false
+
+multiSortKey : (또는 Mac의 경우) 키를 'ctrl' 사용하여 다중 졍렬 작업을 수행하도록 설정합니다. Ctrl Command
+                options: 'ctrl'
+
+suppressMaintainUnsortedOrder : true일때 원래 행 데이터와 일치하도록 정렬되지 않은 데이터의 정렬을 억제 하려면 으로 설정합니다.
+                                default : false
+
+postSortRows : 그리드가 행을 정렬한 후 추가 정렬을 수행하기 위한 콜백입니다.
+
+deltaSort : 활성화되면 트랜잭션에 의해 추가/업데이트된 행만 정렬합니다.
+            default : false
+
+
+
+
 < Tooltips >
 
 enableBrowserTooltips : true일때 그리드의 도구 설명 구성 요소를 사용하는 대신 브라우저의 기본 도구 설명을 사용하도록 설정합니다.
