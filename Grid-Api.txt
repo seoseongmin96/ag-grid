@@ -35,8 +35,14 @@ getToolPanelInstance : 제공된 id에 해당하는 도구 패널 인스턴스�
 
 getStatusPanel : 제공된 id에 해당하는 상태 패널 인스턴스를 가져옵니다.
 
+
 < Clipboard >
 
+copyselectedRangeToClipboard : 선택한 범위를 클립보드에 복사합니다.
+
+copySelectedRangeDown : Excel의 Ctrl + D 와 유사하게 선택한 범위를 아래로 복사합니다.
+
+copySelectedRowsToClipboard : 선택한 행을 클립보드에 복사합니다.
 
 
 < Column Definitions >
