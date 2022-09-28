@@ -60,7 +60,15 @@ sizeColumnsToFit : 그리드에 수평으로 맞도록 열의 크기를 조정�
 
 < Column Headers > 
 
+setHeaderHeight : 열 레이블 헤더가 포함된 행의 높이를 픽셀 단위로 설정합니다.
 
+setGroupHeaderHeight : 헤더 열 그룹을 포함하는 행의 높이를 픽셀 단위로 설정합니다.
+
+setFloatingFiltersHeight : 부동 필터가 포함된 행의 높이를 픽셀 단위로 설정합니다.
+
+setPivotHeaderHeight : 피벗 모드에 있을 때 열을 포함하는 행의 높이를 픽셀 단위로 설정합니다.
+
+setPivotGroupHeaderHeight : 피벗 모드에 있을 떄 헤더 열 그룹을 포함하는 행의 높이를 픽셀 단위로 설정합니다.
 
 < Editing >
 
