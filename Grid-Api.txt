@@ -70,8 +70,16 @@ setPivotHeaderHeight : 피벗 모드에 있을 때 열을 포함하는 행의 �
 
 setPivotGroupHeaderHeight : 피벗 모드에 있을 떄 헤더 열 그룹을 포함하는 행의 높이를 픽셀 단위로 설정합니다.
 
+
 < Editing >
 
+startEditingCell : 제공된 셀 편집을 시작합니다. 다른 셀이 편집 중이면 해당 셀에서 편집이 중지됩니다.
+
+stopEditing : 셀이 편집 중이면 편집을 중지합니다. true일때 편집을 취소하렴ㄴ 통과 하십시오. (즉, 변경 사항을 수락하지 않음)
+
+getEditingCells : 그리드가 편집 중인 경우 편집 셀의 세부 정보를 반환합니다.
+
+getCellEditorInstances : 활성 셀 편집기 인스턴스의 목록을 반환합니다. 선택적으로 특정 열/행 노드로 제한하는 매개변수를 제공합니다.
 
 
 < Events >
