@@ -725,8 +725,35 @@ deltaSort : 활성화되면 트랜잭션에 의해 추가/업데이트된 행만
             default : false
 
 
+< Styling >
 
+icons : 그리드의 기본 아이콘 대신 그리드 내부에서 사용할 아이콘입니다.
 
+rowHeight : 기본 행 높이(픽셀) 입니다. 
+            default : 25
+
+getRowHeight : 각 행의 높이를 개별적으로 설정 하는 rowHeight 속성의 콜백 버전입니다. 함수는 양수 픽셀을 반환하거나 null과 undefined를 반환하여 기본 행 높이를 사용해야 합니다.
+
+rowStyle : 모든 행에 적용할 스타일 속성입니다. 키(스타일 이름) 및 값(스타일 값)의 개체로 설정
+
+getRowStyle : 각 행의 스타일을 개별적으로 설정 하는 rowStyle 속성의 콜백 버전입니다. 함수는 CSS 값의 개체를 반환하거나 스타일이 없는 경우 정의되지 않아야 합니다.
+
+rowClass : 모든 행에 대한 CSS 클래스. 문자열(클래스 이름) 또는 문자열 배열(클래스 이름 배열)을 제공합니다.
+
+getRowClass : 각 행에 대해 개별적으로 클래스를 설정하는 rowClass 속성의 콜백 버전입니다. 함수는 문자열(클래스 이름), 문자열 배열(클래스 이름 배열) 또는 클래스가 없는 경우 undefined를 반환해야 합니다.
+
+rowClassRules : 특정 CSS 클래스를 포함하도록 적용할 수 있는 규칙입니다.
+
+isFullWidthRow : 이 행을 전체 너비로 렌더링해야 하는지 여부를 그리드에 알려줍니다.
+
+suppressRowHoverHighlight : true일때 CSS 클래스를 추가하여 행을 강조 표시하지 않도록 설정합니다.
+                            default : ag-row-hover false
+
+suppressRowTransform : 행 위치 지정을 위해 CSS top 대신 CSS를 사용합니다. transform은 변환 함수가 행 확장에 사용되는 것과 같은 문제를 일으키는 경우에 유용합니다.
+                       default : false
+
+columnHoverHighlight : true일때 CSS 클래스를 추가하여 열을 강조 표시 하려면 으로 설정하십시오. 
+                       default : ag-column-hover false                                                    
 < Tooltips >
 
 enableBrowserTooltips : true일때 그리드의 도구 설명 구성 요소를 사용하는 대신 브라우저의 기본 도구 설명을 사용하도록 설정합니다.
