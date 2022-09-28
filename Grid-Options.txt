@@ -655,8 +655,47 @@ suppressPreventDefaultOnMouseWheel : true인 경우 마우스 휠 이벤트가 �
                                      default : false
 
 scrollbarWidth : 그리드 너비 계산에 사용되는 스크롤 막대의 너비를 그리드에 픽셀 단위로 알려줍니다. 비표준 브라우저 제공 스크롤바를 사용하는 경우에만 설정하여 그리드가 계싼에 비표준 크기를 사용할 수 있도록 합니다.
-                                                                                                                                                                                                        
 
+
+< Selection >
+
+rowSelection : 행 선택 유형.
+
+rowMultiSelectWithClick : true일때 한 번의 클릭으로 여러 행을 선택할 수 있도록 설정합니다.
+                          default : false
+
+isRowSelectable : 선택 가능한 행을 결정하는데 사용할 콜백입니다. 기본적으로 행은 선택 가능하므로 돌아가서 행을 선택 불가능하게 만드십시오. 
+
+suppressRowDeselection : true인 경우 행을 누른 상태에서 클릭하거나 키를 눌러도 행이 선택 해제되지 않습니다. 기본 : Ctrl Space
+                         default: false
+
+suppressRowClickSelection : true인 경우 행을 클릭할 때 행 선택이 발생하지 않습니다. 체크박스 선택만 원할 때 사용합니다.
+                            default : false
+
+suppressCellFocus : true인 경우 셀에 초점을 맞출 수 없습니다. 즉, 그리드 셀에서는 키보드 탐색이 비활성화되지만 열 헤더, 부동 필터, 도구 패널과 같은 그리드의 다른 요소에서는 활성화된 상태로 유지됩니다.
+                    default: false
+
+suppressMultiRangeSelection : true인 경우 단일 범위만 선택할 수 있습니다.
+                               default : false
+
+enableCellTextSelection : true일때 셀 내의 텍스트를 선택할 수 있도록 설정합니다. 참고: true로 설정하면 클립보드 서비스가 비활성화됩니다.
+                          default : false
+
+enableRangeHandle : true일때 범위 핸들을 활성화하려면 으로 설정하십시오.
+                    default : false
+
+enableFillHandle : true일 때 채우기 핸들을 활성화하려면 으로 설정하십시오.
+                   default : false
+
+fillHandleDirection : 'X' 채우기 핸들 방향을 강제로 수평으로 설정하려면 으로 설정하고 'y', 채우기 핸들 방향을 수직으로 강제하려면 으로 설정하십시오.
+                       default : xy
+
+fillOperation : 단순히 값을 복사하거나 선형 진행을 사용하여 숫자 값을 늘리는 대신 값을 채우는 콜백.
+
+suppressClearOnFillReduction : true일 때 범위 선택이 채우기 핸들로 줄어들 때 셀 값이 지워지지 않도록 하려면 이것을 설정하십시오.
+                               default : false
+
+                               
 < Tooltips >
 
 enableBrowserTooltips : true일때 그리드의 도구 설명 구성 요소를 사용하는 대신 브라우저의 기본 도구 설명을 사용하도록 설정합니다.
