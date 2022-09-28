@@ -47,6 +47,15 @@ copySelectedRowsToClipboard : 선택한 행을 클립보드에 복사합니다.
 
 < Column Definitions >
 
+getColumnDefs : 현재 열 정의를 반환합니다.
+
+setColumnDefs : 새 열 정의를 설정하기 위해 호출합니다. 그리드는 모든 열 머리글을 다시 그린 다음 모든 행을 다시 그립니다.
+
+setAutoGroupColumnDef : 새로운 자동 그룹 열 정의를 설정하기 위해 호출합니다. 그리드는 자동 그룹 열이 있는 경우 다시 생성합니다.
+
+setDefaultColDef : 새 기본 열 정의를 설정하기 위해 호출합니다.
+
+sizeColumnsToFit : 그리드에 수평으로 맞도록 열의 크기를 조정하도록 설정합니다.
 
 
 < Column Headers > 
