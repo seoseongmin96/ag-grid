@@ -97,7 +97,7 @@ addRenderedRowListener : 가상 행에 콜백을 등록합니다. 가상 행은 
                          cellRenderer  행이 더 이상 존재하지 않을 때 정리를 수행해야 하는 경우 이 이벤트를 수신합니다.
 
 
-< Export >
+< Export >  
 
 exportDataAsCsv : 그리드 데이터의 CSV 내보내기를 다운로드합니다.
 
@@ -111,7 +111,7 @@ getSheetDataForExcel : 그리드의 데이터를 시트로 가져오는 데 사�
 
 exportMultiplesheetsAsExcel : 하나의 파일에 여러 시트의 Excel 내보내기를 다운로드합니다.
 
-getMultipleSheetAsExcel : exportMultipleSheetsAsExcel 과 유사하지만 파일을 다운로드하는 대신 사용자가 처리 할 Blob을 반환합니다. 
+getMultipleSheetAsExcel : exportMultipleSheetsAsExcel 과 유사하지만 파일을 다운로드하는 대신 사용자가 처리 할 Blob을 반환합니다.    
 
 
 < Filtering >
