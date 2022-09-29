@@ -170,8 +170,28 @@ tabToPreviousCell : Shift 키를 누른 상태에서 그리드 포커스를 이�
 
 < Master Detail >
 
+getDetailGridInfo : DetailGridInfo 제공된 detailGridId에 해당하는 값을 반환합니다.
+
+forEachDetailGridInfo : 그리드에서 각각을 반복하고 각각 DetailGridInfo에 대해 제공된 콜백을 호출합니다.
+
+addDetailGridInfo : 마스터 그리드 생성 시 디테일 그리드를 등록합니다.
+
+removeDetailGridInfo : 마스터 그리드가 파괴되면 상세 그리드의 등록을 취소합니다.
+
 
 < Miscellaneous >
+
+getValue : 특정 rowNode(행)의 열 값을 가져옵니다. 이것은 예를 들어 자체 CSV 내보내기를 구현하는 경우 셀의 원시 값을 원하는 경우에 유용합니다.
+
+setDomLayout : 레이아웃 옵션 간 전환: normal, autoHeight, print, normal domLayout이 제공되지 않은 경우 기본값입니다.
+
+destory : 그리드를 파괴하고 리소스를 해제합니다. 프레임워크를 사용하는 경우 그리드가 프레임워크 수명 주기와 연결되므로 이를 호출할 필요가 없습니다.
+          그러나 웹 구성 요소 또는 기본 JavaScript를 사용하는 경우 응용 프로그램에서 메모리 누수를 방지하기 위해 이것을 호출해야 합니다.
+
+setGridAriaProperty : 그리드 패널(요소가 있는 role="grid")에서 ARIA 속성을 설정하고 값이 null인 경우 ARIA 속성을 제거합니다.
+                      예 : api.setGridAriaProperty('label', 'my grid') 설정 aria-label="my grid" 합니다. 그리드 요소에서 속성을 api.setGridAriaProperty('label', null) 제거합니다. aria-label
+
+isAnimationFrameQueueEmpty : true일때 처리할 애니메이션 프레임이 더 이상 없을 때 반환 됩니다.
 
 
 < Overlays >
