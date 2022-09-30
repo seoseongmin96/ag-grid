@@ -264,6 +264,16 @@ getLastDsiplayedRow : 스크롤로 인해 마지막으로 표시된 행의 인�
 
 < Row Drag and Drop >
 
+setSuppressRowDrag : suppressRowDrag 속성을 설정합니다.
+
+setSuppressMoveWhenRowDragging : suppressMoveWhenRowDragging 속성을 설정합니다. 
+
+addRowDropZone : 행을 놓을 수 있는 그리드 외부에 놓기 영역을 추가합니다.
+
+removeRowDropZone : addRowDropZone에 의해 추가된 외부 드롭존을 제거합니다.
+
+getRowDropZoneParams : RowDropZoneParams 다른 그리드의 addRowDropZone 메서드에서 사용하도록 반환합니다.
+
 
 < Row Grouping >
 
