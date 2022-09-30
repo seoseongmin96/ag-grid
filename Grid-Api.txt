@@ -300,8 +300,20 @@ forEachNodeAfterFilterAndSort : 행이 그리드에 표시되는 순서대로 �
 forEachLeafNode : forEachNode와 유사하지만 모든 리프 노드를 나열합니다. 이것은 그리드가 그룹화를 수행하기 전에 그리드에 제공한 모든 데이터를 효과적으로 통과합니다.
                   트리 데이터를 사용하는 경우 하위가 있는 노드를 포함하여 제공한 데이터에 대한 모든 노드를 통과하지만 계층에서 간격이 누락된 그리드에서 생성된 그룹은 제외합니다.
 
-                  
+
 < Row Pinning >
+
+setPinnedTopRowData : 상단 고정 행을 설정합니다. 행이 없거나 정의되지 않은 상태로 호출하여 상단 고정 행을 지웁니다.
+
+setPinnedBottomRowData : 하단 고정 행을 설정합니다. 행이 없거나 정의되지 않은 상태롤 호출하여 맨 아래 고정된 행을 지웁니다.
+
+getPinnedTopRowCount : 상단에 고정된 행의 수를 가져옵니다.
+
+getPinnedBottomRowCount : 고정된 맨 아래 행의 수를 가져옵니다.
+
+getPinnedTopRow : 지정된 인덱스가 있는 맨 위에 고정된 행을 가져옵니다.
+
+getPinnedBottomRow : 지정된 인덱스가 있는 맨 위에 고정된 행을 가져옵니다.
 
 
 < RowModel >
