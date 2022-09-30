@@ -357,6 +357,18 @@ getCacheBlockState : 캐시의 상태를 나타내는 객체를 반환합니다.
 
 < RowModel : Server-Side >
 
+setServerSideDatasource : 서버 측 행 모델에 대한 새 데이터 소스를 설정하십시오.
+
+setCacheBlockSize : 서버에서 데이터를 요청할 때 cacheBlockSize에서 사용하는 업데이트 입니다. serverSideInfiniteScroll 이렇게 하면 캐시된 모든 데이터가 제거되고 그리드의 모든 행이 다시 로드됩니다.
+
+refreshServerSide : 서버 측 수준을 새로 고칩니다. 매개변수를 전달하지 않으면 최상위 저장소가 제거됩니다. 하위 레벨을 제거하려면 키 문자열을 전달하여 원하는 레벨에 도달하십시오.
+
+getServerSideGroupLevelState : 모든 서버 측 그룹 수준에 대한 정보를 반환합니다.
+
+retryServerSideLoads : 재시도할 모든 실패한 서버 측 로드를 가져옵니다.
+
+applyServerSideTransaction : 서버 측 행 모델에 트랜잭션을 적용합니다.
+
 
 
 
