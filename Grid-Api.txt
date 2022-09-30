@@ -318,6 +318,8 @@ getPinnedBottomRow : 지정된 인덱스가 있는 맨 위에 고정된 행을 �
 
 < RowModel >
 
+getModel : 테이블 내부의 행 모델을 반환합니다. 여기에서 원본 행, 필터가 적용된 후의 행, 집계가 적용된 후의 행 및 '표시할' 행의 최종 집합을 볼 수 있습니다.
+
 
 < RowModel : Client-Side >
 
