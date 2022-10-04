@@ -46,7 +46,23 @@ columnEverythingChanged : Shotgun -a) 새 열이 설정되거나 b) 사용되어
 componentStateChanged : Angular, React 및 VueJS AG Grid 구성 요소에서만 사용됩니다. (일반 JavaScript를 수행하는 경우 사용되지 않음) 바운드 속성으로 인해 그리드가 변경 사항을 수신하는 경우
                         그리드가 변경 사항 처리를 완료한 후 이 이벤트가 발생합니다.
 
-                        
+
 < Editing >
 
+cellValueChanged : 편집 후 값이 변경되었거나 (예: ESC를 눌렀을 때 편집이 취소된 경우 이 이벤트는 실행되지 않음) 또는 붙여넣기 작업의 결과로 셀 값이 변경된 경우.
 
+cellEditRequest : 수정 후 값이 변경되었습니다. 읽기 전용 편집, 즉 readOnlyEdit = true.
+
+rowValueChanged : 행 내의 셀 값이 변경되었습니다. 이 이벤트는 전체 행 편집에만 해당합니다.
+
+cellEditingStarteed : 셀 편집이 시작되었습니다.
+
+cellEditingStoppeed : 셀 편집이 중지되었습니다.
+
+rowEditingStarted : 행 편집이 시작되었습니다.(행 편집이 활성화된 경우) 행 편집 시 이 이벤트는 한번 cellEditingStarted가 발생하고 각 개별 셀에 대해 발생합니다.
+                    전체 행 편집을 수행할 때만 발생합니다.
+
+rowEditingStopped : 행 편집이 중지되었습니다.(행 편집이 활성화된 경우) 행 편집 시 이 이벤트는 한 번 cellEditingStopped 발생하고 각 개별 셀에 대해 발생합니다.
+                    전체 행 편집을 수행할 때만 발생합니다.
+                    
+                                        
