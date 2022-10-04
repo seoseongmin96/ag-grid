@@ -1,0 +1,5 @@
+*****Grid-Event*****
+
+< Accessories >
+
+toolPanelVisibleChanged : 도구 패널이 숨겨지거나 표시되었습니다. 상태를 가져오는 데 api.isToolPanelShowing()을 사용합니다.
