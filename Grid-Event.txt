@@ -43,7 +43,10 @@ columnEverythingChanged : Shotgun -a) 새 열이 설정되거나 b) 사용되어
 
 < Components >
 
+componentStateChanged : Angular, React 및 VueJS AG Grid 구성 요소에서만 사용됩니다. (일반 JavaScript를 수행하는 경우 사용되지 않음) 바운드 속성으로 인해 그리드가 변경 사항을 수신하는 경우
+                        그리드가 변경 사항 처리를 완료한 후 이 이벤트가 발생합니다.
 
+                        
 < Editing >
 
 
