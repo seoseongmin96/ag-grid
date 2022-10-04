@@ -375,7 +375,33 @@ applyServerSideTransaction : 서버 측 행 모델에 트랜잭션을 적용합�
 setViewportDatasource : 뷰포트 행 모델에 대한 새 데이터 소스를 설정합니다.
 
 
+< Scrolling >
 
+setAlwaysShowHorizontalScroll : true인 경우 필요하지 않은 경우에도 가로 스크롤 막대가 항상 표시됩니다. 그렇지 않으면 필요할 때만 표시됩니다.
+
+setAlwaysShowVerticalScroll : true인 경우 세로 스크롤 막대가 필요하지 않더라도 항상 표시됩니다. 그렇지 않으면 필요할 때만 표시됩니다.
+
+ensureIndexVisible : 제공된 행 인덱스가 보이는 뷰포트 내부에 있을 때까지 그리드를 수직으로 스크롤합니다. 위치가 제공되면 그리드는 행이 뷰포트 내에서 지정된 위치에
+                     있을 때까지 스크롤을 시도합니다. 이것은 firstDataRendered 이벤트가 발생하기 전에는 영향을 미치지 않습니다.
+
+ensureNodeVisible : 제공된 행(또는 제공된 비교기와 일치하는 행)이 보이는 뷰포트 내부에 올 때가지 그리드를 수직으로 스크롤합니다. 위치가 제공되면 그리드는 행이 뷰포트
+                    내에서 지정된 위치에 있을 때까지 스크롤을 시도합니다. 이것은 firstDataRendered 이벤트가 발생하기 전에는 영향을 미치지 않습니다.
+
+ensureColumnVisible : 필요한 경우 테이블을 스크롤하여 열이 표시되도록 합니다. 이것은 firstDataRendered 이벤트가 발생하기 전에는 영향을 미치지 않습니다.
+                      key - 가시적인
+                      위치를 보장하기 위한 열 - 열이 배치될 위치.
+                      * auto - 열이 보이도록 최소량을 스크롤합니다.
+                      * start - 열을 뷰포트의 시작 부분으로 스크롤합니다.
+                      * middle - 컬럼을 뷰포트의 중앙으로 스크롤합니다.
+                      * end - 열을 뷰포트 끝까지 스크롤합니다.
+
+getHorizontalPixelRange : 두 가지 속성이 있는 객체를 반환합니다.
+                          * left : 그리드에서 현재 스크롤의 왼쪽 픽셀 위치
+                          * right : 그리드에서 현재 스크롤의 오른쪽 픽셀 위치
+
+getVerticalPixelRange : 두 가지 속성이 있는 객체를 반환합니다.
+                        * top : 그리드에서 현재 스크롤의 상단 픽셀 위치
+                        * bottom : 그리드에서 현재 스크롤의 하단 픽셀 위치                                                                                         
 
 
 
