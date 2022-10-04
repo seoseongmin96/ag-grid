@@ -401,8 +401,43 @@ getHorizontalPixelRange : 두 가지 속성이 있는 객체를 반환합니다.
 
 getVerticalPixelRange : 두 가지 속성이 있는 객체를 반환합니다.
                         * top : 그리드에서 현재 스크롤의 상단 픽셀 위치
-                        * bottom : 그리드에서 현재 스크롤의 하단 픽셀 위치                                                                                         
+                        * bottom : 그리드에서 현재 스크롤의 하단 픽셀 위치
 
+
+< Selection >
+
+selectAll : 필터링에 관계없이 모든 행을 선택하고 그룹화가 활성화되어 있고 해당 그룹이 확장되지 않아 표시되지 않는 행을 선택합니다.
+
+deselectAll : 필터링에 관계없이 모든 행 선택을 지웁니다.
+
+selectAllFiltered : 필터링된 모든 행을 선택합니다.
+
+deselectAllFiltered : 필터링된 모든 선택을 지웁니다.
+
+getSelectNodes : 선택한 노드의 정렬되지 않은 목록을 반환합니다. 데이터가 아닌 기본 노드를 가져오는 것은 노드를 순회할 수 있으므로 트리/집계 데이터로 작업할 때 유용합니다.
+
+getSelectRows : 선택한 행(즉, 제공한 행 데이터)의 정렬되지 않은 목록을 반환합니다.
+
+getBestCostNodeSelection : 그룹/트리와 함께 사용할 기능인 '최상의 비용'으로 선택된 모든 노드의 목록을 반환합니다. 그룹의 모든 하위 항목이 선택된 경우 그룹은 결과에 표시되지만 
+                           하위 항목은 표시되지 않습니다. 'children'그룹이 실제로 일반적으로 선택 항목에 나타나지 않는 그룹 선택 유형으로 사용하도록 설계되었습니다.
+
+getCellRanges : 선택한 셀 범위의 목록을 반환합니다.
+
+addCellRange : 선택한 범위에 제공된 셀 범위를 추가합니다.
+
+clearRangeSelection : 선택한 범위를 지웁니다.
+
+setSuppressRowClickSelection : suppressRowClickSelection 속성을 설정합니다.
+
+setEnableCellTextSelection : enableCellTextSelection 속성을 설정합니다.
+
+setFillHandleDirection : 선택 채우기 핸들의 기본 방향을 설정합니다.
+
+
+< Sorting >
+
+
+< Undo / Redo >
 
 
 
