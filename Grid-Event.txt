@@ -10,3 +10,40 @@ toolPanelVisibleChanged : 도구 패널이 숨겨지거나 표시되었습니다
 pasteStart : 붙여넣기 작업이 시작되었습니다.
 
 pasteEnd : 붙여넣기 작업이 종료되었습니다.
+
+
+< Columns >
+
+columnVisible : 열 또는 열 그룹이 숨겨지거나 표시되었습니다.
+
+columnPinned : 열 또는 열 그룹이 고정/고정 해제되었습니다.
+
+columnResized : 열의 크기가 조정되었습니다.
+
+columnMoved : 열이 이동되었습니다. 열 이동이 완료되는 시점을 확인하려면 dragStopped 이벤트를 사용할 수 있습니다.
+
+columnValueChanged : 값 열이 추가 또는 제거되었습니다.
+
+columnPivotModeChanged : 피벗 모드 플래그가 변경되었습니다.
+
+columnPivotChanged : 피벗 열이 추가, 제거 또는 변경되었습니다.
+
+columnGroupOpened : 열 그룹을 열거나 닫았습니다.
+
+newColumnsLoaded : 사용자가 새 열을 설정했습니다.
+
+gridColumnsChanged : 그리드 열 목록이 변경되었습니다.
+
+displayedColumnsChanged : 표시된 열 목록이 변경되었습니다. 이는 열 열기/닫기, 열 이동, 피벗, 그룹 등으로 인해 발생할 수 있습니다.
+
+virtualColumnsChanged : 렌더링된 열 목록이 변경되었습니다.(보이는 스크롤 뷰포트의 열만 기본적으로 렌더링됨)
+
+columnEverythingChanged : Shotgun -a) 새 열이 설정되거나 b) 사용되어 모든 것이 변경될 때 columnApi.setState()을 호출됩니다.
+
+
+< Components >
+
+
+< Editing >
+
+
