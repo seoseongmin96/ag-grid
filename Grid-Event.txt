@@ -147,6 +147,8 @@ expandOrcollapseAll : API 메소드 expandAll() 또는 collapseAll().
 
 < Row Pinning >
 
+pinnedRowDataChanged : 클라이언트가 새 고정 행 데이터를 그리드에 설정했습니다.
+
 
 < RowModel: Client-Side >
 
