@@ -86,7 +86,12 @@ chartOptionsChanged : 사용자가 서식 패널을 통해 서식을 변경했�
 chartDestroyed : 차트가 파괴되었습니다.
 
 
+
 < Keyboard Navigation >
+
+cellKeyDown : keyDown DOM 이벤트가 셀에서 발생했습니다.
+
+cellKeyPress : keyPress DOM 이벤트가 셀에서 발생했습니다.
 
 
 < Miscellaneous >
