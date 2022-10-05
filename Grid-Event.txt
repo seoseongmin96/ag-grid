@@ -138,6 +138,12 @@ rowDragEnd : 그리드 위에서 드래그가 완료되었습니다.
 
 < Row Grouping >
 
+columnRowGroupChagned : 행 그룹 열이 추가 또는 제거되었습니다.
+
+rowGroupOpened : 행 그룹이 열렸거나 닫혔습니다.
+
+expandOrcollapseAll : API 메소드 expandAll() 또는 collapseAll().
+
 
 < Row Pinning >
 
