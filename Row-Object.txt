@@ -33,3 +33,45 @@ rowIndex : 현재 행 인덱스입니다. 행이 필터링되거나 축소된 �
 rowTop : 행 상단 위치(픽셀)입니다.
 
 quickFilterAggregateText : 빠른 필터를 사용하는 경우 검색 대상 행의 문자열 표현을 저장합니다.
+
+
+< Group Node Attributes >
+
+groupData : 행 그룹화를 사용하는 경우 이 그룹에 대한 그룹 값을 포함합니다.
+
+aggData : 행 그룹화 및 집계를 사용하는 경우 집계 데이터가 포함됩니다.
+
+key : 그룹의 키 (예: 아일랜드, 영국, 미국)
+
+field: 예를 들어 '국가'를 기준으로 그룹화하는 필드입니다.
+
+rowGroupColumn : 이 그룹에 사용되는 행 그룹 열입니다. (예: 국가 열 인스턴스).
+
+rowGroupIndedx : 메모리 내 (클라이언트 측) 그룹화를 수행하는 경우 이 셀이 있는 그룹 열의 인덱스입니다. 그룹을 축소하지 않는 한, 즉 groupRemoveSingleChildren=true일때
+
+expanded : 그룹이 확장되면 true, 그렇지 않으면 false.
+
+footer : 행이 바닥글인 경우 true. 바닥글에는 group = true 및 footer = true가 있습니다.
+
+allLeafChildren : 이 노드 아래의 모든 최하위 노드, 그룹 없음.
+
+childrenAfterGroup : 이 그룹의 어린이. 여러 수준의 그룹화인 경우 직계 자식만 표시합니다.
+
+childrenAfterFilter : 이 그룹의 필터링된 하위 항목입니다.
+
+childrenAfterSort : 이 그룹의 정렬된 하위 항목입니다.
+
+allChildrenCount : 자녀 및 손자녀의 수입니다.
+
+leafGroup : true일때 이 노드가 그룹이고 그룹이 트리의 맨 아래 수준인 경우.
+
+sibling : 바닥글을 사용하는 경우 이 그룹의 바닥글 노드를 참조하세요.
+
+
+< Row Node Methods >
+
+
+< Row Node Events >
+
+
+< Events on Row Nodes >
