@@ -159,6 +159,30 @@ asyncTransactionsFlushed : 비동기 트랜잭션이 적용되었습니다. 모�
 
 < Selection >
 
+cellClicked : 셀이 클릭되었습니다.
+
+cellDoubleClicked : 셀이 두 번 클릭되었습니다.
+
+cellFocused : 셀이 초점을 맞춥니다.
+
+cellMouseOver : 마우스가 셀에 들어갔습니다.
+
+cellMouseOut : 마우스 왼쪽 셀.
+
+cellMouseDown : 셀에 마우스를 놓습니다.
+
+rowClicked : 행이 클릭되었습니다.
+
+rowDoubleClicked : 행이 두 번 클릭되었습니다.
+
+rowSelected : 행이 선택되거나 선택 해제됩니다. 이벤트에는 문제의 노드가 포함되어 있으므로 노드의 isSelected()메서드를 호출하여 방금 선택되었거나 선택 해제되었는지 확인합니다.
+
+selectionChanged : 행 선택이 변경됩니다. getSelectedNodes() 그리드 API를 사용하거나 getSelectedRows() 선택한 노드/행 데이터의 새 목록을 가져옵니다.
+
+cellContextMenu : 셀을 마우스 오른쪽 버튼으로 클릭합니다.
+
+rangeSelectionChanged : 범위 선택이 변경되었습니다.
+
 
 < Sorting >
 
