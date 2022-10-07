@@ -70,8 +70,41 @@ sibling : 바닥글을 사용하는 경우 이 그룹의 바닥글 노드를 참
 
 < Row Node Methods >
 
+setSelected : 노드를 선택(또는 선택 취소)합니다.
+              * newValue가 true이면 선택용 , false이면 선택 해제용.
+              * clearSelection가 true일 때 선택하는 경우 전달하면 노드가 독점적으로 선택됩니다. (즉, 다중 선택을 수행하지 않음). 선택을 해제해도 clearSelection 영향이 없습니다.
+              * suppressFinishActions이 true일때 해고를 방지하기 위해 패스합니다. 이벤트는 계속 발생합니다. selectionChanged.rowSelected
+
+isSelected : 보고 :
+                    * 노드가 선택되면 true
+                    * 노드가 선택되지 않은 경우 false
+                    * 부분적으로 선택된 경우(모든 자식이 선택되지 않은 그룹).
 
 < Row Node Events >
+
+setExpanded : 이 rowNode의 확장 상태를 설정합니다. true 확장 및 false 축소에 전달합니다.
+
+addEventListener : 이벤트 리스너를 추가합니다.
+
+removeEventListeneter : 이벤트 리스너를 제거합니다.
+
+resetQuickFilterAggregateText : 처음 quickFilter가 실행하면 그리드가 행의 일회성 문자열 표현을 만듭니다. 그런 다음 이 문자열은 각 열을 개별적으로 조회하는 대신 빠른 필터에 사용됩니다.
+                                그리드 편집을 사용하여 편집할 때 이 문자열이 지워집니다. 그러나 그리드 편집을 사용하지 않고 편집하는 경우 행을 새 값으로 업데이트하려면 이 문자열을 지워야 합니다.
+                                그렇지 않으면 새 값이 quickFilter.
+
+depthFirstSearch : 이 노드와 그 자식에 대해 깊이 우선 탐색을 수행합니다.
+
+setRowHeight : 행 높이를 설정합니다. 처음에 행에 할당된 높이를 변경하려면 호출하십시오. api.onRowHeightChanged() 호출한 후에는 그리드가 행의 위치를 결정해야 한다는 것을 알 수 있도록 호출해야 합니다.
+
+setData : rowNode의 데이터를 대체합니다. 완료되면 그리드가 표시되는 경우 렌더링된 전체 행을 새로 고칩니다.
+
+setDataValue : rowNode 지정된 열의 값을 바꿉니다. 완료되면 그리드는 필요한 행에서만 렌더링된 셀을 새로 고칩니다.
+               colKey : 값이 업데이트되어야 하는 열
+               newValue : 새 값
+               eventSource : 이벤트의 소스
+               반환값 : 값이 변경된 경우, True, 그렇지 않은 경우 False.
+
+getRoute : 행 노드의 경로를 반환합니다. 행 노드가 그룹이면 해당 행 노드로의 경로를 반환합니다. 행 노드가 그룹이 아닌 경우를 반환합니다. undefined.
 
 
 < Events on Row Nodes >
