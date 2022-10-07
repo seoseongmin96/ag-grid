@@ -1,0 +1,40 @@
+*****Column Properties*****
+
+< Columns >
+
+field : 셀의 데이터를 가져올 때 행 개체의 필드입니다. 행 객체에 대한 깊은 참조는 점 표기법, 즉 'address.firstLine'.
+
+colId : 열에 부여할 고유 ID입니다. 이것은 선택 사항입니다. 누락된 경우 ID는 기본적으로 필드로 설정됩니다. field와 colId가 모두 누락된 경우 고유 ID가 생성됩니다. 이 ID는 정렬, 필터링 등을 위해
+        API에서 열을 식별하는 데 사용합니다.
+
+type : ColumnType 열의 템플릿으로 사용할 수 있는 쉼표로 구분된 문자열 또는 키가 포함된 문자열 배열입니다. 이렇게 하면 공통 열 속성이 많을 때 속성의 중복을 줄이는 데 도움이 됩니다.
+
+
+
+< Columns : Display >
+
+hide : 이 열을 숨기려면 true로 설정하십시오.
+
+initialHide : 새 열을 생성할 때만 적용되는 것을 제외하고 hide와 동일 합니다. 열 정의를 업데이트할 때 적용되지 않습니다.
+
+lockVisible : true일때 UI를 통해 열 표시/숨김을 차단 하도록 설정합니다.(API는 계속 작동함).
+              default : false
+
+lockPosition : 열을 고정 'left'하거나 'right' 이 열이 항상 해당 위치에 표시되도록 합니다.
+               true는 다음과 같이 처리됩니다. 'left'
+               option : 'left', 'right'
+
+suppressMovable : 끌기를 통해 이 열을 이동하지 않으려면 true로 설정하십시오.
+                  default : false                              
+
+< Columns : Editing >
+
+
+
+< Columns : Events >
+
+
+< Columns : Filter >
+
+
+< Columns : Header >
