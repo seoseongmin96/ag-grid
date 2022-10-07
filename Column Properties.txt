@@ -55,6 +55,15 @@ singleClickEdit : true일때 이 열 아래의 셀이 한 번 클릭 후 편집 
                                           
 < Columns : Events >
 
+onCellValueChanged : 편집 또는 응용 프로그램 호출로 인핸 셀 값이 변경된 후의 콜백입니다.
+                      api.setValue().
+
+onCellClicked : 셀을 클릭할 때 호출되는 콜백입니다.
+
+onCellDoubleClicked : 셀을 더블 클릭하면 콜백이 호출됩니다.
+
+onCellContextMenu : 셀을 마우스 오른쪽 버튼으로 클릭하면 콜백이 호출됩니다.
+
 
 < Columns : Filter >
 
