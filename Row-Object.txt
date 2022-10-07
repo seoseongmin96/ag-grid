@@ -108,3 +108,31 @@ getRoute : 행 노드의 경로를 반환합니다. 행 노드가 그룹이면 �
 
 
 < Events on Row Nodes >
+
+rowSelected : 행이 선택되었거나 선택 취소되었습니다.
+
+mouseEnter : 마우스가 행에 들어왔습니다.
+
+mouseLeave : 마우스가 행을 떠났습니다.
+
+cellChanged : 하나의 셀 값이 변경되었습니다.
+
+allChildrenCountChanged : allChildrenCount 변경되었습니다.
+
+dataChanged : rowData 변경되었습니다.
+
+heightChanged : rowHeight 변경되었습니다.
+
+topChanged : rowTop 변경되었습니다.
+
+firstChildChagned : firstChild 변경되었습니다.
+
+lastChildChanged : lastChild 변경되었습니다.
+
+childIndexChanged : childIndex 변경되었습니다.
+
+rowIndexChanged : rowIndex 변경되었습니다.
+
+expandedChanged : expanded 변경되었습니다.
+
+uiLevelChanged : uiLevel 변경되었습니다.
