@@ -1,4 +1,4 @@
-*****Column Properties*****
+*****Interface / API / Column Properties*****
 
 < Columns >
 
@@ -84,3 +84,46 @@ initialPinned : 새 열을 생성할 때만 적용되는 것을 제외하고 pin
 
 lockPinned : 사용자가 열을 고정하는 것을 차단하려면 true로 설정하고 정의 또는 API를 통해서만 열을 고정할 수 있습니다.
              default : false
+
+< Columns : Pivoting >
+
+pivot : 이 열을 기준으로 피벗하려면 true로 설정합니다.
+
+initialPivotg : 새 열을 생성할 때만 적용되는 것을 제외하고 pivot 과 동일합니다. 열 정의를 업데이트할 때 적용되지 않습니다.
+
+pivotIndex : 피벗 기준으로 사용할 열에서 이것을 설정하십시오. 한 열만 피벗하는 경우 임의의 수자 (예:0)로 설정합니다. 여러 열로 피벗하는 경우 이 열을 피벗 순서로 지정하려는 위치로 설정합니다.
+             (예: 0 첫 번째, 1: 두 번째)
+
+initialPivotIndex : 새 열을 생성할 때만 적용되는 것을 제외하고 pivotIndex 와 동일 합니다. 열 정의를 업데이트할 때 적용되지 않습니다.
+
+pivotComparator : 이 열이 피벗하는 데 사용되는 경우 피벗 열을 정렬할 때 사용할 비교기입니다. 피벗 서비스는 문자열을 피벗 그룹의 키로 사용하므로 값은 항상 문자열입니다.
+
+enablePivot : GUI를 통해 이 열로 피벗할 수 있도록 하려면 true로 설정하십시오. 이것은 피벗을 달성하는 데 사용되는 API 또는 속성을 차단하지 않습니다.
+              default : false
+
+              
+< Columns : Rendering and Styling >
+
+
+< Columns : Row Dragging > 
+
+
+< Columns : Row Grouping >
+
+
+< Columns : Sort >
+
+
+< Columns : Spanning >
+
+
+< Columns : Tooltips >
+
+
+< Columns : Width >
+
+
+< Groups >
+
+
+< Groups : Header >
