@@ -274,7 +274,27 @@ tooltipComponentParams : 구성하는 데 사용되는 매개변수 tooltipCompo
 
 < Columns : Width >
 
+width : 셀의 초기 너비(픽셀) 입니다.
 
+initialWidth : 새 열을 생성할 때만 적용되는 것을 제외하고 width와 동일합니다. 열 정의를 업데이트할 때 적용되지 않습니다.
+
+minWidth : 셀의 최소 너비(픽셀) 입니다.
+
+maxWidth : 셀의 최대 너비(픽셀) 입니다.
+
+flex : width 그리드의 나머지 빈 공간을 채우는 것이 목표일 때 대신 사용됩니다.
+
+initialFlex : 새 열을 생성할 때만 적용되는 것을 지외하고 flex와 동일 합니다. 열 정의를 업데이트할 때 적용되지 않습니다.
+
+resizable : true일때 이 열의 크기를 조정할 수 있도록 설정합니다.
+            default : false
+
+suppressSizeToFit : '크기에 맞게' 작업 중에 이 열의 너비를 고정하려면 true로 설정하십시오.
+
+suppressAutoSize : 이 열의 가장자리를 두 번 클릭하여 이 열의 크기를 자동으로 조정하지 않으려면 true로 설정합니다.
+                   default : false
+
+                   
 < Groups >
 
 
