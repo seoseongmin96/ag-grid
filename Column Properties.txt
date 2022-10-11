@@ -194,6 +194,34 @@ dndSourceOnRowDrag : 네이티브 드래그 앤 드롭에 대한 사용자 정�
 
 < Columns : Row Grouping >
 
+rowGroup : 이 열을 기준으로 설정합니다.
+           default : false
+
+initialRowGroup : 샐 열을 생성할 때만 적용되는 것을 제외하고 rowGroup과 동일 합니다. 열 정의를 업데이트할 때 적용되지 않습니다.
+
+rowGroupIndex : 그룹화하려는 열에서 이것을 설정하십시오. 하나의 열로만 그룹화하는 경우 임의의 숫자(예 : 0)로 설정합니다. 여러 열로 그룹화하는 경우 그룹에서 이 열을 원하는 위치로 설정합니다.
+                (예: 0 첫 번째, 1 두 번째 등).
+
+initialRowGroupIndex : 새 열을 생성할 때만 적용되는 것을 제외하고 rowGroupIndex와 동일 합니다. 열 정의를 업데이트할 때 적용되지 않습니다.
+
+enableRowGroup : GUI를 통해 이 열별로 행 그룹화할 수 있돍 하려면 true로 설정하십시오. 이는 행 그룹화를 달성하는 데 사용되는 API 또는 속성을 차단하지 않습니다.
+                 default : false
+
+showRowGroup : 그리드가 그룹의 값을 셀에 배치하도록 하려면 true로 설정하거나 해당 그룹만 표시하려면 그룹화된 열의 이름을 입력하십시오.
+
+enableValue : GUI를 통해 이 열별로 집계할 수 있도록 하려면 true로 설정하십시오. 이는 집계를 달성하는 데 사용되는 API 또는 속성을 차단하지 않습니다.
+              default : false
+
+aggFunc : 집계에 사용할 함수의 이름입니다. 자체 agg 기능을 제공할 수도 있습니다.
+          option : 'sum', 'min', 'max', 'count', 'avg', 'first', 'last'
+
+initialAggFunc : 새 열을 생성할 때만 적용되는 것을 제외하고 aggFunc와 동일합니다. 열 정의를 업데이트할 때 적용되지 않습니다.
+
+allowedAggFuncs : 이 열에서 허용되는 집계 함수(예 : ['sum', 'avg'].) 누락된 경우 설치된 모든 기능이 허용됩니다. 이는 GUI에서 사용자가 선택할 수 있는 것만 제한하며 API를 통해 기능을 설정할 때는 영향을 미치지 않습니다.
+
+defaultAggFunc : aggFunc는 GUI를 통해 활성화된 경우 이 열에 사용할 집계 함수의 이름입니다.
+                 sum은 기본갑과 같은 집계 함수가 즉시 적용되지는 않습니다.
+
 
 < Columns : Sort >
 
