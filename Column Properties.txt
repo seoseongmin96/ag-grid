@@ -262,6 +262,15 @@ rowSpan : 기본적으로 각 셀은 한 행의 높이를 차지합니다. 셀�
 
 < Columns : Tooltips >
 
+tooltipField : 셀에 적용할 도구 설명 필드입니다.
+
+tooltipValueGetter : 툴팁에 사용할 문자열을 반환해야 하는 콜백은 tooltipField으로 설정된 경우 우선합니다. 사용자 지정을 사용하는 경우 tooltipComponent 도구 설명 구성 요소에 전달할
+                     사용자 지정 값을 반환할 수 있습니다.
+
+tooltipComponent : 열에 대한 고유한 도구 설명 구성 요소를 제공합니다.
+
+tooltipComponentParams : 구성하는 데 사용되는 매개변수 tooltipComponent입니다.
+
 
 < Columns : Width >
 
