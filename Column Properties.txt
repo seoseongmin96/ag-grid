@@ -85,6 +85,7 @@ initialPinned : 새 열을 생성할 때만 적용되는 것을 제외하고 pin
 lockPinned : 사용자가 열을 고정하는 것을 차단하려면 true로 설정하고 정의 또는 API를 통해서만 열을 고정할 수 있습니다.
              default : false
 
+
 < Columns : Pivoting >
 
 pivot : 이 열을 기준으로 피벗하려면 true로 설정합니다.
@@ -101,8 +102,31 @@ pivotComparator : 이 열이 피벗하는 데 사용되는 경우 피벗 열을 
 enablePivot : GUI를 통해 이 열로 피벗할 수 있도록 하려면 true로 설정하십시오. 이것은 피벗을 달성하는 데 사용되는 API 또는 속성을 차단하지 않습니다.
               default : false
 
-              
+
 < Columns : Rendering and Styling >
+
+cellStyle : CSS 값의 개체 / 또는 특정 셀에 대한 CSS 값의 개체를 반환하는 함수입니다.
+
+cellClass : 셀에 사용할 클래스입니다. 문자열, 문자열 배열 또는 문자열 또는 문자열 배열을 반환하는 함수일 수 있습니다.
+
+cellClassRules : 특정 CSS 클래스를 포함하도록 적용할 수 있는 규칙입니다.
+
+cellRenderer : 이 열의 셀에 대해 고유한 셀 렌더러 구성요소를 제공하십시오.
+
+cellRendererParams : 구성 요소에 전달할 매개변수 cellRenderer 입니다.
+
+cellRendererSelector : 동일한 열 내에서 주어진 행에 사용할 셀 렌더러를 선택하는 콜백입니다.
+
+autoHeight : 그리드가 이 열의 내용을 기반으로 행의 높이를 계산하도록 하려면 true로 설정하십시오.
+             default : false
+
+wrapText : true일때 일반적으로 autoHeight 함께 사용되는 셀 내부의 텍스트 줄 바꿈을 포함하도록 설정합니다.
+           default : false
+
+enableCellChangeFlash : true이면 새로 고칠 때 셀을 깜박이도록 설정합니다.
+
+suppressCellFlash : 변경 시 이 열이 깜박이지 않도록 하려면 true로 설정하십시오. 그리드에 대해 셀 깜박임이 켜져 있는 경우에만 적용됩니다.
+                    default : false
 
 
 < Columns : Row Dragging > 
