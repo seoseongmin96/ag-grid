@@ -67,7 +67,25 @@ onCellContextMenu : 셀을 마우스 오른쪽 버튼으로 클릭하면 콜백�
 
 < Columns : Filter >
 
+filter : 이 열에 사용할 필터 구성 요소입니다. true일때 기본 필터를 사용하도록 설정합니다. 제공된 필터의 이름으로 설정하거나 IfilterComp로 설정하십시오.
 
+filterParams : filter 또는 filterFramework에 지정된 필터 구성 요소에 전달할 매개변수 입니다.
+
+filterValueGetter : 함수 또는 표현식. 필터링 목적으로 값을 가져옵니다.
+
+getQuickFIlterText : 기본값(값을 호출하는)을 사용하지 않으려는 경우 이 열에 사용할 빠른 필터 텍스트를 그리드에 알려주는 함수 toString 입니다. 
+
+floatingFilter : 이 열에 대한 부동 필터를 표시할지 여부입니다.
+                 default : false
+
+floatingFilterComponent : 부동 필터를 렌더링하는 데 사용할 사용자 지정 구성 요소입니다. 아무 것도 지정하지 않으면 기본 AG 그리드가 사용됩니다.
+
+floatingFilterComponentParams : floatingFilterComponent 또는 floatingFilterComponentFramework 에 전달할 매개변수입니다.
+
+suppressFiltersToolPanel : 이 열(필터) 또는 그룹(필터 그룹)이 필터 도구 패널에 나타나지 않도록 하려면 true로 설정하십시오.
+                           default : false
+
+                           
 < Columns : Header >
 
 
