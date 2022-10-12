@@ -68,6 +68,20 @@ getPivotResultColumns : 그리드의 피벗 결과 열을 반환합니다.
 
 < Row Grouping >
 
+getRowGroupColumns : 행 그룹 열을 가져옵니다.
+
+setRowGroupColumns : 행 그룹 열을 설정합니다.
+
+addRowGroupColumn : 행 그룹에 열을 추가합니다.
+
+addRowGroupColumns : addRowGroupColumn 과 동일 하지만 열 목록을 제공합니다.
+
+removeRowGroupColumn : 행 그룹에서 열을 제거합니다.
+
+removeRowGroupColumns : removeRowGroupColumn 과 동일 하지만 열 목록을 제공합니다.
+
+moveRowGroupColumn : 행 그룹화 순서에서 열을 새 위치로 이동합니다.
+
 
 < Sizing >
 
