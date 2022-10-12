@@ -43,6 +43,28 @@ setColumnsPinned : setColumnPinned 와 동일 하지만 열 키 목록을 제공
 
 < Pivoting >
 
+isPivotMode : 피벗 모드를 가져옵니다.
+
+setPivotMode : 피벗 모드를 설정합니다.
+
+getPivotColumns : 피벗 열을 가져옵니다.
+
+setPivotColumns : 피벗 열을 설정합니다.
+
+addPivotColumn : 피벗 열을 추가합니다.
+
+addPivotColumns : addPivotColumn 과 동일 하지만 열 목록을 제공합니다.
+
+removePivotColumn : 피벗 열을 제거합니다.
+
+removePivotColumns : removePivotColumn 과 동일 하지만 열 목록을 제공합니다.
+
+getPivotResultColumn : 주어진 pivotKeys 및 valueColId 에 대한 피벗 결과 열을 반환합니다. 그런 다음 피벗 열에서 작업을 호출하는 데 유용합니다.
+
+setPivotResultColumns : 피벗 결과 열을 설정합니다.
+
+getPivotResultColumns : 그리드의 피벗 결과 열을 반환합니다.
+
 
 < Row Grouping >
 
