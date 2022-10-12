@@ -132,3 +132,32 @@ setColumnAggFunc : 열에 대한 agg 함수를 설정합니다. aggFunc 중 하�
 
 
 < Visibility and Display >
+
+setColumnVisible : 기둥의 가시성을 설정합니다. 키는 열 ID 또는 Column 개체일 수 있습니다.
+
+setColumnsVisible : setColumnVisible 과 동일 하지만 열 키 목록을 제공합니다.
+
+getDisplayNameForColumn : 열의 표시 이름을 반환합니다. headerValueGetter 고유한 헤더 렌더링을 수행하고 그리드가 사용되는 경우 작동하도록 하거나 고유한 열 관리 GUI를 수행하는 경우 열 이름으로 
+                          무엇을 표시할지 알기 위해 유용합니다.
+
+getDisplayedColAfter : 열린 / 닫힌 열 그룹과 보이는 열을 고려하여 제공된 열의 오른쪽에 있는 열을 반환합니다. 이것은 예를 들어 자신의 셀 탐색을 구현하는 경우와 같이 옆에 있는 열을 알아야 하는 경우에 유용합니다.
+
+getDisplayedColBefore : 왼쪽에 열을 제공하는 것을 제외하고는 getVisibleColAfter 과 동일 합니다.
+
+getAllDisplayedVirtualColumns : getAllGridColumns()와 동일하지만 렌더링된 열만 반환합니다. 즉 , 뷰포트 내에 있지 않아 열 가상화로 인해 렌더링되지 않은 열은 표시되지 않습니다.
+
+getAllDisplayedColumns : 그리드의 고정된 왼쪽, 중앙 및 고정된 오른쪽 부분에 대해 현재 표시된 모든 열을 반환합니다. (예: 표시되고 그룹에 있는 경우 그룹이 열을 표시하는 경우)
+
+getDisplayedCenterColumns : 그리드의 중앙 부분에 대해서만 getAllDisplayedColumns 와 동일 합니다.
+
+getDisplayedLeftColumns : 그리드의 고정된 왼쪽 부분에 대해서만 getAllDisplayedColumns 와 동일 합니다.
+
+getDisplayedRightColumns : 그리드의 고정된 오른쪽 부분에 대해서만 getAllDisplaydColumns 와 동일 합니다.
+
+getAllDisplayedColumnGroups : 모든 '루트' 열 헤더를 반환합니다. 열을 그룹화하지 않은 경우 열을 반환합니다. 그룹화하는 경우 최상위 그룹을 반환합니다. 각 그룹을 아래로 탐색하여 다른 하위 수준 헤더와 마지막으로 맨 아래의 열을 가져올 수 있습니다.
+
+getCenterDisplayedColumnGroups : 그리드의 중앙 부분에 대해서만 getAllDisplayedColumnGroups 와 동일 합니다.
+
+getLeftDisplayedColumnGroups : 그리드의 고정된 왼쪽 부분에 대해서만 getAllDisplayedColumnGroups 와 동일 합니다.
+
+getRightDisplayedColumnGroups : 그리드의 고정된 오른쪽 부분에 대해서만 getALlDisplayedColumnGroups 와 동일 합니다.
