@@ -1,0 +1,43 @@
+*****Interface / API / Column API*****
+
+< Column Groups >
+
+getColumnGroup : 주어진 이름의 열 그룹을 반환합니다.
+
+getProvidedColumnGroup : 주어진 이름으로 제공된 열 그룹을 반환합니다.
+
+setColumnGroupOpened : 열 그룹을 열거나 닫으려면 이것을 호출하십시오.
+
+
+< Columns >
+
+getColumn : (문자열) 또는 (객체) colKey가 될 수 있는 지정된 열을 반환합니다. colId colDef
+
+getColumns : 표시 여부에 관계없이 모든 열을 반환합니다.
+
+getAllGridColumns : getColumns() a) 그리드에 표시되는 열의 순서가 있음을 제외하고 모든 그리드 열을 반환합니다. 
+                                 b) '피벗' 단계 이후이므로 피벗하는 경우 피벗에 대한 값 열이 있습니
+
+
+< Moving >
+
+
+< Pinning >
+
+
+< Pivoting >
+
+
+< Row Grouping >
+
+
+< Sizing >
+
+
+< State >
+
+
+< Value Columns >
+
+
+< Visibility and Display >
