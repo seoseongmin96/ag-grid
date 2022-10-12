@@ -30,6 +30,16 @@ moveColumnByIndex : moveColumn과 동일 하지만 인덱스 위치에서 작동
 
 < Pinning >
 
+isPinning : 왼쪽 또는 오른쪽으로 고정하면 true를 반환하고, 그렇지 않으면 false를 반환합니다.
+
+isPinningLeft : 왼쪽으로 고정하면 true를 반환하고, 그렇지 않으면 false를 반환합니다.
+
+isPinningRight : 오른쪽으로 고정하면 true를 반환하고 그렇지 않으면 false를 반환합니다.
+
+setColumnPinned : 열 고정 / 고정 해제를 설정합니다. 키는 열 ID, 필드, ColDef 개체 또는 Column 개체일 수 있습니다.
+
+setColumnsPinned : setColumnPinned 와 동일 하지만 열 키 목록을 제공합니다.
+
 
 < Pivoting >
 
