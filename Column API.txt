@@ -116,5 +116,19 @@ resetColumnGroupState : 원래 제공된 열 정의와 일치하도록 상태를
 
 < Value Columns >
 
+getValueColumns : 값 열을 가져옵니다.
+
+addValueColumn : 값 열을 추가합니다.
+
+addValueColumns : addValueColumn과 동일 하지만 목록을 제공합니다.
+
+removeValueColumn : 값 열을 제거하십시오.
+
+removeValueColumns : removeValueColumns 과 동일 하지만 목록을 제공합니다.
+
+setValueColumns : 값 열을 설정합니다.
+
+setColumnAggFunc : 열에 대한 agg 함수를 설정합니다. aggFunc 중 하나가 될 수 있습니다. 'min' | 'max' | 'sum'
+
 
 < Visibility and Display >
