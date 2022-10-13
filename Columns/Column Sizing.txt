@@ -1,0 +1,9 @@
+***** Columns / Column Sizing*****
+
+< Autosize Column API >
+
+autoSizeColumn : 내용에 따라 열의 크기를 자동으로 조정합니다.
+
+autoSizeColumns : autoSizeColumn와 동일 하지만 열 키 목록을 제공합니다.
+
+autoSizeAllColumns : autoSizeColumns 표시된 모든 열에 대한 호출 입니다.
