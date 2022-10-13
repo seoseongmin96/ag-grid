@@ -1,0 +1,9 @@
+***** Columns / Column Moving*****
+
+ < API >
+
+ moveColumn : 열을 toIndex로 이동합니다. 컬럼을 먼저 제거한 다음 해당 toIndex 위치에 추가하므로 제거 후 인덱스 위치가 컬럼의 오른쪽으로 변경됩니다.
+
+ moveColumns : moveColumn 과 동일 하지만 목록에서 작동합니다.
+
+ moveColumnByIndex : moveColumn 과 동일 하지만 인덱스 위치에서 작동합니다.

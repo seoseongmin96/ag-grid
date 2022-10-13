@@ -1,0 +1,5 @@
+***** Columns / Column Spanning*****
+
+< Configuring Column Spanning >
+
+colSpan
