@@ -35,3 +35,23 @@ removeEventListener : 열에서 이벤트 리스너를 제거합니다.
 
 
 < Events on Column >
+
+filterActiveChanged : 필터 활성 값이 변경되었습니다.
+
+sortChanged : 정렬 값이 변경되었습니다.
+
+leftChanged : 왼쪽 위치가 변경되었습니다. ( 예: 열 이동)
+
+movingChanged : 열이 이동을 시작 / 완료 했습니다. (즉, 사용자가 열을 새 위치로 끌기)
+
+widthChanged : 너비 값이 변경되었습니다.
+
+visibleChanged : 가시성 값이 변경되었습니다.
+
+menuVisibleChanged : 열 메뉴가 표시/숨김.
+
+columnRowGroupChanged : 행 그룹 값이 변경되었습니다.
+
+columnPivotChanged : 피벗 값이 변경되었습니다. 
+
+columnValueChanged : '값' 값이 변경되었습니다.
