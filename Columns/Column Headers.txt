@@ -1,0 +1,23 @@
+***** Columns / Column Headers*****
+
+< Header Height >
+
+headerHeight : 열 레이블 헤더가 포함된 행의 높이(픽셀) 입니다. 지정하지 않으면 header-height 의 테마 값을 사용합니다.
+
+groupHeaderHeight : 헤더 열 그룹을 포함하는 행의 높이(픽셀)입니다. 지정하지 않으면 headerHeight를 사용합니다.
+
+floatingFilterHeight : 부동 필터가 포함된 행의 높이(픽셀)입니다. 지정하지 않으면 header-height 의 테마 값을 사용합니다.
+
+pivotHeaderHeight : 피벗 모드에 있을 때 열을 포함하는 행의 높이(픽셀)입니다. 지정하지 않으면 headerHeight를 사용합니다.
+
+pivotGroupHeaderHeight : 피벗 모드에 있을 때 헤더 열 그룹을 포함하는 행의 높이(픽셀)입니다. 지정하지 않으면 groupHeaderHeight를 사용합니다.
+
+setHeaderHeight : 열 레이블 헤더가 포함된 행의 높의를 픽셀 단위로 설정합니다.
+
+setGroupHeaderHeight : 헤더 열 그룹을 포함하는 행의 높이를 픽셀 단위로 설정합니다.
+
+setFloatingFilterHeight : 부동 필터가 포함된 행의 높이를 픽셀 단위로 설정합니다.
+
+setPivotHeaderHeight : 피벗 모드에 있을 때 열을 포함하는 행의 높이를 픽셀 단위로 설정합니다.
+
+setPivotGroupHeaderHeight : 피벗 모드에 있을 때 헤더 열 그룹을 포함하는 행의 높이를 픽셀 단위로 설정합니다.
