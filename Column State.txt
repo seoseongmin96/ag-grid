@@ -34,3 +34,6 @@ applyColumnState : 이전 상태의 열 상태를 적용합니다. 하나 이상
 
 < Column Group State >
 
+getColumnGroupState : 열 그룹의 상태를 가져옵니다. 일반적으로 열 그룹 상태를 저장할 때 사용됩니다.
+
+setColumnGroupState : 이전 상태에서 열 그룹 상태의 상태를 설정합니다.
