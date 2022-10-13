@@ -1,0 +1,30 @@
+***** Columns / Column State*****
+
+< Column State >
+
+hide : 열이 숨겨져 있으면 참
+
+width : 열 너비(픽셀)
+
+flex : flex가 설정된 경우 열의 flex
+
+sort : 열에 적용된 정렬
+
+sortIndex : 여러 열을 기준으로 정렬하는 경우 정렬 순서
+
+aggFunc : 집계 기능 적용
+
+pivot : 피벗이 활성화된 경우 참
+
+pivotIndex : 여러 열로 피벗하는 경우 피벗 순서
+
+pinned : 열이 고정된 경우 설정
+
+rowGroup : 행 그룹이 활성이 경우 True
+
+rowGroupIndex : 여러 열로 그룹화하는 경우 행 그룹의 순서
+
+
+< Column State Interface > 
+
+get
