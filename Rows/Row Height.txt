@@ -1,0 +1,12 @@
+***** Rows / Row Height*****
+
+< getRowHeight Callback >
+
+getRowHeight : rowHeight 각 행의 높이를 개별적으로 설정 하는 속성의 콜백 버전입니다. 함수는 양수 픽셀을 반환하거나 null/undefined를 반환하여 기본 행 높이를 사용해야 합니다.
+
+
+< Changing Row Height >
+
+
+< Changing Row Height >
+
