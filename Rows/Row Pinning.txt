@@ -13,4 +13,4 @@ setPinnedBottomRowData : 하단 고정 행을 설정합니다. 행이 없거나 
 
 < Cell Rendering >
 
-cellRendererSelector :
+cellRendererSelector : 동일한 열 내에서 주어진 행에 사용할 셀 렌더러를 선택하는 콜백입니다.
