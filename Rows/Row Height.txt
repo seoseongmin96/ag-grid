@@ -7,6 +7,8 @@ getRowHeight : rowHeight 각 행의 높이를 개별적으로 설정 하는 속�
 
 < Changing Row Height >
 
+resetRowHeights : 행 높이를 다시 계산하도록 그리드에 지시합니다.
+
 
 < Changing Row Height >
 
