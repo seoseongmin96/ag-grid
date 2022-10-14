@@ -1,0 +1,5 @@
+***** Rows / Row IDs*****
+
+< Application Assigned IDs >
+
+getRowId : 데이터를 기반으로 특정 행 노드의 ID를 설정할 수 있습니다.
