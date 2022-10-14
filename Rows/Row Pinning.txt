@@ -1,0 +1,16 @@
+***** Rows / Row Pinning*****
+
+< Row Pinning >
+
+pinnedTopRowData : 그리드에서 고정된 맨 위 행으로 표시할 데이터입니다.
+
+pinnedBottomRowData : 그리드에서 고정된 맨 아래 행으로 표시할 데이터입니다.
+ 
+setPinnedTopRowData : 상단 고정 행을 설정합니다. 행이 없거나 정의되지 않은 상태로 호출하여 상단 고정 행을 지웁니다.
+
+setPinnedBottomRowData : 하단 고정 행을 설정합니다. 행이 없거나 정의되지 않은 상태로 호출하여 맨 아래 고정된 행을 지웁니다.
+
+
+< Cell Rendering >
+
+cellRendererSelector :
