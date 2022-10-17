@@ -34,3 +34,4 @@ context : gridOptuons.context 에 설정된 애플리케이션 컨텍스트입�
 
 < Custom Row Drag Text >
 
+rowDragText : rowDragComp 행을 드래그하는 동안 표시할 문자열을 반환해야 하는 콜백입니다. 이 콜백이 설정되지 않으면 현재 셀 값이 사용됩니다. rowDragText 콜백이 ColDef 에 설정되어 있으면 rowDragEntireRow = true
