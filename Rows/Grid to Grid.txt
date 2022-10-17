@@ -1,0 +1,9 @@
+***** Rows / Gird to Gird*****
+
+< Grid to Grid >
+
+addRowDropZone : 행을 놓을 수 있는 그리드 외부에 놓기 영역을 추가합니다.
+
+removeRowDropZone : addRowDropZone에 의해 추가된 외부 드롭존을 제거합니다.
+
+getRowDropZoneParams : RowDropZoneParams 다른 그리드의 메서드 addRowDropZone에서 사용하도록 반환합니다.
