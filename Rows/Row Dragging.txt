@@ -1,0 +1,13 @@
+***** Rows / Row Dragging*****
+
+< Enabling Row Dragging > 
+
+rowDrag : boolean 또는 Function. 행 끌기를 허용하려면 true로 설정 (또는 함수에서 반환) 합니다. 
+          defautl : true false
+
+
+< Row Drag Events >
+
+
+< Custom Row Drag Text >
+
