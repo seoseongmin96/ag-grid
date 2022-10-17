@@ -1,0 +1,9 @@
+***** Build & Tooling / Packages*****
+
+< Introduction >
+
+ag-grid-community : 모든 커뮤니티 기능
+
+ag-grid-enterprise : 모든 엔터프라이즈 기능
+
+ag-grid-react : 리액트 지원
