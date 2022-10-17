@@ -1,0 +1,7 @@
+***** Rows / Full Width Rows*****
+
+< Understanding Full Width >
+
+isFullWidthRow : 이 행을 전체 너비로 렌더링해야 하는지 여부를 그리드에 알려줍니다.
+
+fullWidthCellRenderer : 전체 너비 행에 사용할 자체 셀 렌더러 구성 요소를 제공합니다.
