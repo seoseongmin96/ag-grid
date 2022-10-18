@@ -1,4 +1,4 @@
-***** Styling Rows *****
+***** Layout & Styling / Styling Rows *****
 
 < Row Style >
 
@@ -29,4 +29,6 @@ api : 그리드 API
 columnApi : 열 API
 
 context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입니다.
+
+
 

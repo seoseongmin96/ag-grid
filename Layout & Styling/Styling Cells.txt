@@ -1,0 +1,19 @@
+***** Layout & Styling / Styling Cells *****
+
+< Cell Style >
+
+cellStyle : CSS 값의 개체 / 또는 특정 셀에 대한 CSS 값의 개체를 반환하는 함수입니다.
+
+
+< Cell Class >
+
+cellClass :
+
+
+< Cell Class Rules >
+
+cellClassRules :
+
+
+< Cell Style, Cell Class & Cell Class Rules Params >
+
