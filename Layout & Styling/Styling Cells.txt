@@ -12,7 +12,7 @@ cellClass : 셀에 사용할 클래스입니다. 문자열, 문자열 배열 또
 
 < Cell Class Rules >
 
-cellClassRules :
+cellClassRules : 특정 CSS 클래스를 포함하도록 적용할 수 있는 규칙입니다.
 
 
 < Cell Style, Cell Class & Cell Class Rules Params >
