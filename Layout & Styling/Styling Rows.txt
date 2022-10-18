@@ -17,3 +17,16 @@ getRowClass : rowClass 각 행에 대해 개별적으로 클래스를 설정 하
 < Row Class Rules >
 
 rowClassRules :  특정 CSS 클래스를 포함하도록 적용할 수 있는 규칙입니다.
+
+data : rowData에서 이 행과 연결된 데이터입니다. 데이터는 undefined 행 그룹용입니다.
+
+node : 이 행과 관련된 RowNode
+
+rowIndex : 행의 인덱스
+
+api : 그리드 API
+
+columnApi : 열 API
+
+context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입니다.
+
