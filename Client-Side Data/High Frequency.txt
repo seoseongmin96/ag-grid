@@ -1,0 +1,5 @@
+***** Client-Side Data / High Frequency *****
+
+ < Async Transactions >
+
+ applyTransactionsAsync : 효율성을 위해 비동기적으로 실행된다는 점을 제외하고는 applyTransaction 과 동일합니다.
