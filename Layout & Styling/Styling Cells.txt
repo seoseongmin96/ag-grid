@@ -17,3 +17,20 @@ cellClassRules : 특정 CSS 클래스를 포함하도록 적용할 수 있는 �
 
 < Cell Style, Cell Class & Cell Class Rules Params >
 
+column : 이 콜백에 대한 열
+
+colDef : 이 셀의 열과 연결된 colDef
+
+value : 렌더링할 값
+
+data : rowData에서 이 행과 연결된 데이터입니다. 데이터는 undefined 행 그룹용입니다.
+
+node : 이 행과 관련된 RowNode
+
+rowIndex : 행의 인덱스
+
+api : 그리드 API
+
+columnApi : 열 API
+
+context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입니다.
