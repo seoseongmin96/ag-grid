@@ -1,0 +1,5 @@
+***** Client-Side Data / Transactions *****
+
+< Transactions Update API >
+
+applyTransaction : 행 데이터를 업데이트합니다. add, remove 및 update에 대한 목록이 있는 트랜잭션 개체를 전달합니다.
