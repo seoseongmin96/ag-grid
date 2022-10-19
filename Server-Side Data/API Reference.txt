@@ -1,0 +1,38 @@
+***** Server-Side Data / API Reference *****
+
+< SSRM Grid Options >
+
+serverSideDatasource : serverSideDatasource 서버 측 행 모델을 제공하십시오.
+
+serverSideInfiniteScroll : 서버 측 행 모델이 무한 스크롤
+                           기본값을 사용할지 여부를 설정합니다. false
+
+cacheBlockSize : (무한 스크롤만 해당) 캐시의 각 블록에 대한 행 수, 즉 한 번에 서버에서 반환된 행 수입니다.
+                 default : 100
+
+maxBlocksInCache : (무한 스크롤만 해당) 캐시에 보관할 블록 수입니다. 기본값은 제한이 없으므로 요청된 모든 블록이 유지됩니다. 메모리 문제가 있는 경우 이 기능을 사용하고
+                   제한에 도달하면 가장 최근에 본 블록이 제거됩니다. 그리드는 또한 이 속성이 낮은 값으로 설정된 경우 현재 보이는 것을 표시하는 데 필요한 모든 블록이 있는지 확인합니다.
+
+maxConcurrentDatasourceRequests : 동시에 서버에 도달할 요청 수입니다. 최대값에 도달하면 요청이 대기열에 추가됩니다.
+                                  요청에 대한 최대 제한이 없는 경우 -1 로 설정합니다.
+                                  default " 2
+
+blockLoadDebounceMillis : 블록을 로드하기 전에 대기할 시간 (밀리초) 입니다. 스크롤이 안정될 때까지 블록 로드를 방지하므로 무한스크롤 및 많은 무한 블록을 스크롤할 때 유용합니다.
+
+purgeClosedRowNodes : 활성화된 경우 그룹 행을 닫으면 해당 행의 자식이 제거됩니다. 다음에 행이 열리면 데이터 소스에서 하위 행을 다시 읽습니다. 이 속성은 행 그룹화가 있는 경우에만 적용됩니다.
+                      default :false
+
+serverSideInitialRowCount : 루트 수준 그룹에 대해 사용자에게 표시할 로드 행 수를 설정합니다.
+                            default : 1
+
+getChildCount : 그룹 행의 하위 수를 설정할 수 있습니다.
+
+getServerSideGroupLevelParams : 그룹화 수준에 따라 다른 매개변수를 제공할 수 있습니다.
+
+isServerSideGroupOpenByDefault : 기본적으로 그룹을 열 수 있습니다.
+
+isApplyServerSideTransaction : 거래 취소를 허용합니다.
+
+isServerSideGroup : SSRM 트리 데이터 : 확장 가능한 행을 지정할 수 있습니다.
+
+getServerSideGroupKey : SSRM 트리 데이터 : 그룹 키를 지정할 수 있습니다.
