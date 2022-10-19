@@ -12,6 +12,10 @@ getServerSideGroupLevelState : 모든 서버 측 그룹 수준에 대한 정보�
 
 < Open By Default >
 
+isServerSideGroupOpenByDefault : 기본적으로 그룹을 열 수 있습니다.
+
+getRoute : 행 노드의 경로를 반환합니다. 행 노드가 그룹이면 해당 행 노드로의 경로를 반환합니다. 행 노드가 그룹이 아닌 경우 undefined 를 반환합니다.
+
 
 < Providing Child Counts >
 
