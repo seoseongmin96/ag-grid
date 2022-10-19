@@ -1,0 +1,19 @@
+***** Server-Side Data / Datasource *****
+
+< DataSource Interface >
+
+getRows : getRows 매개변수에 지정된 대로 더 많은 행이 필요할 때 그리드가 호출 됩니다.
+          Params 객체는 요청에 응답하기 위한 콜백을 포함합니다.
+
+destroy : 데이터 소스에 정리가 필요한 상태가 있는 경우 선택적 방법입니다.
+          
+
+< GetRows >
+
+
+
+< GetRows Request Params >
+
+
+
+< Success Callback >
