@@ -1,0 +1,6 @@
+***** Server-Side Data / Row Models *****
+
+< Row Models >
+
+rowModelType : 행 모델 유형을 설정합니다.
+               default : clientSide
