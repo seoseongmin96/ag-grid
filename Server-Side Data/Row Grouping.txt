@@ -7,6 +7,7 @@ getServerSideGroupLevelParams : 그룹화 수준에 따라 다른 매개변수�
 
 < Debugging Group Levels >
 
+getServerSideGroupLevelState : 모든 서버 측 그룹 수준에 대한 정보를 반환합니다.
 
 
 < Open By Default >
