@@ -19,4 +19,5 @@ getRoute : 행 노드의 경로를 반환합니다. 행 노드가 그룹이면 �
 
 < Providing Child Counts >
 
+getChildCount : 그룹 행의 하위 수를 설정할 수 있습니다.
 
