@@ -47,3 +47,9 @@ sortModel : 정렬하는 경우 정렬 모델이 무엇인지.
 
 
 < Success Callback >
+
+rowData : 그리드에서 요청한 대로 서버에서 검색된 데이터입니다.
+
+rowCount : 무한 스크롤을 돕기 위한 마지막 행(알고 있는 경우).
+
+groupLevelInfo : 이 부하와 연결할 그리드에 대한 추가 정보입니다.
