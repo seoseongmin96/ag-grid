@@ -7,4 +7,4 @@ applyServerSideTransaction : 서버 측 모델에 트랜잭션을 적용합니�
 
 < Matching Rows >
 
-
+getRowId : 데이터를 기반으로 특정 행 노드의 ID를 설정할 수 있습니다.
