@@ -1,0 +1,7 @@
+***** Server-Side Data / Refresh *****
+
+< Refresh API >
+
+refreshServerSide : 서버 측 수준을 새로 고칩니다. 매개변수를 전달하지 않으면 최상위 저장소가 제거됩니다. 하위 레베릉ㄹ 제거하려면 키 문자열을 전달하여 원하는 레벨에 도달하십시오.
+
+getCacheBlockState : 캐시의 상태를 나타내는 객체를 반환합니다. 이것은 캐시 작동 방식을 디버깅하고 이해하는 데 유용합니다.
