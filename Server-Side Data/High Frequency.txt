@@ -2,6 +2,16 @@
 
 < Flushed Event >
 
+results : 결과 개체의 배열입니다. SSRM의 경우 항상 ServerSideTransactionResult. 클라이언트 측 행 모델의 경우 RowNodeTransaction.
+
+api : 그리드 API
+
+columnApi : 열 API
+
+context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입니다.
+
+type : 이벤트 식별자
+
 
 < Cancelling Transactions >
 
