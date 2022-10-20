@@ -2,3 +2,4 @@
 
 < Setting Pivot Result Columns >
 
+setPivotResultColumns : 피벗 결과 열을 설정합니다.
