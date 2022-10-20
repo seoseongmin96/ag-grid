@@ -2,6 +2,8 @@
 
 < Transaction API >
 
+applyServerSideTransaction : 서버 측 모델에 트랜잭션을 적용합니다.
+
 
 < Matching Rows >
 
