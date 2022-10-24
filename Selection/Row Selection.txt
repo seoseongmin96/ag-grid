@@ -1,0 +1,28 @@
+***** Selection / Row Selection *****
+
+< Row Selection >
+
+getSelectedNodes : 선택한 노드의 정렬되지 않은 목록을 반환합니다. 데이터가 아닌 기본 노드를 가져오는 것은 노드를 순회할 수 있으므로 트리 / 집계 데이터로 작업하 때 유용합니다.
+
+getSelectedRows : 선택한 행 (즉, 제공한 행 데이터)의 정렬되지 않은 목록을 반환합니다.
+
+
+< Checkbox Selection >
+
+
+< Header Checkbox Selection >
+
+
+< Specify selectable Rows >
+
+
+< Selection Events >
+
+
+< Node Selection API >
+
+
+< Grid Selection API >
+
+
+< Example : Selection with Keyboard Arrow Keys >
