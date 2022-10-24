@@ -9,7 +9,13 @@ getSelectedRows : 선택한 행 (즉, 제공한 행 데이터)의 정렬되지 �
 
 < Checkbox Selection >
 
+checkboxSelection : 열에서 선택 확인란을 렌더링하려면 true로 설정 (또는 함수에서 반환) 합니다. 
+                    default : true false
 
+showDisabledCheckboxes : 행을 선택할 수 없고 확인란이 활성화된 경우 비활성화된 확인란을 표시하려면 true로 설정합니다.
+                         default : false
+                         
+                                             
 < Header Checkbox Selection >
 
 
