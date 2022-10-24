@@ -1,0 +1,7 @@
+***** Server-Side Data / Tree Data *****
+
+< Supplying Tree Data >
+
+isServerSideGroup : SSRM 트리 데이터: 확장 가능한 행을 지정할 수 있습니다.
+
+getserverSideGroupKey : SSRM 트리 데이터 : 그룹 키를 지정할 수 있습니다.
