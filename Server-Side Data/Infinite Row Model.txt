@@ -2,6 +2,11 @@
 
 < Datasource Interface >
 
+rowCount : 데이터세트에 몇 개의 행이 있는지 미리 알고 있다면 여기에서 설정하세요. 그렇지 않으면 공백으로 둡니다.
+
+getRows : 서버에서 행을 가져오기 위해 구현하는 그리드 호출을 콜백합니다. 
+
+destory : 데이터 소스에 정리해야 할 상태가 있는 경우 선택적 파괴 방법입니다.
 
 
 < Specify Selectable Rows >
