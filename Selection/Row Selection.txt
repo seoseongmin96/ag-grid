@@ -14,9 +14,11 @@ checkboxSelection : 열에서 선택 확인란을 렌더링하려면 true로 설
 
 showDisabledCheckboxes : 행을 선택할 수 없고 확인란이 활성화된 경우 비활성화된 확인란을 표시하려면 true로 설정합니다.
                          default : false
-                         
-                                             
+
+
 < Header Checkbox Selection >
+
+headerCheckboxSelection : true 또는 콜백이 반환 되면 true '모두 선택' 확인란이 헤더에 삽입됩니다.
 
 
 < Specify selectable Rows >
