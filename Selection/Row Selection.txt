@@ -44,9 +44,21 @@ isSelected : 보고 :
                  * 노드가 선택되면 true
                  * 노드가 선택되지 않은 경우 false
                  * 부분적으로 선택된 경우 (모든 지식이 선택되지 않은 그룹). undefined
-                 
-                               
+
+
 < Grid Selection API >
+
+selecteAll : 필터링에 관계없이 모든 행을 선택하고 그룹화가 활성화되어 있고 해당 그룹이 확장되지 않아 표시되지 않는 행을 선택합니다.
+
+deselectAll : 필터링에 관계없이 모든 행 선택을 지웁니다.
+
+selectAllFiltered : 필터링된 모든 행을 선택합니다.
+
+deselectAllFiltered : 필터링된 모든 선택을 지웁니다.
+
+getSelectedNodes : 선택한 노드의 정렬되지 않은 목록을 반환합니다. 데이터가 아닌 기본 노드를 가져오는 것은 노드를 순회할 수 있으므로 트리 / 집계 데이터로 작업할 때 유용합니다.
+
+getSelectedRows : 선택한 행(즉, 제공한 행 데이터)의 정렬되지 않은 목록을 반환합니다.
 
 
 < Example : Selection with Keyboard Arrow Keys >
