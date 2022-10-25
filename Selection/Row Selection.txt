@@ -28,8 +28,12 @@ isRowSelectable : 선택 가능한 행을 결정하는 데 사용할 콜백입�
 
 < Selection Events >
 
+rowSelected : 행이 선택되거나 선택 해제됩니다. 이벤트에는 문제의 노드가 포함되어 있으므로 노드의 isSelected() 메서드를 호출하여 방금 선택되었거나 선택 해제되었는지 확인합니다.
 
-< Node Selection API >
+selectionChanged : 행 선택이 변경됩니다. 그리드 API를 사용 getSelectedNodes() 하거나 getSelectedRows() 선택한 노드 / 행 데이터의 새 목록을 가져옵니다.
+
+
+< Node Selection API > 
 
 
 < Grid Selection API >
