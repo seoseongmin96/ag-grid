@@ -4,13 +4,11 @@
 
 rangeSelectionChanged : 범위 선택이 변경되었습니다.
 
+getCellRanges : 선택한 셀 범위의 목록을 반환합니다.
 
-< getCellRanges() >
+clearRangeSelection : 선택한 범위를 지웁니다.
 
+addCellRange : 선택한 범위에 제공된 셀 범위를 추가합니다.
 
-< clearRangeSelection() >
-
-
-addCellRange(rangeSelection)
 
 

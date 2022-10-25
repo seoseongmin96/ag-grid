@@ -1,0 +1,18 @@
+***** Selection / Fill Handle *****
+
+< Fill Handle Axis >
+
+fillHandleDirection : 채우기 핸들 방향을 강제로 수평으로 설정하려면 'x'로 설정하고, 채우기 핸들 방향을 수직으로 강제하려면 'y'로 설정하십시오.
+                      default : xy
+
+setFillHandleDirection : 선택 채우기 핸들의 기본 방향을 설정합니다.
+
+
+< Custom User Function >
+
+fillOperation : 단순히 값을 복사하거나 선형 진행을 사용하여 숫자 값을 늘리는 대신 값을 채우는 콜백.
+
+
+< FillOperationParams >
+
+
