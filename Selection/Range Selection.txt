@@ -1,0 +1,16 @@
+***** Selection / Range Selection *****
+
+< Range Selection Changed Event >
+
+rangeSelectionChanged : 범위 선택이 변경되었습니다.
+
+
+< getCellRanges() >
+
+
+< clearRangeSelection() >
+
+
+addCellRange(rangeSelection)
+
+
