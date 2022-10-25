@@ -35,7 +35,17 @@ selectionChanged : 행 선택이 변경됩니다. 그리드 API를 사용 getSel
 
 < Node Selection API > 
 
+setSelected : 노드를 선택(또는 선택 취소) 합니다.
+              * newValue - true 선택용 , false 선택 해제용.
+              * clearSelection - true 선택하는 경우 전달하면 노드가 독점적으로 선택됩니다. (즉, 다중 선택을 수행하지 않음). 선택을 해제해도 clearSelection 영향이 없습니다.
+              * suppressFinishActions - true 해고를 방지하기 위해 패스 합니다. 이벤트는 계속 발생합니다. seletionChanged. rowSelected
 
+isSelected : 보고 : 
+                 * 노드가 선택되면 true
+                 * 노드가 선택되지 않은 경우 false
+                 * 부분적으로 선택된 경우 (모든 지식이 선택되지 않은 그룹). undefined
+                 
+                               
 < Grid Selection API >
 
 
