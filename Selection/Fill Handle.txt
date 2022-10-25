@@ -15,4 +15,24 @@ fillOperation : 단순히 값을 복사하거나 선형 진행을 사용하여 �
 
 < FillOperationParams >
 
+event : 채우기 작업에 대한 마우스 이벤트입니다.
 
+values : 채우기 작업으로 처리된 값입니다.
+
+rowNode : 변경 중인 현재 셀의 RowNode 입니다.
+
+column : 변경 중인 현재 셀의 열입니다.
+
+initialValues : 처리가 시작되기 전에 있었던 값입니다.
+
+currentIndex : 현재 처리된 값의 인덱스입니다.
+
+currentCellValue : 채우기 작업에서 현재 처리 중인 셀의 값입니다.
+
+direction : 채우기 작업의 방향입니다.
+
+api : 그리드 API
+
+columnApi : 열 API
+
+context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입니다.
