@@ -1,0 +1,9 @@
+***** Filtering / Filter Events *****
+
+< Filter Events >
+
+filterOpened : 필터가 열렸습니다.
+
+filterChanged : 필터가 수정되어 적용되었습니다.
+
+filterModified : 필터가 수정되었지만 적용되지 않았습니다. 필터에 '적용' 버튼이 있을 때 사용됩니다.
