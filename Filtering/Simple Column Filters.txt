@@ -1,0 +1,15 @@
+***** Filtering / Simple FIlters Parameters *****
+
+< Simple Filters Parameters >
+
+
+< TextFilterModel >
+
+
+< NumberFilterModel >
+
+
+< DateFilterModel >
+
+
+< Custom Filter Options >
