@@ -41,5 +41,9 @@ suppressAndOrCondition : true 인 경우 필터는 하나의 조건만 허용합
 
 alwaysShowBothConditions : 기본적으로 하나의 조건만 표시되며 첫 번째 조건이 입력되면 두 번째 조건이 표시됩니다. 항상 두 조건을 모두 표시하려면 true로 설정하십시오. 
                            이 경우 두 번째 조건은 첫 번쨰 조건이 입력될 때까지 비활성화됩니다.
-                           default : false                                               
+                           default : false
+
+
 < Text Formatter >
+
+textMatcher : 사용자 입력을 기반으로 필터링하는 방법을 재정의하는 데 사용됩니다.
