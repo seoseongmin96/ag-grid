@@ -43,7 +43,12 @@ alwaysShowBothConditions : 기본적으로 하나의 조건만 표시되며 첫 
                            이 경우 두 번째 조건은 첫 번쨰 조건이 입력될 때까지 비활성화됩니다.
                            default : false
 
+< Text Custom Matcher >
+
+textMatcher : 사용자 입력을 기반으로 필터링하는 방법을 재정의하는 데 사용됩니다.
+
 
 < Text Formatter >
 
-textMatcher : 사용자 입력을 기반으로 필터링하는 방법을 재정의하는 데 사용됩니다.
+textFormatter : 필터 비교 논리를 적용하기 전에 텍스트의 형식을 지정합니다. 예를 들어 악센트가 있는 문자를 대체하려는 경우에 유용합니다.
+
