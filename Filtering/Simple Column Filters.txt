@@ -54,3 +54,11 @@ type : 피렅 옵션 중 하나, 예: 'equals'
 
 
 < Custom Filter Options >
+
+displayKey : 내장 필터 키와 충돌하지 않는 고유 키입니다.
+
+displayName : 필터의 표시 이름입니다. localeTextFunc를 사용하여 로케일별 값으로 대체할 수 있습니다.
+
+predicate : filterValues 및 cellValue 를 기반으로 부울을 반환하는 사용자 지정 필터 논리입니다.
+
+numberOfInputs : 이 옵션에 대해 표시할 입력 수입니다. 지정하지 않으면 기본값이 1됩니다.
