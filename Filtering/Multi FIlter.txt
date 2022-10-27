@@ -2,6 +2,10 @@
 
 < Multi Filter Model >
 
+filterType : 다중 필터 유형
+
+filterModels : filterParams 에 지정된 필터와 동이랗ㄴ 순서의 하위 필터 모델입니다.
+
 
 < Multi Filter Parameters >
 
