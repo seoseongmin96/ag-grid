@@ -9,7 +9,12 @@ filterModels : filterParams 에 지정된 필터와 동이랗ㄴ 순서의 하�
 
 < Multi Filter Parameters >
 
+filters : 필터 정의 개채의 배열입니다.
 
+readOnly : true인 경우 이 필터에서 관리하는 모든 UI 입력은 표시 전용이며 필터는 API 호출의 영향만 받을 수 있습니다. 하위 필터에는 영향을 미치지 않으며 readOnly 해당하는 경우 개별적으로 구성해야 합니다.
+           default : false
+
+           
 < IMultiFilterDef >
 
 
