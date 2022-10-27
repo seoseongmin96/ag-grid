@@ -1,3 +1,15 @@
 ***** Filtering / Filter List *****
 
 < Asynchronous Values >
+
+success : 값이 준비되면 필터에 로드할 값으로 호출할 함수입니다.
+
+colDef : 세트 필터가 호출되는 열 정의입니다.
+
+column : 세트 필터가 호출되는 열입니다.
+
+columnApi : columnApi
+
+api : 그리드 API
+
+context : gridOptions.context 에 제공된 컨텍스트
