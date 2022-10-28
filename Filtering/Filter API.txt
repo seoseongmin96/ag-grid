@@ -8,3 +8,7 @@ setFilterModel : 모든 고급 필터의 상태를 설정합니다. getFilterMod
 
 
 < Accessing Individual Filter Component Instances >
+
+getFilterInstance : 열에 대한 필터 구성 요소 인스턴스를 반환합니다. key 문자열 필드 이름 또는 ColDef 객체가 될 수 있습니다.
+                    (객체 참조에서 일치, 필드 이름이 고유하지 않은 경우 유용). 필터가 비동기식으로 생성된 경우 getFilterInstance가 반환 되므로 대신 필터 인스턴스에 액세스하는 데 callback을 사용해야 합니다. null
+                    
