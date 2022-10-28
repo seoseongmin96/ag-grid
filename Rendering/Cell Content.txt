@@ -1,0 +1,18 @@
+***** Rendering / Cell Content *****
+
+< Value Getters >
+
+valueGetter  : 함수 또는 표현식. 표시할 데이터에서 값을 가져옵니다.
+
+
+< Header Value Getters >
+
+headerValueGetter : 함수 또는 표현식. 헤더에 표시할 값을 가져옵니다....
+
+
+< Filter Value Getters >
+
+filterValueGetter : 함수 또는 표현식. 필터링 목적으로 값을 가져옵니다....
+
+
+< Value Cache Properties >
