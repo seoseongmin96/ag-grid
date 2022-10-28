@@ -9,5 +9,8 @@ setQuickFilter : 필터링을 위해 빠른 필터 텍스트를 그리드에 전
 
  < Overriding the Quick Filter Value >
 
+cacheQuickFilter : 빠른 필터를 사용할 때 성능을 향상시키는 데 사용되는 빠른 핕터 캐시를 켜려면 true로 설정합니다.
+                   default : false
 
+                   
  < Quick Filter Cache >
