@@ -1,0 +1,3 @@
+***** Filtering / External Filter *****
+
+< Implementing External Filtering >

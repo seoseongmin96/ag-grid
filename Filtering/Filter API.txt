@@ -1,0 +1,10 @@
+***** Filtering / Filter API *****
+
+< Get / Set All Filter Models >
+
+getFilterModel : 모든 고급 필터의 현재 상태를 가져옵니다. 필터 상태를 저장하는 데 사용됩니다.
+
+setFilterModel : 모든 고급 필터의 상태를 설정합니다. getFilterModel() 필터 상태를 복원하기 위해 얻은 정보를 제공하십시오.
+
+
+< Accessing Individual Filter Component Instances >
