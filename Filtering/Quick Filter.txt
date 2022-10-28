@@ -2,6 +2,10 @@
 
 < Quick Filter >
 
+quickFilterText : 행은 이 텍스트를 빠른 필터로 사용하여 필터링됩니다.
+
+setQuickFilter : 필터링을 위해 빠른 필터 텍스트를 그리드에 전달합니다.
+
 
  < Overriding the Quick Filter Value >
 
