@@ -16,3 +16,9 @@ filterValueGetter : 함수 또는 표현식. 필터링 목적으로 값을 가�
 
 
 < Value Cache Properties >
+
+valueCache : 값 캐시를 켜려면 true로 설정하십시오.
+             default : false
+
+valueCacheNeverExpires : 데이터 업데이트 후 만료되지 않도록 값 캐시를 구성하려면 true로 설정합니다.
+                         default : false             
