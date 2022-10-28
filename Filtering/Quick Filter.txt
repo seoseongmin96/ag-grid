@@ -9,8 +9,10 @@ setQuickFilter : 필터링을 위해 빠른 필터 텍스트를 그리드에 전
 
  < Overriding the Quick Filter Value >
 
-cacheQuickFilter : 빠른 필터를 사용할 때 성능을 향상시키는 데 사용되는 빠른 핕터 캐시를 켜려면 true로 설정합니다.
-                   default : false
+getQuickFilterText : 기본값(값을 호출하는)을 사용하지 않으려는 경우 이 열에 사용할 빠른 필터 텍스트를 그리드에 알려주는 함수 toString입니다.
 
-                   
+
  < Quick Filter Cache >
+
+ cacheQuickFilter : 빠른 필터를 사용할 때 성능을 향상시키는 데 사용되는 빠른 핕터 캐시를 켜려면 true로 설정합니다.
+                   default : false
