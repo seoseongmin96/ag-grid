@@ -1,4 +1,4 @@
-***** Rendering / Cell Content *****
+***** Rendering / Value Getters *****
 
 < Value Getters >
 

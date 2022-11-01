@@ -1,0 +1,5 @@
+***** Rendering / Value Formatters *****
+
+< Value Formatters >
+
+valueFormatter : 값의 형식을 지정하는 함수 또는 표현식은 문자열을 반환해야 합니다. CSV 내보내기 또는 클립보드로 복사에는 사용되지 않으면 UI 셀 렌더링에만 사용됩니다.
