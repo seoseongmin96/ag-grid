@@ -2,3 +2,4 @@
 
 < Using the 'refData' Property >
 
+refData : 열 값을 맵의 해당 값에 매핑하는 데 사용할 참조 데이터 맵을 제공했습니다.
