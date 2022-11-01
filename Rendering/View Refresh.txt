@@ -6,4 +6,4 @@ refreshCells : 모든 셀에서 변경 감지를 수행하여 필요한 경우 �
 
 < Redraw Rows >
 
-redrawRows : DOM에서 행을 제거하고 처음부터 다시 생성하십시오
+redrawRows : DOM에서 행을 제거하고 처음부터 다시 생성하십시오.
