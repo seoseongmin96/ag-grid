@@ -7,4 +7,6 @@ cellRenderer : 이 열의 셀에 대해 고유한 셀 렌더러 구성요소를 
 
 < No Cell Renderer >
 
+valueFormatter : 값의 형식을 지정하는 함수 또는 표현식은 문자열을 반환해야 합니다. CSV 내보내기 또는 클립보드로 복사에는 사용되지 않으며 UI 셀 렌더링에만 사용됩니다.
+
 
