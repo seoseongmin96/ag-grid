@@ -2,6 +2,8 @@
 
 < Cell Rendering >
 
+cellRenderer : 이 열의 셀에 대해 고유한 셀 렌더러 구성요소를 제공하십시오.
+
 
 < No Cell Renderer >
 
