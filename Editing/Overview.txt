@@ -2,5 +2,8 @@
 
 < Enable Editing >
 
+editable : 이 열을 편집할 수 있으면 true로 설정하고, 그렇지 않으면 false로 설정합니다. 다른 행을 편집할 수 있는 함수일 수도 있습니다.
+           default : false
 
+           
 < Editing Events >
