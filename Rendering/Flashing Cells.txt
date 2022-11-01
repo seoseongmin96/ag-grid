@@ -1,3 +1,5 @@
 ***** Rendering /Flashing Cell *****
 
 < Flashing Cells >
+
+flashCells : 플래시 행, 열 또는 개별 셀.
