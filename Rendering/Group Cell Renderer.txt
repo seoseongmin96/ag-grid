@@ -1,3 +1,21 @@
 ***** Rendering /Group Cell Renderer *****
 
 < Group Cell Renderer >
+
+suppressPadding : 자식 행에 패딩(들여쓰기)을 포함하지 않으려면 true로 설정합니다.
+
+suppressDoubleClickExpand : true일 때 더블 클릭 시 확장을 억제하도록 설정합니다.
+
+suppressEnterExpand : true일 때 확장을 억제하도록 설정 Enter
+
+footerValueGetter : 바닥글 텍스트의 값 getter입니다. 함수 또는 표현식이 될 수 있습니다.
+
+suppressCount : true인 경우 이름 옆에 개수가 표시되지 않습니다.
+
+checkbox : true인 경우 선택 확인란이 포함됩니다.
+
+innerRenderer : 셀 내부에 사용할 렌더러(그룹화 기능 추가 후)
+
+innerRendererParams : innerRenderer에 사용자 정의할 추가 매개변수입니다.
+
+innerRendererSelector : params 값에 따라 다른 innerRenderer를 사용할 수 있도록 하는 콜백입니다.
