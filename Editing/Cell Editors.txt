@@ -1,3 +1,11 @@
 ***** Editing /Cell Editors *****
 
 < Cell Editors >
+
+component : colDef.cellEditor 설정과 동일 
+
+params : colDef.cellEditorParams 설정과 동일
+
+popup : colDef.cellEditorPopup 설정과 동일
+
+popupPosition : colDef.cellEditorPopupPosition 설정과 동일
