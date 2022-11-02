@@ -2,3 +2,72 @@
 
 < API Reference >
 
+groupDisplayType : 행 그룹화 결과를 표시하는 방법을 지정합니다. 옵션은 다음과 같습니다.
+                   * 'singleColumn': 단일 그룹 열은 그리드에 의해 자동으로 추가됩니다.
+                   * 'multipleColumns': 행 그룹당 그룹 열이 자동으로 추가됩니다.
+                   * 'groupRows': 그룹 열 대신 그룹 행이 자동으로 추가됩니다.
+                   * 'custom': 그룹 열이 제공될 것임을 그리드에 알립니다.
+
+groupDefaultExpanded : 그룹화하는 경우 기본적으로 확장할 수준 수로 설정합니다(예: 0없음, 1첫 번째 수준만 등)  모든 것을 확장하려면 -1 로 설정합니다.
+                       default : 0
+
+autoGroupColumnDef : 기본갑싱 마음에 들지 않으면 '자동 열' 그룹을 지정할 수 있습니다. 그룹화하는 경우 이 열 정의는 그리드의 첫 번째 열로 포함됩니다. 그룹화되지 않은 경우 이 열은 포함되지 않습니다.
+
+groupMaintainOrder : true인 경우 그룹이 아닌 열을 정렬할 때 현재 그룹 순서를 유집합니다.
+                     defualt : false
+
+groupSelectsChildren : true인 경우 그룹을 선택하면 해당 그룹의 하위 항목도 선택됩니다.
+                       default : false
+
+groupIncludeFooter : 그룹화하는 경우 그룹이 확장될 떄 그룹 바닥글을 표시할지 여부를 제어합니다. true인 경우 기본적으로 바닥글은 표시될 때 집계 데이터(있는 경우)를 포함하고 머리글은 비어 있습니다.
+                     닫히면 이 설정에 관계없이 머리글에 집계 데이터가 포함됩니다.(바닥글은 숨겨져 있음) 이는 그룹이 열려 있을 때 데이터 아래에 표시되고 그룹이 닫힐 때 그룹 옆에 표시되는 '총' 행에 유용합니다.
+                     default : false
+
+groupIncludeTotalFooter : 모든 그룹에 걸쳐 '총계' 그룹 바닥글을 표시하려면 true로 설정하십시오.
+                          default : false
+
+groupSuppressBlankHeader : true이고 바닥글을 표시하는 경우 집계 데이터는 항상 머리글 및 바닥글 수준 모두에 표시됩니다. 이렇게 하면 확장 시 바닥글로 '점프' 하는 헤더 세부 정보의 바람직하지 않은 동작이 중지됩니다.
+                           default : false
+
+groupRowSticky : true일때 열린 그룹 행이 그리드 맨 위에 표시되도록 설정합니다.
+                 defualt : false
+
+groupSelectFiltered : groupSelectsChildren 를 사용하는 경우 현재 필터를 통과하는 자식만 선택됩니다.
+                      default : false
+
+showOpenedGroup : 그룹이 아닌 행의 그룹 열에 열러 있는 그룹을 표시합니다.
+                  default : false
+
+isGroupOpenByDefault : (클라이언트 측 행 모델만 해당) 기본적으로 그룹을 열 수 있습니다.
+
+initialGroupOrderComparator : 그룹의 기본 정렬을 허용합니다.
+
+groupRemoveSingleChildren : true일때 하위 항목이 하나만 있는 그룹을 축소하도록 설정합니다.
+
+groupRemoveLowestSingleChildren : true일때 하위 항목이 있는 가장 낮은 수준의 그룹을 축소 하도록 설정합니다.
+                                  default : false
+
+groupHideOpenParents : 열러 있는 부모를 숨기려면 true로 설정합니다. 그룹을 표시하기 위해 여러 열과 함께 사용하면 보다 즐거운 사용자 경험을 제공할 수 있습니다.
+                       default : false
+
+rowGroupPanelShow : 맨 위에 '행 그룹 패널'(행을 그룹으로 드래그하는 곳)을 표시하는 시기.
+                    default : never
+                    option : 'never' 'always' 'onlyWhenGrouping'
+
+groupRowRenderer : groupDisplayType = 'groupRows' 일 때 사용할 셀 렌더러를 제공합니다.
+
+groupRowRendererParams : 구성요소 groupRowRenderer 에 제공된 매개변수를 사용자 정의하십시오.
+
+suppressDragLeaveHidesColumns : 기본적으로 그리드에서 열을 끌어 행 그룹 패널로 끌어 오면 그리드에서 숨겨집니다. 이 속성은 열이 그리드에서 숨겨지는 것을 방지합니다.
+                                default : false
+
+suppressRowGroupHideColumns : true인 경우 열을 행 그룹 패널로 끌 때 열이 숨겨지지 않습니다.
+                              defualt : false
+
+suppressMakeColumnVisibleAfterUnGroup : 기본적으로 열이 그룹 해제되면, 즉 행 그룹 패널을 사용하여 그리드에 표시됩니다. 이 속성은 그룹을 해제할 때 열이 다시 표시되는 것을 중지합니다.
+                                        default : false
+
+treeData : 그리드가 트리 데이터와 함께 작동하도록 하려면 true로 설정하십시오. getDataPath(data) 콜백도 구현해야 합니다.
+
+getDataPath : treeData = true 인 경우 트리 데이터로 작업할 때 사용할 콜백입니다.
+
