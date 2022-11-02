@@ -7,3 +7,17 @@ editable : 이 열을 편집할 수 있으면 true로 설정하고, 그렇지 �
 
            
 < Editing Events >
+
+cellValueChanged : 편집 후 값이 변경되었거나(예: ESC를 눌렀을 때 편집이 취소된 경우 이 이벤트는 실행되지 않음) 또는 붙여넣기 작업의 결과로 셀 값이 변경된 경우
+
+cellEditRequest : 수정 후 값이 변경되었습니다. 읽기 전용 편집, 즉 readOnlyEdit = true
+
+cellEditingStarted : 셀 편집이 시작되었습니다.
+
+cellEditingStopped : 셀 편집이 중지되었습니다.
+
+rowEditingStarted : 행 편집이 시작되었습니다.(행 편집이 활성화된 경우) 행 편집 시 cellEditingStarted 이 이벤트는 한 번 발생하고 각 개별 셀에 대해 발생합니다.
+                    전체 행 편집을 수행할 때만 발생합니다.
+
+rowEditingStopped : 행 편집이 중지되었습니다.(행 편집이 활성화된 경우) 행 편집 시 cellEditingStopped 이 이벤트는 한 번 발생하고 각 개별 셀에 대해 발생합니다.
+                    전체 행 편집을 수행할 때만 발생합니다.                    
