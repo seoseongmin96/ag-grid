@@ -1,3 +1,5 @@
 ***** Group & Pivot / Filtering Groups *****
 
 < Enabling Group Filtering >
+
+filterValueGetter : 함수 또는 표현식. 필터링 목적으로 값을 가져옵니다.
