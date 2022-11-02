@@ -1,3 +1,11 @@
 ***** Editing /Undo Redo Edits *****
 
 < Undo / Redo API >
+
+undoCellEditing : 마지막 셀 편집을 되돌립니다.
+
+redoCellEditing : 가장 최근에 실행 취소된 셀 편집을 다시 적용합니다.
+
+getCurrentUndoSize : 사용 가능한 셀 편집 실행 취소 작업의 현잽 수를 반환합니다.
+
+getCurrentRedoSize : 사용 가능한 셀 편집 다시 실행 작업의 현재 수를 반환합니다.
