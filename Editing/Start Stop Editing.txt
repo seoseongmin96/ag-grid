@@ -2,5 +2,9 @@
 
 < Tab Navigation >
 
+tabToNextCell : 탭을 사용하는 것처럼 그리드 포커스를 다음 셀로 이동합니다.
+
+tabToPreviousCell : Shift 키를 누른 상태에서 그리드 포커스를 이전 셀로 이동합니다.
+
 
 < Editing API >
