@@ -1,3 +1,11 @@
 ***** Group & Pivot / Filtering *****
 
 < Custom Group Aggregation Filtering >
+
+level : 그룹화할 때 이 노드가 맨 위에서 몇 단계인지입니다.
+
+group : 이 노드가 그룹 노드인 경우 true(즉, 자식이 있는 경우)
+
+leafGroup : 이 노드가 그룹이고 그룹이 트리의 맨 아래 수준인 경우 true.
+
+rowGroupColumn : 이 그룹에 사용되는 행 그룹 열입니다.(예: 국가 열 인스턴스).
