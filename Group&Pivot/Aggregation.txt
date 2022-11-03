@@ -1,3 +1,7 @@
 ***** Group & Pivot / Aggregation *****
 
 < API Reference >
+
+aggFunc : 집계에 사용할 함수의 이름입니다. 내장 옵션은 sum,min,max,count,avg,first,last. 또한 사용자 정의 집계 이름 또는 집계 함수를 허용합니다.
+
+aggFuncs : 사용자 정의 집계 함수의 '함수'에 대한 '함수 이름'의 맵.
