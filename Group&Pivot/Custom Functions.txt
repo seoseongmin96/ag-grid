@@ -2,5 +2,11 @@
 
 < Registering Custom Functions >
 
+aggFuncs : 사용자 정의 집계 함수의 '함수'에 대한 '함수 이름'의 맵.
+
+addAggFunc : 지정된 키를 사용하여 집계 함수를 추가합니다.
+
 
 < Custom Aggregation Functions >
+
+aggFuncs : 사용자 정의 집계 함수의 '함수'에 대한 '함수 이름'의 맵.
