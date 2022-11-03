@@ -17,5 +17,8 @@ steColumnAggFunc : 열에 대한 agg 함수를 설정합니다. aggFunc 내장 �
 
 < Expandable Pivot Column Groups >
 
+suppressAggFuncInHeader : true인 경우 열 머리글에 aggFunc 이름이 포함되지 않습니다.(예: 'sum(Bank Balance)는 'Bank Balance').
+                          default : false
 
+                          
 < Ordering Pivot Columns >
