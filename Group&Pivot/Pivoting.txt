@@ -20,5 +20,7 @@ steColumnAggFunc : 열에 대한 agg 함수를 설정합니다. aggFunc 내장 �
 suppressAggFuncInHeader : true인 경우 열 머리글에 aggFunc 이름이 포함되지 않습니다.(예: 'sum(Bank Balance)는 'Bank Balance').
                           default : false
 
-                          
+
 < Ordering Pivot Columns >
+
+refreshClientSideRowModel : 그룹화, 필터링 및 정렬을 다시 실행하여 클라이언트 측 행 모델을 새로 고칩니다. 선택적으로 새로 고침을 적용할 단계를 제공합니다. 기본값은 everyting 입니다.
