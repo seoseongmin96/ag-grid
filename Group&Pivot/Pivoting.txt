@@ -2,25 +2,14 @@
 
 < Looking up Pivot Result Columns >
 
-getValueColumns : 기존 값 열의 목록을 가져옵니다.
-
-addValueColumn : 기존 값 열 집합에 지정된 열을 추가합니다.
-
-addValueColumns : 기존 addValueColumn 값 열 집합에 지정된 열 목록을 추가합니다.
-
-removeValueColumn : 기존 removeValueColumn 값 열 집합에서 주어진 열 목록을 제거합니다.
-
-setValueColumn : 값 열을 제공된 열 목록으로 설정합니다.
-
-steColumnAggFunc : 열에 대한 agg 함수를 설정합니다. aggFunc 내장 집계 중 하나이거나 이름 또는 직접 함수로 사용자 지정 집계가 될 수 있습니다.
+getPivotResultColumn : 주어진 pivotKeys 및 valueColId 에 대한 피벗 결과 열을 반환합니다. 그런 다음 피벗 열에서 작업을 호출하는 데 유용합니다.
 
 
 < Expandable Pivot Column Groups >
 
-suppressAggFuncInHeader : true인 경우 열 머리글에 aggFunc 이름이 포함되지 않습니다.(예: 'sum(Bank Balance)는 'Bank Balance').
-                          default : false
+aggFunc : 집계에 사용할 함수의 이름입니다. 내장 옵션은 sum,min,max,count,avg,first,last. 또한 사용자 정의 집계 이름 또는 집계 함수를 허용합니다.
 
 
 < Ordering Pivot Columns >
 
-refreshClientSideRowModel : 그룹화, 필터링 및 정렬을 다시 실행하여 클라이언트 측 행 모델을 새로 고칩니다. 선택적으로 새로 고침을 적용할 단계를 제공합니다. 기본값은 everyting 입니다.
+pivotComparator : 이 열이 피벗하는 데 사용되는 경우 피벗 열을 정렬할 때 사용할 비교기입니다. 피벗 서비스는 문자열을 피벗 그룹의 키로 사용하므로 값은 항상 문자열입니다.
