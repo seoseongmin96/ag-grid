@@ -2,6 +2,18 @@
 
 < Looking up Pivot Result Columns >
 
+getValueColumns : 기존 값 열의 목록을 가져옵니다.
+
+addValueColumn : 기존 값 열 집합에 지정된 열을 추가합니다.
+
+addValueColumns : 기존 addValueColumn 값 열 집합에 지정된 열 목록을 추가합니다.
+
+removeValueColumn : 기존 removeValueColumn 값 열 집합에서 주어진 열 목록을 제거합니다.
+
+setValueColumn : 값 열을 제공된 열 목록으로 설정합니다.
+
+steColumnAggFunc : 열에 대한 agg 함수를 설정합니다. aggFunc 내장 집계 중 하나이거나 이름 또는 직접 함수로 사용자 지정 집계가 될 수 있습니다.
+
 
 < Expandable Pivot Column Groups >
 
