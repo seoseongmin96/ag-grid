@@ -1,0 +1,21 @@
+***** Group & Pivot / Opening Groups *****
+
+< Open Groups By Default >
+
+rowNode : 고려 중인 행 노드입니다.
+
+rowGroupColumn : 이 행이 그룹화되는 열입니다.
+
+level : rowNode.level 같음 그룹이 어느 수준에 있는지, 예를 들어 최상위 수준의 경우 0, 초의 경우 1 등
+
+field : rowNode.field 같음 - 그룹화할 필드(예:'국가')
+
+key : rowNode.key 와 같음 이 그룹의 값(예:'lreland')
+
+api : 그리드 API
+
+columnApi : 열 API
+
+context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입니다.
+
+

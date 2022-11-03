@@ -1,0 +1,9 @@
+***** Group & Pivot / Pivoting *****
+
+< Looking up Pivot Result Columns >
+
+
+< Expandable Pivot Column Groups >
+
+
+< Ordering Pivot Columns >
