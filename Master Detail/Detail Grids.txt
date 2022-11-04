@@ -34,4 +34,4 @@ detailGridOptions : 상세 그리드에 사용할 그리드 옵션을 제공합�
 
 getDetailRowData : Detail Grid 에 표시할 행을 제공하는 함수입니다.
 
-refreshStrategy : 마스터 그리드에서 데이터가 변경될 때 상세 그리드를 새로 고치는 방법을 정의합니
+refreshStrategy : 마스터 그리드에서 데이터가 변경될 때 상세 그리드를 새로 고치는 방법을 정의합니다.
