@@ -1,0 +1,12 @@
+***** Master Detail / Detail Grids *****
+
+< Providing Rows >
+
+
+< Accessing Detail Grids >
+
+
+< Detail Grid Lifecycle >
+
+
+< Detail Parameters >

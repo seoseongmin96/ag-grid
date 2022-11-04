@@ -1,0 +1,3 @@
+***** Master Detail / Detail Height *****
+
+< Dynamic Height >
