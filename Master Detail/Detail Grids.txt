@@ -2,6 +2,8 @@
 
 < Providing Rows >
 
+getDetailRowData : Detail Grid 에 표시할 행을 제공하는 함수입니다.
+
 
 < Accessing Detail Grids >
 
