@@ -80,5 +80,7 @@ data : 셀에 추가될 데이터입니다.
 mergeAcross : 확장할 셀의 수(1은 2열에 걸쳐 있음을 의미).
               default : 0
 
-              
+
 < CsvCellData >
+
+value : 셀의 값입니다.
