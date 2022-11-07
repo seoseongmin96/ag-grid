@@ -129,11 +129,32 @@ fontSize : Excel 문서의 글꼴 크기에 대한 기본값입니다.
 
 muneType : Excel 파일의 mimeType 입니다.
            default : application/vnd.openxmlformats-officedocument.spreadsheetml.sheet   
-           
-                                    
+
+
 < ExcelAlignment >
 
+horizontal : 이 속성을 사용하여 셀 수평 정렬을 변경합니다.
+             default : Automatic
 
+indent : 이 속성을 사용하여 셀의 들여쓰기 수준을 변경합니다.
+         default : 0
+
+readingOrder : 이 속성을 사용하여 셀 읽기 순서를 변경합니다.
+               default : LeftToRight
+
+rotate : 텍스트를 회전할 0에서 359 사이의 각도입니다.
+          default : 0
+
+shrinkToFit : true로 설정하면 셀의 글꼴 크기가 자동으로 변경되어 텍스트가 셀 안에 맞도록 합니다.
+              default : false
+
+vertical : 이 속성을 사용하여 셀 수직 정렬을 변경합니다.
+           default : Automatic
+
+wrapText : true로 설정하여 여러 줄 텍스트가 Excel에서 여러 줄로 표시됩니다.
+           default : false
+           
+                                                                                            
 < ExcelBorders >
 
 
