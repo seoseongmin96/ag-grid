@@ -17,6 +17,61 @@ getDataAsCsv : exportDataAsCsv 와 유사하지만 결과를 다운로드하는 
 
 < Interfaces CsvExportParams >
 
+columnSeparator : 셀 값 사이에 삽입할 구분 기호입니다.
+                  default : ,
+
+suppressQuotes :  기본적으로 셀 값은 CSV 형식 규칙에 따라 인코딩됩니다. 값은 큰따옴표로 묶이고 값 내의 큰따옴표는 이스케이프 처리되므로 내 값은 \"my\"\"value\"가 됩니다. 
+                   true일때 이스케이프하지 않고 CSV 파일에 값을 삽입하려면 전달합니다. 이 경우 셀에 columnSeparator 문자가 포함되지 않도록 하는 것은 사용자의 책임입니다.
+                   default : false  
+
+
+prependContent : 파일 내보내기의 맨 위에 넣을 콘텐츠입니다. CsvCell 객체의 2D 배열입니다. (콘텐츠 앞에 추가 및 추가 참조), 또는 파일 내용의 맨 위에 단순히 추가되는 여러 줄 문자열을 전달할 수 있습니다.
+
+appendContent : 파일 내보내기의 맨 아래에 넣을 내용입니다. CsvCell 객체의 2D 배열입니다. ( 콘텐츠 앞에 추가 및 추가 참조 ), 또는 파일 내용의 맨 아래에 단순히 추가되는 여러 줄 문자열을 전달할 수 있습니다.
+
+getCustomContentBelowRow : 내보내기에서 행 아래에 삽입할 내용을 반환하는 콜백 함수입니다.
+
+allColumns : true인 경우 모든 열은 columnDefs에 나타나는 순서대로 내보내집니다. 현재 표시되는 열만 내보낼 때 false
+             default : false
+
+rowPositions : 행 노드 위치.
+
+fileName : 파일 이름으로 사용할 문자열입니다.
+           default : 'export.csv'
+
+exportedRows : 필터링 및 정렬되기 전에 행을 내보낼지 여부를 결정합니다.
+                default : filteredAndSorted
+
+onlySelected : 선택한 행만 내보냅니다.
+               default : false
+
+onlySelectedAllPages : 다른 페이지를 포함하여 선택한 행만 내보냅니다.(페이지 매김을 사용할 때만 의미가 있음)
+                       default : false
+
+skipColumnGroupHeaders : 헤더 열 그룹을 제외 하려면 true로 설정합니다.
+                          default : false
+
+skipColumnHeaders : 열 머리글을 내보내지 않으려면 true로 설정합니다.
+                    default : false
+
+skipRowGroups : 행을 그룹화하는 경우 행 그룹 머리글을 건너뛰려면 true로 설정합니다. 행을 그룹화할 때만 관련이 있습니다.
+
+skipPinnedTop : 그리드 상단에 고정된 행 내보내기를 억제 하려면 true로 설정합니다.
+                default : false
+
+skipPinnedBottom : 그리드의 맨 아래에 고정된 행 내보내기를 억제 하려면 true로 설정합니다.
+                    default : false
+
+shouldRowBeSkipped : 그리드의 행당 한 번 호출되는 콜백 함수입니다. 내보내기에서 행을 생략하려면 true를 반환합니다.
+
+processCellCallback : 그리드의 셀당 한 번 호출되는 콜백 함수입니다. 내보내기에 표시할 문자열 값을 반환합니다. 예를 들어 날짜 값의 형식을 지정하는 데 유용합니다.
+
+processHeaderCallback : 열당 한 번 호출되는 콜백 함수입니다. 열 머리글에 표시할 문자열을 반환합니다.
+
+processGroupHedaerCallback : 열 그룹당 한 번 호출되는 콜백 함수입니다. 열 그룹 머리글에 표시할 string을 반환합니다. 열 그룹은 기본적으로 내보내지며 이 옵션은 skipColumnGroupHeaders = true 에서 작동하지 않습니다.
+
+processRowGroupCallback : 행 그룹당 한 번 호출되는 콜백 함수입니다. 그룹 셀에 표시되도록 strung을 반환합니다.
+
 
 < CsvCell >
 
