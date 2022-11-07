@@ -2,6 +2,13 @@
 
 < Grid Properties >
 
+defaultExcelExportParams : Excel로 내보내는 데 사용되는 기본 구성 개체입니다.
+
+suppressExcelExport : 사용자가 그리드를 Excel로 내보내지 못하도록 합니다.
+                      default : false
+
+excelStyles : 스타일이 있는 Excel로 내보낼 때 사용할 Excel 스타일 목록(베열)입니다.
+
 
 < API Methods >
 
