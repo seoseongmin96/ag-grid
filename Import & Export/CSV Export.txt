@@ -75,5 +75,10 @@ processRowGroupCallback : 행 그룹당 한 번 호출되는 콜백 함수입니
 
 < CsvCell >
 
+data : 셀에 추가될 데이터입니다.
 
+mergeAcross : 확장할 셀의 수(1은 2열에 걸쳐 있음을 의미).
+              default : 0
+
+              
 < CsvCellData >
