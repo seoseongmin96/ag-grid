@@ -291,12 +291,18 @@ colSpan : 이 이미지가 포함할 열의 양입니다.
 
 offsetX : 이미지의 픽셀 수는 수평으로 오프셋되어야 합니다.
           default : 0
-          
+
 offsetY : 이미지의 픽셀 수는 수직으로 오프셋되어야 합니다.
           default : 0
 
 
 < ExcelInterior >
+
+pattern : 이 속성을 사용하여 배경색 패턴을 설정합니다.
+
+color : 패턴과 결합하여 보조 색상으로 사용할 색상입니다.
+
+patternColor : 패턴 색상입니다.
 
 
 < ExcelNumberFormat >
