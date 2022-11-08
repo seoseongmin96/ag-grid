@@ -194,6 +194,10 @@ collapsibleRanges : 접을 수 있는 범위.
 
 < ExcelData >
 
+type : 셀에 있는 데이터 유형입니다.
+
+value : 셀의 값입니다.
+
 
 < ExcelFont >
 
