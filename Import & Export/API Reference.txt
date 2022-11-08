@@ -201,6 +201,37 @@ value : 셀의 값입니다.
 
 < ExcelFont >
 
+bold : 셀 텍스트를 굵게 설정하려면 true로 설정합니다.
+       default : false
+
+color : 셀 글꼴의 색상입니다.
+
+family : 셀에서 사용할 글꼴 패밀리입니다.
+         option : Automatic, Roman, Swiss, Modern, Script, Decorative
+         default : Automatic
+
+fontName : 셀에서 사용할 글꼴의 이름입니다.
+           default : Calibri
+
+italic : 셀 글꼴을 기울임꼴로 표시하려면 true로 설정합니다.
+         default : flase
+
+outline : 텍스트 윤곽선을 추가 하려면 true로 설정합니다.
+          default : false
+
+shadow : 텍스트 그림자를 추가 하려면 true로 설정합니다.
+         default : false
+
+size : 기본값이 아닌 다른 글꼴 크기를 사용하려면 이 속성을 설정하십시오.
+
+strikeThrough : 스트라이크스루 라인을 추가하도록 설정합니다.
+                default : false
+
+underline : 이 속성을 사용하여 셀 텍스트에 밑줄을 긋습니다.
+
+verticalAlign : 이 속성을 사용하여 기본 글꼴 정렬을 변경합니다.
+                참고 : 이것은 셀 수직 정렬을 설정하는 것과 다릅니다.
+
 
 < ExcelHeaderFooter >
 
