@@ -168,7 +168,16 @@ borderTop : 셀의 위쪽 테두리를 설정하는 데 사용합니다.
 
 < ExcelBorder >
 
+color : 색상 또는 테두리입니다.
+        default : black
 
+lineStyle : 테두리 스타일입니다.
+            default : None
+
+weight : 테두리의 두께는 0(없음) 에서 3(두꺼움) 까지 입니다.
+         default : 0
+         
+                             
 < ExcelCell >
 
 
