@@ -176,9 +176,20 @@ lineStyle : 테두리 스타일입니다.
 
 weight : 테두리의 두께는 0(없음) 에서 3(두꺼움) 까지 입니다.
          default : 0
-         
-                             
+
+
 < ExcelCell >
+
+ref : 셀 참조
+
+styleId : 셀과 연결할 ExcelStyle ID 입니다.
+
+data : 셀에 추가될 데이터입니다.
+
+mergeAcross : 확장할 셀의 수(1은 2열에 걸쳐 있음을 의미).
+              default : 0
+
+collapsibleRanges : 접을 수 있는 범위.
 
 
 < ExcelData >
