@@ -279,6 +279,22 @@ position : 이미지의 위치입니다.
 
 < ExcelImagePosition >
 
+row : 이 이미지가 포함된 행입니다. 이 속성은 자동으로 설정되며 무엇을 하고 있는지 모르는 경우 변경하지 마십시오.
+
+rowSpan : 이 이미지가 포함할 행의 양입니다.
+          default : 1
+
+column : 이 이미지가 포함된 열입니다. 이 속성은 자동으로 설정되며 무엇을 하고 있는지 모르는 경우 변경하지 마십시오.
+
+colSpan : 이 이미지가 포함할 열의 양입니다.
+          default : 1
+
+offsetX : 이미지의 픽셀 수는 수평으로 오프셋되어야 합니다.
+          default : 0
+          
+offsetY : 이미지의 픽셀 수는 수직으로 오프셋되어야 합니다.
+          default : 0
+
 
 < ExcelInterior >
 
