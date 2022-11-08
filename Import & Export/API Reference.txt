@@ -157,6 +157,14 @@ wrapText : true로 설정하여 여러 줄 텍스트가 Excel에서 여러 줄�
                                                                                             
 < ExcelBorders >
 
+borderBottom : 셀의 아래쪽 테두리를 설정하는 데 사용합니다.
+
+borderLeft : 셀의 왼쪽 테두리를 설정하는 데 사용합니다.
+
+borderRight : 셀의 오른쪽 테두리를 설정하는 데 사용합니다.
+
+borderTop : 셀의 위쪽 테두리를 설정하는 데 사용합니다.
+
 
 < ExcelBorder >
 
