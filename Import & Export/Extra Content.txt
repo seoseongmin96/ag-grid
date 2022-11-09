@@ -2,6 +2,11 @@
 
 < ExcelHeaderFooterConfig >
 
+all : 모든 페이지의 머리글 및 바닥글에 대한 구성입니다.
+
+first : 머리글과 바닥글에 대한 구성은 첫 페이지에만 있습니다.
+
+even : 짝수 페이지에만 있는 머리글 및 바닥글에 대한 구성입니다.
 
 
 < ExcelHeaderFooter >
