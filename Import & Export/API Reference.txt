@@ -321,10 +321,34 @@ hideFormula : 보호된 셀 내에서 수식을 숨기려면 true로 설정합�
 
 < ExcelSheetMargin >
 
+top : 시트 상단 여백
+      default : 0.75
+
+right : 시트 오른쪽 여백
+        default : 0.7
+
+bottom : 시트 하단 여백.
+         default : 0.75
+
+left : 시트 왼쪽 여백
+       default : 0.7
+
+header : 시트 헤더 여백입니다.
+          default : 0.3
+
+footer : 시트 바닥글 여백입니다.
+         default : 0.3
+
 
 < ExcelSheetPageSetup >
 
+orientation : 이 속성을 사용하여 인쇄 방향을 변경합니다.
+              default : Portrait
 
+pageSize : 이 속성을 사용하여 시트 크기를 설정합니다.
+           default : Letter
+           
+                         
 < ExcelStyle >
 
 
