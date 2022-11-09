@@ -1,4 +1,4 @@
-***** mport & Export / API Reference *****
+***** Import & Export / API Reference *****
 
 < Grid Properties >
 
@@ -307,6 +307,7 @@ patternColor : 패턴 색상입니다.
 
 < ExcelNumberFormat >
 
+format : 이 속성을 사용하여 숫자 형식을 지정하는 패턴을 제공합니다. ( 예: 10000은 $10,000,00이 될 수 있음)
 
 < ExcelProtection >
 
