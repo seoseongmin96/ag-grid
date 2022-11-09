@@ -17,3 +17,10 @@ footer : 바닥글 구성을 포함하는 최대 3개 항목(Left, Center, Right
 
 
 < ExcelHeaderFooterContent >
+
+value : 헤더에 포함될 텍스트의 값입니다.
+
+position : 텍스트를 추가해야 하는 위치를 구성합니다. (Left, Center, Right)
+           default : Left
+
+font : 머리글 / 바닥글 값의 글꼴 스타일입니다.           
