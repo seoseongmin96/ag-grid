@@ -2,7 +2,9 @@
 
 < API Methods >
 
+exportDataAsExcel : 그리드 데이터의 Excel 내보내기를 다운로드합니다.
 
+getDataAsExcel : exportDataAsExcel와 유사하지만 파일을 다운로드하는 대신 사용자가 처리 할 Blob을 반환합니다.
 
 
 < Grid Properties >
