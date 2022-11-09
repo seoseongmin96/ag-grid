@@ -8,3 +8,5 @@ getDataAsExcel : exportDataAsExcel와 유사하지만 파일을 다운로드하�
 
 
 < Grid Properties >
+
+excelStyles : 스타일이 있는 Excel로 내보낼 때 사용할 Excel 스타일 목록(배열)입니다.
