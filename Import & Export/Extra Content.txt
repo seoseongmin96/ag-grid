@@ -11,6 +11,9 @@ even : 짝수 페이지에만 있는 머리글 및 바닥글에 대한 구성입
 
 < ExcelHeaderFooter >
 
+header : 헤더 구성을 포함하는 최대 3개 항목(Left, Center, Right) 의 배열입니다.
+
+footer : 바닥글 구성을 포함하는 최대 3개 항목(Left, Center, Right) 의 배열입니다.
 
 
 < ExcelHeaderFooterContent >
