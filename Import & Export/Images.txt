@@ -2,6 +2,5 @@
 
 < Exporting Images >
 
+addImageToCell : 문제의 gridCell 에 대한 이미지를 내보내는 데 사용합니다.
 
-
-< API Methods >
