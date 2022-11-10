@@ -1,11 +1,21 @@
 ***** Import & Export /Clipboard *****
 
-< Mixed Copying Cell Ranges & Rows >
+< Copying Cell Ranges >
 
 copyHeadersToClipboard : 클립 true 보드를 사용하여 클립보드에 복사할 때 헤더도 포함하도록 설정합니다.
                          default : Ctrl + C false
 
-                         
+
+< Copying Rows >
+
+suppressCopyRowsToClupboard : 셀 범위 또는 포커스가 있는 셀을 클립보드에 복사하고 선택한 행은 복사하지 않으려면 true로 설정합니다.
+                              default : false
+                              
+
+< Mixed Copying Cell Ranges & Rows >
+
+
+
 < Copying via the API >
 
 
