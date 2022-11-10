@@ -20,5 +20,11 @@ header : 시트 헤더 여백입니다.
 footer : 시트 바닥글 여백입니다.
          default : 0.3
 
-         
+
 < ExcelSheetPageSetup >
+
+orientation : 이 속성을 사용하여 인쇄 방향을 변경합니다.
+              default : Portrait
+
+pageSize : 이 속성을 사용하여 시트 크기를 설정합니다.
+           default : Letter              
