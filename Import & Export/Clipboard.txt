@@ -2,7 +2,10 @@
 
 < Mixed Copying Cell Ranges & Rows >
 
+copyHeadersToClipboard : 클립 true 보드를 사용하여 클립보드에 복사할 때 헤더도 포함하도록 설정합니다.
+                         default : Ctrl + C false
 
+                         
 < Copying via the API >
 
 
