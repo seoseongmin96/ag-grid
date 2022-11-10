@@ -8,3 +8,8 @@ processRowGroupCallback : 행 그룹당 한 번 호출되는 콜백 함수입니
 
 
 < Customising Column Headers and Group Header Values >
+
+processHeaderCallback : 열당 한 번 호출되는 콜백 함수입니다. 열 머리글에 표시할 문자열을 반환합니다.
+
+processGroupHeaderCallback : 열 그룹당 한 번 호출되는 콜백 함수입니다. 열 그룹 머리글에 표시할 string 을 반환합니다. 
+                             열 그룹은 기본적으로 내보내지지며 이 옵션은 skipColumnGroupHeader = true 에서 작동하지 않습니다..
