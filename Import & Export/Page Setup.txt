@@ -2,5 +2,23 @@
 
 < ExcelSheetMargin >
 
+top: 시트 상단 여백.
+     default : 0.75
 
+right : 시트 오른쪽 여백.
+        default : 0.7
+
+bottom : 시트 하단 여백.
+         default : 0.75
+
+left : 시트 왼쪽 여백.
+       default : 0.7
+
+header : 시트 헤더 여백입니다.
+         default : 0.3
+
+footer : 시트 바닥글 여백입니다.
+         default : 0.3
+
+         
 < ExcelSheetPageSetup >
