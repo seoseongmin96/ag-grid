@@ -48,3 +48,9 @@ processDataFromClipboard : 작업 취소(아무 일도 일어나지 않도록) �
 
 
 < Clipboard Events >
+
+pasteStart : 붙여넣기 작업이 시작되었습니다.
+
+pasteEnd : 붙여넣기 작업이 종료되었습니다.
+
+cellValueChanged : 편집 후 값이 변경되었거나 (예: ESC를 눌렀을 때 편집이 취소된 경우 이 이벤트는 실행되지 않음) 또는 붙여넣기 작업의 결과로 셀 값이 변경된 경우
