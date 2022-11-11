@@ -27,7 +27,10 @@ copySelectedRowsToClipboard : 선택한 행을 클립보드에 복사합니다.
 
 < Disabling Paste >
 
+suppressPaste : 셀을 편집할 수 있는 한 기본적으로 붙여넣기가 켜져 있습니다. (편집할 수 없는 셀은 붙여넣기 작업을 사용해도 수정할 수 없음).
+                true일때 붙여넣기 작업을 끄도록 설정합니다.
 
+                
 < Processing Individual Cells >
 
 
