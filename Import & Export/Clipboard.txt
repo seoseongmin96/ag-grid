@@ -44,5 +44,7 @@ processCellFromClipboard : 클립보드에서 셀을 처리할 수 있습니다.
 
 < Processing Data from Clipboard >
 
+processDataFromClipboard : 작업 취소(아무 일도 일어나지 않도록) 또는 데이터를 다른 데이터롤 교체하는 것을 포함하여 붙여넣기 작업을 완전히 제어할 수 있습니다.
+
 
 < Clipboard Events >
