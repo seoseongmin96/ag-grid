@@ -30,8 +30,16 @@ copySelectedRowsToClipboard : 선택한 행을 클립보드에 복사합니다.
 suppressPaste : 셀을 편집할 수 있는 한 기본적으로 붙여넣기가 켜져 있습니다. (편집할 수 없는 셀은 붙여넣기 작업을 사용해도 수정할 수 없음).
                 true일때 붙여넣기 작업을 끄도록 설정합니다.
 
-                
+
 < Processing Individual Cells >
+
+processCellForClipboard : 클립보드의 셀을 처리할 수 있습니다. Date 예를 들어 Excel로 가져올 때 특정 형식이 필요한 개체가 있는 경우에 편리합니다.
+
+processHeaderForClipboard : 클립보드의 헤더 값을 처리할 수 있습니다.
+
+processGroupHeaderForClipboard : 클립보드의 그룹 헤더 값을 처리할 수 있습니다.
+
+processCellFromClipboard : 클립보드에서 셀을 처리할 수 있습니다. 예를 들어 숫자 필드가 있고 숫자가 아닌 것이 그리드에 들어가는 것을 차단하려는 경우에 편리합니다.
 
 
 < Processing Data from Clipboard >
