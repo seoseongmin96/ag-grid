@@ -10,5 +10,51 @@ hiddenByDefault : 기본적으로 사이드 바를 숨기려면 true로 설정�
 
 position : 그리드를 기준으로 사이드 바 위치를 설정합니다.
 
+id : 이 패널의 고유 ID입니다. API 및 다른 곳에서 패널을 참조하는 데 사용됩니다.
+
+labelKey : 레이블을 표시하기 위해 현지화에 사용되는 키입니다. 레이블은 탭 버튼에 표시됩니다.
+
+labelDefault : labelKey 누락되었거나 현지화를 통해 유효한 텍스트에 매핑되지 않는 경우 기본 레이블입니다.
+
+minWidth : 도구 패널의 최소 너비입니다.
+           default : 100
+
+maxWidth : 도구 패널의 최대 너비입니다.
+           default : undefined
+
+width : 도구 패널의 초기 너비입니다.
+        default : $side-bar-panel-width (theme variable)
+
+iconKey : 사이드 바의 레이블 옆에 그래픽 지원으로 사용할 아이콘의 키입니다.
+
+toolPanel : 패널로 사용할 도구 패널 구성 요소입니다. 제공된 패널은 구성 요소 agColumnsToolPanel 및 agFiltersToolPanel를 사용합니다.
+            사용자 정의 패널 구성요소를 제공하려면 여기에서 참조합시오.
+
+toolPanelParams : 구성요소 toolPanel 에 제공된 매개변수를 사용자 정의하십시오.
+
 
 < Side Bar API >
+
+setSideBar : 사이드 바를 제공된 구성으로 재설정합니다. 매개변수는 sideBar 그리드 속성과 동일합니다.
+             사이드 바는 새로운 구성으로 처음부터 다시 생성됩니다.
+
+getSideBar : 현재 사이드 바 구성을 반환합니다. 바로 가기가 사용된 경우 자세한 긴 형식을 반환합니다.
+
+setSideBarVisible : 보이는 패널과 탭 버튼을 포함하여 전체 사이드 바를 표시하거나 숨깁니다.
+
+isSideBarVisible : 사이드 바가 보이면 true를 반환 합니다.
+
+setSideBarPosition : 그리드를 기준으로 사이드 바 위치를 설정합니다. 가능한 값은 'left' 또는 'right' 입니다.
+                     default : 'right'
+
+openToolPanel : 특정 도구 패널을 엽니다. 열려는 도구 패널의 ID를 제공하십시오.   
+
+closeToolPanel : 현재 열려 있는 도구 패널(있는 경우)을 닫습니다.
+
+getOpenedToolPanel : 현재 표시된 도구 패널의 ID(있는 경우)를 반환하고 그렇지 않은 경우 null.
+
+isToolPanelShowing : 도구 패널이 표시되면 true를 반환하고 그렇지 않으면 false를 반환합니다.
+
+refreshToolPanel : 해당 메서드 refresh를 호출하여 모든 도구 패널을 강제로 새로 고칩니다.
+
+getToolPanelInstance : 제공된 id에 해당하는 도구 패널 인스턴스를 가져옵니다.
