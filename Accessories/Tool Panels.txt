@@ -1,6 +1,18 @@
-***** Import & Export /Tool Panels *****
+***** Accessories & Export /Tool Panels *****
 
 < API >
+
+openToolPane : 특정 도구 패널을 엽니다. 열리는 도구 패널의 ID를 제공하십시오.
+
+closeToolPane : 현재 열려 있는 도구 패널(있는 경우)을 닫습니다.
+
+getOpenedToolPanel : 현재 표시된 도구 패널의 ID(있는 경우)를 반환하고 그렇지 않은 경우 null.
+
+isToolPanelShowing : 도구 패널이 표시되면 true를 반환하고 그렇지 않으면 false를 반환합니다.
+
+refreshToolPanel : 해당 메서드 refresh를 호출하여 모든 도구 패널을 강제로 새로 고칩니다.
+
+getToolPanelInstance : 제공된 id에 해당하는 도구 패널 인스턴스를 가져옵니다.
 
 
 < Events >
