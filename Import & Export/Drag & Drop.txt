@@ -2,5 +2,8 @@
 
 < Enable Drag Source >
 
+dndSource : boolean 또는 Function. 기본 드래그 앤 드롭을 위해 드래그를 허용하려면 true로 설정(또는 함수에서 반환) 합니다.
+            default : true false
 
+            
 < Custom Drag Data >
