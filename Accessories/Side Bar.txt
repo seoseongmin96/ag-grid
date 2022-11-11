@@ -1,4 +1,4 @@
-***** Accessories & Export /Side Bar *****
+***** Accessories /Side Bar *****
 
 < SideBarDef Configuration >
 

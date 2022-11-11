@@ -1,4 +1,4 @@
-***** Accessories & Export /Tool Panels *****
+***** Accessories /Tool Panels *****
 
 < API >
 
@@ -16,3 +16,7 @@ getToolPanelInstance : 제공된 id에 해당하는 도구 패널 인스턴스�
 
 
 < Events >
+
+toolPanelVisibleChanged : 도구 패널이 숨겨지거나 표시되었습니다. 상태를 가져오는 데 api.isToolPanelShowing() 을 사용합니다.
+
+toolPanelSizeChanged : 도구 패널 크기가 변경되었습니다.
