@@ -2,5 +2,13 @@
 
 < SideBarDef Configuration >
 
+toolPanels : 사이드 바에 배치할 모든 패널의 목록입니다. 패널은 위에서 아래로 제공된 순서대로 표시됩니다.
+
+defaultToolPanel : 기본적으로 열리는 패널(ID로 식별됨)입니다. 아무 것도 지정하지 않으면 사이드 바는 처음에 닫힌 상태로 표시됩니다.
+
+hiddenByDefault : 기본적으로 사이드 바를 숨기려면 true로 설정하십시오. 정의되지 않은 상태로 두면 사이드 바가 표시됩니다.
+
+position : 그리드를 기준으로 사이드 바 위치를 설정합니다.
+
 
 < Side Bar API >
