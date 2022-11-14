@@ -11,3 +11,13 @@ postProcessPopup : 사용자가 팝업을 생성한 후 처리할 수 있도록 
 
 
 < Customising the Columns Menu Tab >
+
+suppressSyncLayoutWidthGrid : 그리드에서 재정렬될 때 열 레이아웃 업데이트를 억제하려면
+
+suppressColumnFilter : 열 필터 섹션을 억제하려면
+
+suppressColumnSelectAll : 모든 위젯 선택 / 선택 해제를 억제하려면
+
+suppressColumnExpandAll : 모든 위젯 확장 / 축소를 억제하려면
+
+contractColumnSelection : 기본적으로 열 그룹은 확장 시작됩니다. 계약된 그룹에 기본값을 true 전달
