@@ -1,3 +1,11 @@
 ***** Accessories / Filters Tool Panel *****
 
 < Suppress Options >
+
+suppressExpandAll : 모두 확장 / 축소를 억제하려면
+
+suppressFilterSearch : 필터 검새을 억제하려면
+
+suppressSyncLayoutWidthGrid : 그리드에서 재정렬될 때 열 레이아웃 업데이트 억제
+
+context : gridOptions.context에 설정된 애플리케이션 컨텍스트입니다.
