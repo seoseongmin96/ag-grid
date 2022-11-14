@@ -46,3 +46,5 @@ context : girdOptions.context 에 설정된 애플리케이션 컨텍스트입�
 
 
 < Accessing Cell Renderer Instances >
+
+getCellREndererInstances : 활성 셀 렌더러 인스턴스의 목록을 반환합니다.
