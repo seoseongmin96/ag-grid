@@ -6,3 +6,7 @@ getContextMenuItems : 상황에 맞는 메뉴를 사용자 정의합니다.
 
 
 < Popup Parent >
+
+popupParnet : 그리드 팝업(컨텍스트 메뉴, 열 메뉴 등)의 부모 팝업으로 사용할 DOM 요소입니다.
+
+setPopupParent : 그리드 팝업(컨텍스트 메뉴, 열 메뉴 등)의 부모 팝업으로 사용할 DOM 요소입니다.
