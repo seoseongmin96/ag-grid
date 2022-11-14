@@ -2,6 +2,8 @@
 
 < Customising the General Menu Tab >
 
+getMainMenuItems : 기본 '열 머리글' 메뉴를 사용자 지정합니다.
+
 
 < Repositioning the Popup >
 

@@ -9,3 +9,6 @@ suppressFilterSearch : 필터 검새을 억제하려면
 suppressSyncLayoutWidthGrid : 그리드에서 재정렬될 때 열 레이아웃 업데이트 억제
 
 context : gridOptions.context에 설정된 애플리케이션 컨텍스트입니다.
+
+suppressFiltersToolPanel : 이 열(필터) 또는 그룹(필터 그룹)이 필터 도구 패널에 나타나지 않도록 하려면 true로 설정하십시오.
+                           default : false
