@@ -1,3 +1,9 @@
 ***** Accessories /Overlays *****
 
 < Overlay API >
+
+showLoadingOverlay : '로드 중' 오버레이를 표시합니다.
+
+showNoRowsOverlay : '행 없음' 오버레이를 표시합니다.
+
+hideOverlay : 오버레이가 표시되면 숨깁니다.
