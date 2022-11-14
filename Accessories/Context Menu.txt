@@ -2,5 +2,7 @@
 
 < Configuring the Context Menu >
 
+getContextMenuItems : 상황에 맞는 메뉴를 사용자 정의합니다.
+
 
 < Popup Parent >
