@@ -1,0 +1,28 @@
+***** Accessories /Columns Tool Panel *****
+
+< Section Visibility >
+
+suppressColumnMove : 열 이동 섹션 억제
+
+suppressRowGroups : 행 그룹 섹션 제외
+
+suppressValues : 값 섹션 억제
+
+suppressPivots : 열 레이블 억제(피벗) 섹션
+
+suppressPivotMode : 피벗 모드 선택 억제
+
+suppressColumnFilter : 열 필터 섹션 억제
+
+suppressColumnSelectAll : 선택 억제 / 모든 위젯 선택 취소
+
+suppressColumnExpandll : 모든 위젯 확장 / 축소 억제
+
+contractColumnSelection : 기본적으로 열 그룹은 확장 시작됩니다. true일때 계약된 그룹에 기본값으로 전달
+
+suppressSyncLayoutwidthGrid : 그리드에서 재정렬될 때 열 레이아웃 업데이트 억제
+
+context : gridOptions.context에 설정도니 애플리케이션 컨텍스트입니다.
+
+suppressColumnsToolPanel : 이 열 또는 그룹이 열 도구 패널에 표시되지 않도록 하려면 true로 설정하십시오.
+                           default : false
