@@ -30,3 +30,8 @@ context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입�
 
 
 < IdoesFilterPassParams >
+
+node : 문제의 행 노드입니다.
+
+data : 해당 행 노드의 데이터 부분입니다.
+
