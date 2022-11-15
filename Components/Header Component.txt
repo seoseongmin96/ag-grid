@@ -29,3 +29,15 @@ context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입�
 
 
 < Header Group Component Interface >
+
+columnGroup : 헤더가 있는 열 그룹입니다.
+
+displayName : 렌더링할 텍스트 레이블입니다. 열이 headerValueGetter를 사용하는 경우 displayName 이 이를 고려합니다.
+
+setExpanded : 열 그룹 열기 / 닫기
+
+api : 그리드 API
+
+columnApi : 열 API
+
+context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입니다.
