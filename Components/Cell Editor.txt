@@ -1,0 +1,45 @@
+***** Components /Cell Editor *****
+
+< ICellEditorParams >
+
+value : 셀의 현재 값
+
+eventKey : 편집을 시작한 키의 값(예: 'Enter' 또는 'Delete' - 인쇄할 수 없는 문자가 여기에 표시됨)
+
+charPress : 편집을 시작한 문자열(예: 문자 'a'가 눌린 경우 'a' 또는 shift + 문자 'a' 인 경우 'A' 인쇄 가능한 문자만 여기에 표시됨)
+
+column : 그리드 열
+
+colDef : 열 정의
+
+node : 셀의 행 노드
+
+data : 행 데이터
+
+rowIndex : 행 인덱스 편집
+
+cellStartedEdit : 전체 행 편집을 수행하는 경우 셀이 편집을 시작한 셀인 경우 (예: 두 번 클릭하거나 키를 누른 셀 등) 참입니다.
+
+onKeyDown : 그리드에 키가 눌렸음을 알려주는 콜백 - 제어 키 이벤트 (탭, 화살표 등)를 그리드로 다시 전달하는 데 유용합니다.
+
+stopEditing : 현재 셀 편집을 중지하도록 그리드에 알리는 콜백입니다. 그리드 속성이 변경된 경우 편집이 중지된 후 포커스가 다음 셀로 이동하지 않도록 하려면 입력 매개 변수를
+              true로 호출합니다. enterMovesDownAfterEdit = true
+
+eGridCell : 구성 요소가 내부에 있을 그리드 셀을 나타내는 DOM 요소에 대한 참조입니다. 이 수준에서 이벤트 수신기 또는 클래스를 추가하려는 경우에 유용합니다.
+            이것은 셀을 선택할 때 브라우저 포커스를 얻는 DOM 요소입니다.
+
+parseValue : 열의 값을 사용하여 값을 구문 분석하는 유틸리티 기능 colDef.valueParser
+
+formatValue : 열의 값을 사용하여 값을 형식화하는 유틸리티 기능 colDef.valueFormatter 
+
+api : 그리드 API
+
+columnApi : 열 API
+
+context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입니다.
+
+
+< Option 2 - Suppress Keyboard Event >
+
+
+< Accessing Cell Editor Instances >
