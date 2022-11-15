@@ -44,5 +44,7 @@ context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입�
 suppressKeyboardEvent : 사용자가 그리드 셀에서 특정 키보드 이벤트를 억제할 수 있습니다.
                         default : false
 
-                        
+
 < Accessing Cell Editor Instances >
+
+getCellEditorInstances : 활성 셀 편집기 인스턴스 목록을 반환합니다. 선택적으로 매개변수를 제공하여 특정 열/행 노드를 제한하십시오.
