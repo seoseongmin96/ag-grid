@@ -41,5 +41,8 @@ context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입�
 
 < Option 2 - Suppress Keyboard Event >
 
+suppressKeyboardEvent : 사용자가 그리드 셀에서 특정 키보드 이벤트를 억제할 수 있습니다.
+                        default : false
 
+                        
 < Accessing Cell Editor Instances >
