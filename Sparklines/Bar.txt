@@ -49,6 +49,27 @@ stroke : 축 선의 외곽선에 대한 CSS 색상 값입니다.
 
 strokeWidth : 축 선의 획 두께(픽셀 단위)입니다.
               default : 1
-              
-                             
+
+
 < SparklineLabelOptions >
+
+enabled : 레이블을 활성화하려면 true로 설정합니다.
+          default : false
+
+fontSize : 글꼴의 크기를 설정합니다.
+           default : 8
+
+fontFamily : 레이블 텍스트의 글꼴을 지정합니다.
+             default : Verdana, sans-serif
+
+fontStyle : 레이블 텍스트의 글꼴 스타일을 지정합니다.
+
+fontWeight : 레이블 텍스트의 문자를 얼마나 두껍게 또는 얇게 표시할지 설정합니다.
+
+color : 레이블 텍스트의 색상을 설정합니다. 색상은 이름, HEX 또는 RGB 값으로 지정할 수 있습니다.
+        default : rgba(70, 70, 70, 1)
+
+formatter : 열 또는 막대가 나타내는 값을 기반으로 레이블로 표시할 텍스트를 반환하는 콜백 함수입니다. 기본적으로 값은 단순히 문자열화됩니다.
+
+placement : 세그먼트를 기준으로 레이블을 렌더링할 위치입니다.
+            default : insideEnd
