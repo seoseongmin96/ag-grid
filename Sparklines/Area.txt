@@ -1,4 +1,4 @@
-***** Sparklines / AreaSparklineOptions *****
+***** Sparklines / Area *****
 
 < AreaSparklineOptions >
 
@@ -49,6 +49,15 @@ strokeWidth : 마커 스트로크의 두께(픽셀 단위)입니다.
               default : 1
 
 formatter : 개별 마커의 형식 스타일을 반환하는 콜백 함수입니다.
-                       
+
 
 < SparklineAxisOptions >
+
+type : 데이터를 그리는 데 사용되는 축 유형입니다.
+       defualt : 'category'
+       
+stroke : 축 선의 외곽선에 대한 CSS 색상 값입니다.
+         default : 'rgb(204, 214, 235)'
+
+strokeWidth : 축 선의 획 두께(픽셀 단위)입니다.
+              default : 1
