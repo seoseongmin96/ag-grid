@@ -1,4 +1,4 @@
-***** Components / Statys Bar Component *****
+***** Components / Status Bar Component *****
 
 < Status Panel Parameters >
 
@@ -10,3 +10,5 @@ context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입�
 
 
 < Accessing Status Bar Panel Instances >
+
+getStatusPanel : 제공된 id에 해당하는 상태 패널 인스턴스를 가져옵니다.
