@@ -2,7 +2,18 @@
 
 < SparklineTooltipOptions >
 
+enabled : 도구 설명을 비활성화하려면 false로 설정합니다.
 
+container : 도구 설명을 배치할 요소입니다. 스파크라인 그리드 셀 외부에 있을 수 있는 특정 영역으로 도구 설명을 제한하는 데 사용할 수 있습니다.
+
+xOffset : 커서와 도구 설명의 왼쪽 위 모서리 사이의 수평 거리(픽셀)입니다.
+          default : 10
+
+yOffset : 커서와 도구 설명의 왼쪽 위 모서리 사이의 수직 거리(픽셀)입니다.
+          default : 0
+
+renderer : 툴팁에 대한 내용을 생성하는 데 사용되는 콜백 함수입니다. 이 함수는 도구 설명을 렌더링하는 데 사용되는 개체 또는 HTML 문자열을 반환해야 합니다.
+          
 
 < TooltipRendererParams >
 
