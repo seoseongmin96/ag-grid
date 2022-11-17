@@ -13,10 +13,17 @@ yOffset : 커서와 도구 설명의 왼쪽 위 모서리 사이의 수직 거�
           default : 0
 
 renderer : 툴팁에 대한 내용을 생성하는 데 사용되는 콜백 함수입니다. 이 함수는 도구 설명을 렌더링하는 데 사용되는 개체 또는 HTML 문자열을 반환해야 합니다.
-          
+
 
 < TooltipRendererParams >
 
+context : 그리드 컨텍스트에는 행 데이터가 포함되어 있어 동일한 행에 있는 다른 열의 데이터에 액세스할 수 있습니다.
+
+datum : 점과 연관된 원시 데이텀입니다.
+
+xValue : 데이터 요소의 X값입니다.
+
+yValue : 데이터 포인트의 Y 값입니다.
 
 
 < TooltipRendererResult >
