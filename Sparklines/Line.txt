@@ -2,6 +2,27 @@
 
 < LineSparklineOptions >
 
+type : 생성할 스파크라인의 유형입니다. 이 경우에는 'line' 입니다.
+
+line : 회선 구성입니다.
+
+marker : 표식 스타일에 대한 구성입니다.
+
+crosshairs : 십자선의 구성입니다.
+
+xKey : 데이터에서 X 값을 검색하는 데 사용할 키입니다. 데이터 배열에 키-값 쌍이 있는 개체가 포함된 경우에만 사용됩니다.
+       default : 'x'
+
+yKey : 데이터에서 Y 값을 검색하는 데 사용할 키입니다. 데이터 배열에 키-값 쌍이 있는 개체가 포함된 경우에만 사용됩니다.
+       default : 'y'
+
+padding : 스파크라인 주변에 표시되는 패딩(픽셀) 구성입니다.
+
+axis : 스파크라인의 축 선에 대한 옵션입니다.
+
+highlightStyle : 항목 위에 마우스를 올렸을 때 사용되는 강조 표시 구성입니다.
+
+tooltip : 툴팁 구성.
 
 
 < SparklineMarkerOptions >
