@@ -1,0 +1,3 @@
+***** Integrated Charts / Range Chart API *****
+
+< Range Chart API >

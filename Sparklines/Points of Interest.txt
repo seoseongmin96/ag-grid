@@ -2,6 +2,29 @@
 
 < MarkerFormatterParams >
 
+datum : 특정 마커와 관련된 원시 데이터입니다.
+
+xValue : 데이터 요소의 X 값입니다.
+
+yValue : 데이터 요소의 Y 값입니다.
+
+min : 마커가 최소 지점인지 여부입니다.
+
+max : 마커가 최대 지점인지 여부입니다.
+
+first : 마커가 첫 번째 데이터 요소를 나타내는지 여부입니다.
+
+last : 마커가 마지막 데이터 포인트를 나타내는지 여부입니다.
+
+fill : 개별 마커 채우기에 대한 CSS 색상 값입니다.
+
+stroke : 개별 마커의 외곽선에 대한 CSS 색상 값입니다.
+
+strokeWidth : 개별 마커의 획 두께(픽셀 단위)입니다.
+
+size : 개별 마커의 너비(픽셀)입니다.
+
+highlighted : 마커가 강조 표시되는지 여부입니다.
 
 
 < MarkerFormat >

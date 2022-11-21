@@ -1,0 +1,4 @@
+***** Integrated Charts / Range Chart *****
+
+< ColDefchartDataType >
+
