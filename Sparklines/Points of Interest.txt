@@ -73,3 +73,9 @@ highlighted : 열이 강조 표시되는지 여부입니다.
 
 < ColumnFormat >
 
+fill : 개별 열 채우기에 대한 CSS 색상 값입니다.
+
+stroke : 개별 열의 윤곽선의 대한 CSS 색상 값입니다.
+
+strokeWidth : 개별 열의 획 두께(픽셀 단위)입니다.
+
