@@ -2,6 +2,8 @@
 
 < Toolbar Customisation >
 
+getChartToolbarItems : 차트 도구 모음 항목을 사용자 지정하는 데 사용할 콜백입니다.
+
 
 < Chart Tool Panel Customisation >
 
