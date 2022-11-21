@@ -2,3 +2,5 @@
 
 < ColDefchartDataType >
 
+chartDataType : 열에 사용해야 하는 차트 데이터 유형을 정의합니다.
+
