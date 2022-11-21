@@ -29,6 +29,15 @@ highlighted : 마커가 강조 표시되는지 여부입니다.
 
 < MarkerFormat >
 
+enabled : 마커를 보이지 않게 하려면 false로 설정하십시오.
+
+size : 개별 마커의 너비(픽셀)입니다.
+
+fill : 개별 마커 채우기에 대한 CSS 색상 값입니다.
+
+stroke : 개별 마커의 외곽선에 대한 CSS 색상 값입니다.
+
+strokeWidth : 개별 마커의 획 두께(픽셀 단위)입니다.
 
 
 < ColumnFormatterParams >
