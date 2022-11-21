@@ -42,6 +42,33 @@ strokeWidth : 개별 마커의 획 두께(픽셀 단위)입니다.
 
 < ColumnFormatterParams >
 
+datum : 특정 열과 관련된 원시 데이터입니다.
+
+xValue : 데이터 요소의 X 값입니다.
+
+yValue : 데이터 요소의 Y 값입니다.
+
+width : 열의 너비(픽셀)입니다.
+
+height : 열의 높이(픽셀)입니다.
+
+min : 열이 최소 포인트인지 여부입니다.
+
+max : 열이 최대 포인트인지 여부입니다.
+
+first : 열이 첫 번째 데이터 요소를 나타내는지 여부입니다.
+
+last : 열이 마지막 데이터 포인트를 나타내는지 여부입니다.
+
+fill : 개별 열 채우기에 대한 CSS 색상 값입니다.
+
+stroke : 개별 열의 외곽선에 대한 CSS 색상 값입니다.
+
+strokeWidth : 개별 열의 획 두께(픽셀 단위)입니다.
+
+size : 개별 열의 너비(픽셀)입니다.
+
+highlighted : 열이 강조 표시되는지 여부입니다.
 
 
 < ColumnFormat >
