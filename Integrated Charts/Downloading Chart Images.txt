@@ -1,3 +1,7 @@
 ***** Integrated Charts / Downloading Chart Image *****
 
 < Downloading Charts via Grid API >
+
+getChartImageDataURL : 차트 이미지의 표현을 포함하는 요청된 데이터 URL을 포함하는 문자열을 반환합니다.
+
+downloadChart : 브라우저에서 차트 이미지를 다운로드합니다.
