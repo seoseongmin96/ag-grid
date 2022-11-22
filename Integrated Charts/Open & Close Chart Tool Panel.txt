@@ -1,0 +1,5 @@
+***** Integrated Charts / Open & Close Chart Tool Panel *****
+
+< Opening and closing the Chart Tool Panel via Grid API >
+
+

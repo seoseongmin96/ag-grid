@@ -1,0 +1,3 @@
+***** Integrated Charts / Downloading Chart Image *****
+
+< Downloading Charts via Grid API >

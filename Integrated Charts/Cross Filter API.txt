@@ -1,0 +1,8 @@
+***** Integrated Charts / Cross Filter API *****
+
+< Creating cross-filter charts >
+
+createCrossFilterChart : 범위에서 교차 필터 차틑를 프로그래밍 방식으로 만드는 데 사용됩니다.
+
+
+< Cross-filter API >
