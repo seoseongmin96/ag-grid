@@ -2,4 +2,12 @@
 
 < Specifying Chart Container >
 
+createChartContainer : 대체 차트 컨테이너에 차트를 표시할 수 있도록 하는 콜백입니다.
 
+chartId : 생성된 차트의 ID입니다.
+
+chart : 차트와 직접 상호 작용하는 데 사용할 수 있는 AG Charts에서 생성되는 차트 인스턴스입니다.
+
+chartElement : 응용 프로그램이 DOM에 배치할 책임이 있는 차트 DOM 요소입니다.
+
+destroyChart : 애플리케이션은 차트가 더 이상 필요하지 않을 때 이를 호출할 책임이 있습니다.
