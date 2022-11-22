@@ -1,3 +1,23 @@
 ***** Integrated Charts / Range Chart API *****
 
 < Range Chart API >
+
+createRnageChart : 프로그래밍 방식으로 범위에서 차트를 만드는데 사용됩니다.
+
+cellRange : 차트로 작성할 셀 범위를 정의합니다. 범위는 일반적으로 시작 및 종료 행과 열 목록으로 정의됩니다. 시작 및 끝 행을 생략하면 범위가 모든 행을 포함합니다(즉, 전체 열 내용이 선택됨). 
+            열은 시작 및 끝 열을 사용하여 정의하거나(범위는 시작 및 끝 열과 그 사이의 모든 열을 포함함) 필요한 열이 서로 인접하지 않은 경우 열을 구체적으로 제공할 수 있습니다.
+
+chartType : 생성할 차트 유형입니다.
+
+suppressChartRanges : 기본적으로 그리드를 사용하여 차트가 표시되면 그리드는 차트가 포커스를 받을 때 차트가 차트로 표시되는 범위를 강조 표시합니다. 이 동작을 억제하려면 suppressChartRanges = true 로 설정하십시오.
+                      default : false
+
+aggFunc : 모든 계열 데이터에 적용해야 하는 집계 함수입니다. 
+          기본 제공 집계 함수는 'sum', 'min', 'max', 'count', 'avg', 'first', 'last'입니다. IAggFunc또는 여기에 표시된 인터페이스 를 준수하는 경우 사용자 지정 집계 함수를 제공할 수 있습니다. 
+
+chartContainer : 차트가 그리드 외부에 표시되는 경우 차트 컨테이너를 제공해야 합니다. 그리드의 팝업 창 메커니즘을 사용하여 차트를 표시하려면 undefined로 둡니다.
+
+chartThemeOverrides : 현재 테마의 특정 차트 옵션을 재정의 할 수 있습니다.
+
+unlinkChart : 사용하도록 설정하면 생성 후 차트가 그리드에서 연결 해제되고 데이터 업데이트가 차트에 반영되지 않습니다.
+              default : false
