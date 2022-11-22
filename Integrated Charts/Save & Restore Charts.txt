@@ -1,3 +1,7 @@
 ***** Integrated Charts / Save & Restore Charts *****
 
 < API Reference >
+
+getChartModels : 그리드에서 현재 렌더링되는 차트에 대한 정보가 있는 모델 목록을 반환합니다.
+
+restoreChart : 이전에 ChartModel 에서 가져온 getChartModels()를 사용하여 차트를 복원합니다.
