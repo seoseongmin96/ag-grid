@@ -1,3 +1,19 @@
 ***** Integrated Charts / Pivot Chart API *****
 
 < Pivot Chart API >
+
+createPivotChart : 표에서 프로그래밍 방식으로 피벗 차트를 만드는 데 사용됩니다.
+
+chartType : 생성할 차트 유형입니다.
+
+chartThemeName : 생성된 차트에 사용할 기본 테마입니다. 나열한 기본 옵션 외에도 고유한 사용자 정의 차트 테마 를 제공할 수도 있습니다 .
+                 option : , , , , , , , ,'ag-default''ag-default-dark''ag-material''ag-material-dark''ag-pastel''ag-pastel-dark''ag-vivid''ag-vivid-dark''ag-solar''ag-solar-dark'
+
+chartContainer : 차트가 그리드 외부에 표시되는 경우 차트 컨테이너를 제공해야 합니다. 그리드의 팝업 창 메커니즘을 사용하여 차트를 표시하려면 undefined로 둡니다.
+
+chartThemeOverrides : 현재 테마의 특정 차트 옵션을 재정의할  수 있습니다.
+
+unlinkChart : 사용하도록 설정하면 생성 후 차트가 그리드에서 연결 해제되고 데이터 업데이트가 차트에 반영되지 않습니다.
+              default : false
+
+              
