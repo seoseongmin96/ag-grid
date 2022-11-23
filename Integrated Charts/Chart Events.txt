@@ -32,6 +32,21 @@ context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입�
 
 < ChartOptionsChanged >
 
+type : 항상 ChartOptionsChanged
+
+chartId : 영향을 받은 차트의 ID입니다.
+
+chartType : 차트 유형
+
+chartThemeName : 현재 선택된 테마의 차트 테마 이름입니다.
+
+chartOptions : 차트 옵션
+
+api : 그리드 API
+
+columnAPi : 열 API
+
+context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입니다.
 
 
 < ChartDestroyed >
