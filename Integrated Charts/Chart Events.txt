@@ -51,6 +51,15 @@ context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입�
 
 < ChartDestroyed >
 
+type : 항상 chartDestroyed
+
+chartId : 영향을 받은 차트의 ID입니다.
+
+api : 그리드 API
+
+columnAPi : 열 API
+
+context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입니다.
 
 
 < Accessing Chart Instance >
