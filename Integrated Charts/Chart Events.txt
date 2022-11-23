@@ -1,0 +1,28 @@
+***** Integrated Charts / Chart Events *****
+
+< ChartCreated >
+
+type : 항상 ChartCreated
+
+chartId : 생성된 차트의 ID입니다. 나중에 API 메서드를 통해 차트를 참조하는 데 사용할 수 있습니다.
+
+api : 그리드 API
+
+columnAPi : 열 API
+
+context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입니다.
+
+
+< ChartRangeSelectionChanged >
+
+
+
+< ChartOptionsChanged >
+
+
+
+< ChartDestroyed >
+
+
+
+< Accessing Chart Instance >
