@@ -63,3 +63,5 @@ context : gridOptions.context 에 설정된 애플리케이션 컨텍스트입�
 
 
 < Accessing Chart Instance >
+
+getChartRef : 제공된 ChartRef 를 사용하여 chartId 를 반환합니다.
