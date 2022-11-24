@@ -1,3 +1,24 @@
 ***** Standalone Charts / Navigator *****
 
 < API Reference >
+
+enabled : 네비게이터 표시 여부.
+          default : false
+
+height : 네비게이터의 높이입니다.
+         default : 30
+
+margin : 네비게이터와 하단 축 사이의 거리입니다.
+         default : 10
+
+min : [0, 1]간격 에서 가시 범위의 시작입니다.
+       default : 0
+
+max : [0, 1]간격 에서 가시 범위의 끝입니다.
+       default : 0
+
+mask : 네비게이터의 가시 범위 마스크에 대한 구성입니다.
+
+minHandle : 네비게이터의 왼쪽 핸들에 대한 구성입니다.
+
+maxHandle : 네비게이터의 오른쪽 핸들에 대한 구성입니다.
