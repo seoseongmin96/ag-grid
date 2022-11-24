@@ -1,3 +1,29 @@
 ***** Standalone Charts / Markers *****\
 
  < API Reference >
+
+ formatter : 제공된 정보를 기반으로 개별 마커의 서식을 반환하는 데 사용되는 함수입니다. 
+             현재 마커가 강조 표시되면 highlighted 속성이 true로 설정됩니다. 강조 표시된 상태와 강조 표시되지 않은 상태를 구분하려면 이 항목을 확인하십시오.
+
+enabled : 마커 표시 여부입니다.
+          default : true
+
+shape : 마커에 사용할 모양입니다. 하위 클래스 Marker 를 제공하여 사용자 지정 마커를 제공할 수도 있습니다. Marker
+        default : 'circle'
+        option : 'circle''cross''diamond''plus''square''triangle'
+
+size : 마커의 크기(픽셀)입니다.
+       default : 8
+
+maxSize :  마커의 크기가 데이터에 의해 결정되는 계열의 경우 마커의 최대 크기(픽셀)가 결정됩니다.
+           default : 30
+
+fill : 마커 채우기에 사용할 색상입니다. 이것이 지정되지 않으면 마커는 시리즈에서 채웁니다.
+
+fillOpacity : 마커의 불투명도가 채워집니다.
+
+stroke : 마커 스트로크에 사용할 색상입니다. 이것이 지정되지 않으면 마커는 시리즈에서 스트로크를 가져옵니다.
+
+strokeWidth : 마커 스트로크의 너비(픽셀)입니다. 이것이 지정되지 않으면 마커는 시리즈에서 획 너비를 가져옵니다.
+
+strokeOpacity : 마커 스트로크의 불투명도.
