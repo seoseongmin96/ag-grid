@@ -1,0 +1,23 @@
+***** Standalone Charts / Tooltips *****
+
+< Bar / Column Tooltips >
+
+
+
+ < Area Tooltips >
+
+
+
+ < Line Tooltips >
+
+
+
+ < Scatter / Bubble Tooltips >
+
+
+
+ < Pie / Doughnut Tooltips >
+
+
+
+ < Histogram Tooltips >
