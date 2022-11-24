@@ -1,3 +1,19 @@
 ***** Standalone Charts / Legend *****
 
 < API Reference >
+
+enabled : 범례 표시 여부입니다.
+          default : true
+
+position : 차트와 관련하여 범례가 표시되는 위치입니다.
+           default : 'right'
+           option : 'top', 'right', 'bottom', 'left'
+
+spacing : 범례 외부에서 사용할 픽셀 간격입니다.
+          default : 20
+
+item : 마커와 레이블로 구성된 범례 항목에 대한 구성입니다.
+
+reverseOrder : true 인 경우 범례 항목의 표시 순서를 반대로 합니다.
+
+listeners : 특정 범례 관련 이벤트에 대한 선택적 콜백
