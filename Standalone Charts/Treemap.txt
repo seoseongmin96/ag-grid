@@ -1,3 +1,54 @@
 ***** Standalone Charts / Treemap *****
 
 < API Reference >
+
+type : '트리맵'
+
+title : 최상위 타일의 레이블 구성입니다.
+
+subtitle : 최상위 상위 타일의 하위 항목에 대한 레이블 구성입니다.
+
+labels : 타일 레이블 구성
+
+labelKey : 레이블을 포함하는 노드 키의 이름입니다.
+           default : 'label'
+
+sizeKey : 크기 값을 포함하는 노드 키의 이름입니다.
+          default : 'size'
+
+colorKey : 색상 값을 포함하는 노드 키의 이름입니다. colorDomain 이 값(및 구성 과 함께 colorRange)은 타일 색상을 결정하는 데 사용됩니다.
+           default : 'color'
+
+colorDomain : 'colorKey' 값이 속한 도메인입니다. 도메인은 예를 들어 2개 이상의 정류장을 포함할 수 있습니다 [-5, 0, -5]. 이 경우 'colorRange'도 일치하는 색상 수를 사용해야 합니다.
+               default : [-5, 5]                                
+
+colorRange : 'colorKey' 값이 속한 도메인입니다. 도메인은 예를 들어 2개 이상의 정류장을 포함할 수 있습니다 [-5, 0, -5]. 이 경우 'colorRange'도 일치하는 색상 수를 사용해야 합니다.
+              default : [-5, 5]               
+
+colorParents : 'colorKey'를 기반으로 리프가 아닌 노드에 색상을 할당할지 여부입니다.
+                default : false
+
+tooltip : 시리즈별 툴팁 구성
+
+nodePadding : 각 트리맵 타일 내부의 패딩 양(픽셀)입니다. 증가 nodePadding하면 상위 레이블에 더 많은 공간이 예약됩니다.
+
+gradient : 트리맵 타일에 그라디언트를 사용할지 여부입니다.
+           default : true
+
+formatter : 입력 매개변수를 기반으로 특정 트리맵 타일의 스타일을 조정하는 콜백함수
+
+ listeners : 이벤트 리스너에 대한 이벤트 이름의 맵.
+
+ id : 시리즈의 기본 식별자입니다. 이는 seriesId여러 계열을 구별하기 위해 사용자 콜백에서와 같이 제공됩니다. 자동 생성된 ID는 향후 경고 없이 변경될 수 있습니다. 
+      콜백이 시리즈별로 동작을 변경해야 하는 경우 고유한 id값을 제공하세요.
+      default : 자동 생성 값
+
+data : 시리즈를 렌더링할 때 사용할 데이터입니다. 이것이 제공되지 않으면 대신 차트에 데이터를 설정해야 합니다.
+
+visible : 시리즈 표시 여부입니다.
+
+showInLegend : 시리즈를 범례에 포함할지 여부입니다.
+
+cursor : 가리킨 영역 마커에 사용할 커서입니다. 이 구성은 CSS cursor 속성과 동일합니다.
+
+highlightStlye : 마커/ 데이터 포인트 또는 범례 항목 위에 마우스를 올렸을 때 시리즈 마커 및 시리즈 라인 하이라이트 구성
