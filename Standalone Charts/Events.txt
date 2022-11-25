@@ -1,0 +1,9 @@
+***** Standalone Charts / Events *****
+
+< Interfaces >
+
+
+
+< Histogram series >
+
+
