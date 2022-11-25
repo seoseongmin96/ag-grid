@@ -9,10 +9,20 @@ enabled : 시리즈에 마우스를 올렸을 때 툴팁을 표시할지 여부�
 
  < Area Tooltips >
 
+renderer : (매개변수: AgCartesianSeriesTooltipRendererParams) => 문자열 | AgTooltipRendererResult
+
+format : 끈
+
+enabled : 시리즈에 마우스를 올렸을 때 툴팁을 표시할지 여부입니다.
 
 
  < Line Tooltips >
 
+renderer : 도구 설명에 대한 내용을 만드는 데 사용되는 기능입니다.
+
+format : 끈
+
+enabled : 시리즈에 마우스를 올렸을 때 툴팁을 표시할지 여부입니다.
 
 
  < Scatter / Bubble Tooltips >
