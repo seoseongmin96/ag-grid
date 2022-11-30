@@ -1,0 +1,35 @@
+***** Scrolling / Row Pagination *****
+
+< Pagination Properties >
+
+pagination : 페이지 매김 활성화 여부를 설정합니다.
+
+paginationPageSize : 페이지당 로드할 행 수입니다. 이 지정된 경우 paginationAutoPageSize 이 속성은 무시됩니다.
+                     default : 100
+
+paginationNumberFormatter : 사용자가 페이지 매김 패널의 숫자(예: '행 수' 및 '페이지 번호' 레이블) 형식을 지정할 수 있습니다. 
+                            이것은 그리드의 셀(예: 데이터) 내부의 숫자 형식 valueFormatter 을 지정하고 열 정의에서 사용하기 위한 페이지 매김 패널 전용입니다.
+
+paginationAutoPageSize : true이면 페이지당 로드 할 행 수가 그리드에 의해 자동으로 조정되어 각 페이지가 그리드에 대해 지정된 영역을 채우기에 충분한 행을 표시하도록 설정합니다.
+                         false 이면 paginationPageSize 가 사용됩니다.
+                         default : false
+
+paginateChildRows : 행 그룹화 또는 마스터 세부 정보가 있는 세부 정보 행을 사용할 때 페이지가 그룹의 하위를 분할 하도록 하려면 true 로 설정하십시오.
+                    default : false
+
+suppressPaginationPanel : true인 경우 탐색을 위한 기본 그리드 컨트롤이 숨겨집니다. 이는 pagination = true 자신만의 페이지 매김 컨트롤을 제공하려는 경우에 유용합니다.
+                          그렇지 않으면 pagination = true 사용자가 다른 페이지를 탐색할 수 있도록 그리드가 하단에 필요한 컨트롤을 자동으로 표시합니다.
+                          default : false
+                                        
+
+< Pagination API >
+
+
+
+< Pagination Callbacks >
+
+
+
+< Pagination Events >
+
+
