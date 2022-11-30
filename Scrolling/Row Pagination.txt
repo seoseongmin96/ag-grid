@@ -56,4 +56,9 @@ paginationNumberFormatter : 사용자가 페이지 매김 패널의 숫자(예: 
 
 < Pagination Events >
 
+paginationChanged : 페이징 상태가 변경될 때마다 트리거됩니다. 이 이벤트가 트리거되는 가장 일반적인 시나리오는 다음과 같습니다.
+                    * 페이지 크기 변경
+                    * 현재 표시된 페이지가 변경됨
+                    * 새 데이터가 그리드에 로드됩니다.
+
 
