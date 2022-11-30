@@ -7,4 +7,10 @@ nodeClick : 시리즈의 노드(마커, 열, 막대, 타일 또는 파이 섹터
 
 < Histogram series >
 
+data : 기준 유형 []
 
+aggregatedValue : 숫자
+
+frequency : 숫자
+
+domain : [숫자, 숫자]
