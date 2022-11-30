@@ -2,6 +2,7 @@
 
 < Interfaces >
 
+nodeClick : 시리즈의 노드(마커, 열, 막대, 타일 또는 파이 섹터)를 클릭할 때 호출할 리스너입니다.
 
 
 < Histogram series >
