@@ -50,7 +50,9 @@ paginationGoToLastPage : 마지막 페이지로 이동합니다.
 
 < Pagination Callbacks >
 
-
+paginationNumberFormatter : 사용자가 페이지 매김 패널의 숫자(예: '행 수' 및 '페이지 번호' 레이블) 형식을 지정할 수 있습니다.
+                            이것은 그리드의 셀(예: 데이터) 내부의 숫자 형식 valueFormatter을 지정하고 열 정의에서 사용하기 위한 페이지 매김 패널 전용입니다.
+                        
 
 < Pagination Events >
 
