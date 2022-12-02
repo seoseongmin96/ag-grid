@@ -38,6 +38,7 @@ column : 그리드 열 또는 열 그룹
 
 < suppressHeaderKeyboardEvent >
 
+suppressHeaderKeyboardEvent : 헤더에 포커스가 있을 때 관련 키보드 이벤트에 대한 그리드 실행 작업을 억제합니다.
 
 
 < suppressKeyboardEvent >
