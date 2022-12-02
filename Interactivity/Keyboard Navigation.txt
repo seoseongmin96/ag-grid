@@ -42,3 +42,6 @@ suppressHeaderKeyboardEvent : 헤더에 포커스가 있을 때 관련 키보드
 
 
 < suppressKeyboardEvent >
+
+suppressKeyboardEvent : 사용자가 그리드 셀에서 특정 키보드 이벤트를 억제할 수 있습니다.
+                        default : false
