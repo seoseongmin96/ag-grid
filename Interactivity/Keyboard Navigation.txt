@@ -31,6 +31,9 @@ tabToNextHeader : Tab 헤더에 포커스가 있을 때 사용자가 키를 누�
 
 < HeaderPosition >
 
+headerRowIndex : 0에서 n 까지의 숫자. 여기서 n은 그리드가 렌더링하는 마지막 헤더 행입니다.
+
+column : 그리드 열 또는 열 그룹
 
 
 < suppressHeaderKeyboardEvent >
