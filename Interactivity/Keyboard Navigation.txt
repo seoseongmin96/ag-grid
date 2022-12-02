@@ -17,3 +17,23 @@ column : 그리드 열
 rowInedx : 0에서 n사이의 양수. 여기서 n은 그리드가 렌더링하는 마지막 행이거나 그리드 헤더로 이동하려는 경우 -1입니다.
 
 rowPinned : 'top' , 'bottom' 또는 null/undefined(고정되지 않은 경우)
+
+
+< navigateToNextHeader >
+
+navigateToNextHeader : 헤더에 포커스가 있을 때 사용자가 탐색(화살표) 키를 누를 때의 기본 동작을 재정의할 수 있습니다. 현재 헤더를 탐색하거나 유지하려면 다음 헤더 위치를 반환합니다.
+
+
+< tabToNextHeader>
+
+
+
+< HeaderPosition >
+
+
+
+< suppressHeaderKeyboardEvent >
+
+
+
+< suppressKeyboardEvent >
